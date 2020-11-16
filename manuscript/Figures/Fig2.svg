@@ -6,7 +6,6 @@
    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
    xmlns:svg="http://www.w3.org/2000/svg"
    xmlns="http://www.w3.org/2000/svg"
-   xmlns:xlink="http://www.w3.org/1999/xlink"
    xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
    xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
    width="210mm"
@@ -18,23 +17,17 @@
    sodipodi:docname="Fig2.svg">
   <defs
      id="defs398">
-    <linearGradient
-       id="linearGradient320"
-       inkscape:collect="always">
-      <stop
-         id="stop316"
-         offset="0"
-         style="stop-color:#ffffff;stop-opacity:1;" />
-      <stop
-         id="stop318"
-         offset="1"
-         style="stop-color:#ff55dd;stop-opacity:1" />
-    </linearGradient>
+    <rect
+       id="rect433"
+       height="39.6875"
+       width="37.570833"
+       y="5.2916667"
+       x="-274.10833" />
     <rect
        x="-130.32666"
        y="-38.091591"
-       width="136.68768"
-       height="49.316911"
+       width="142.50851"
+       height="47.200244"
        id="rect3621" />
     <rect
        x="-46.023813"
@@ -135,17 +128,76 @@
          result="result7"
          id="feComposite3834" />
     </filter>
-    <linearGradient
-       gradientUnits="userSpaceOnUse"
-       y2="-8.9802561"
-       x2="156.03195"
-       y1="-8.2319012"
-       x1="5.238483"
-       id="linearGradient322"
-       xlink:href="#linearGradient320"
-       inkscape:collect="always" />
+    <rect
+       id="rect177"
+       height="48.258578"
+       width="145.68352"
+       y="-38.091591"
+       x="-130.32666" />
+    <rect
+       x="-130.32666"
+       y="-38.091591"
+       width="79.53768"
+       height="57.254411"
+       id="rect210" />
+    <rect
+       id="rect421"
+       height="57.254411"
+       width="79.53768"
+       y="-38.091591"
+       x="-130.32666" />
+    <rect
+       id="rect537"
+       height="47.200244"
+       width="142.50851"
+       y="-38.091591"
+       x="-130.32666" />
+    <rect
+       id="rect539"
+       height="57.254411"
+       width="79.53768"
+       y="-38.091591"
+       x="-130.32666" />
+    <rect
+       x="-130.32666"
+       y="-38.091591"
+       width="145.68352"
+       height="48.258578"
+       id="rect541" />
+    <rect
+       x="-130.32666"
+       y="-38.091591"
+       width="79.53768"
+       height="57.254411"
+       id="rect543" />
+    <rect
+       x="-130.32666"
+       y="-38.091591"
+       width="142.50851"
+       height="47.200244"
+       id="rect635" />
+    <rect
+       x="-130.32666"
+       y="-38.091591"
+       width="79.53768"
+       height="57.254411"
+       id="rect637" />
+    <rect
+       id="rect639"
+       height="48.258578"
+       width="145.68352"
+       y="-38.091591"
+       x="-130.32666" />
+    <rect
+       id="rect641"
+       height="57.254411"
+       width="79.53768"
+       y="-38.091591"
+       x="-130.32666" />
   </defs>
   <sodipodi:namedview
+     inkscape:snap-object-midpoints="true"
+     inkscape:object-paths="true"
      id="base"
      pagecolor="#ffffff"
      bordercolor="#666666"
@@ -153,8 +205,8 @@
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
      inkscape:zoom="0.5"
-     inkscape:cx="-216.96486"
-     inkscape:cy="122.17994"
+     inkscape:cx="13.99868"
+     inkscape:cy="300.66287"
      inkscape:document-units="mm"
      inkscape:document-rotation="0"
      showgrid="false"
@@ -177,27 +229,15 @@
       </cc:Work>
     </rdf:RDF>
   </metadata>
-  <rect
-     style="fill:#660080;fill-opacity:1;stroke-width:0.145145"
-     id="rect407"
-     width="180.63"
-     height="55.904743"
-     x="-19.888857"
-     y="-38.091591"
-     ry="27.952372" />
-  <rect
-     y="-38.091591"
-     x="-205.24771"
-     height="57.122852"
-     width="180.37579"
-     id="rect3184"
-     style="fill:#c62e47;fill-opacity:1;stroke-width:0.146613"
-     ry="28.561426" />
+  <path
+     d="m -208.76641,-14.182647 c -8.79475,0 -15.875,8.251163 -15.875,18.5001636 0,10.2490004 7.08025,18.5001614 15.875,18.5001614 h 154.016461 c 0.664343,0 1.317623,-0.05271 1.960087,-0.144177 v -36.711972 c -0.642477,-0.09147 -1.295728,-0.144176 -1.960087,-0.144176 z"
+     style="fill:#c62e47;fill-opacity:1;stroke-width:0.119746"
+     id="rect3184" />
   <text
      xml:space="preserve"
      id="text3188"
      style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:condensed;font-size:14.1111px;line-height:1.25;font-family:'Agency FB';-inkscape-font-specification:'Agency FB, Bold Condensed';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;white-space:pre;shape-inside:url(#rect3190);fill:#c62e47;fill-opacity:1;stroke:none;"
-     transform="translate(-36.75669,7.4835468)"
+     transform="translate(-56.085094,34.922003)"
      x="44.741314"
      y="0"><tspan
        x="-123.6726"
@@ -206,13 +246,13 @@
   <text
      y="0"
      x="44.741314"
-     transform="translate(160.93651,10.476966)"
-     style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:condensed;font-size:14.1111px;line-height:1.25;font-family:'Agency FB';-inkscape-font-specification:'Agency FB, Bold Condensed';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;white-space:pre;shape-inside:url(#rect3198);fill:#660080;fill-opacity:1;stroke:none;"
+     transform="translate(173.90744,35.347815)"
+     style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:condensed;font-size:14.1111px;line-height:1.25;font-family:'Agency FB';-inkscape-font-specification:'Agency FB, Bold Condensed';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;white-space:pre;shape-inside:url(#rect3198);fill:#008080;fill-opacity:1;stroke:none;"
      id="text3196"
      xml:space="preserve"><tspan
        x="-101.04523"
        y="-52.672826"><tspan
-         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:condensed;font-size:14.1111px;font-family:'Agency FB';-inkscape-font-specification:'Agency FB, Bold Condensed';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;text-align:center;text-anchor:middle;fill:#660080;fill-opacity:1">ecPoint</tspan></tspan></text>
+         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:condensed;font-size:14.1111px;font-family:'Agency FB';-inkscape-font-specification:'Agency FB, Bold Condensed';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;text-align:center;text-anchor:middle;fill:#008080;fill-opacity:1">ecPoint</tspan></tspan></text>
   <text
      xml:space="preserve"
      id="text3221"
@@ -221,7 +261,7 @@
      inkscape:export-ydpi="96.16684"
      inkscape:export-xdpi="96.16684"
      style="fill:#c62e47;fill-opacity:1"
-     transform="matrix(0.25862069,0,0,0.25044025,-128.14608,-75.428584)"
+     transform="matrix(0.25862069,0,0,0.25044025,-147.47451,-48.970234)"
      id="g1309">
     <path
        style="fill:#c62e47;fill-opacity:1"
@@ -313,77 +353,47 @@
      id="People"
      fill-rule="evenodd"
      fill="none"
-     transform="matrix(0.26785714,0,0,0.25,70.322975,-71.90787)"
-     style="fill:#660080;fill-opacity:1">
+     transform="matrix(0.26785714,0,0,0.25,83.386936,-48.442938)"
+     style="fill:#008080;fill-opacity:1">
     <g
        transform="translate(-2)"
        id="Icon-9"
        fill="#000000"
-       style="fill:#660080;fill-opacity:1">
+       style="fill:#008080;fill-opacity:1">
       <path
          id="android-brain"
          d="m 22,27 c 0,0.551 0.448,1 1,1 0.552,0 1,-0.449 1,-1 0,-0.551 -0.448,-1 -1,-1 -0.552,0 -1,0.449 -1,1 z m 2,18 c 0,-0.551 -0.448,-1 -1,-1 -0.552,0 -1,0.449 -1,1 0,0.551 0.448,1 1,1 0.552,0 1,-0.449 1,-1 z M 16,27 c 0,-0.551 -0.448,-1 -1,-1 -0.552,0 -1,0.449 -1,1 0,0.551 0.448,1 1,1 0.552,0 1,-0.449 1,-1 z m 0,12 c 0,-0.551 -0.448,-1 -1,-1 -0.552,0 -1,0.449 -1,1 0,0.551 0.448,1 1,1 0.552,0 1,-0.449 1,-1 z m 6,-22 c 0,0.551 0.448,1 1,1 0.552,0 1,-0.449 1,-1 0,-0.551 -0.448,-1 -1,-1 -0.552,0 -1,0.449 -1,1 z m -6,1 v 6.184 c 0.848,0.302 1.514,0.969 1.815,1.816 h 2.37 c 0.414,-1.162 1.513,-2 2.815,-2 1.654,0 3,1.346 3,3 0,1.302 -0.839,2.401 -2,2.816 v 12.368 c 1.161,0.415 2,1.514 2,2.816 0,1.302 -0.839,2.401 -2,2.816 V 51 c 0,0.552 -0.447,1 -1,1 -0.553,0 -1,-0.448 -1,-1 V 47.815 C 20.979,47.452 20.218,46.558 20.047,45.46 L 16.293,41.707 C 16.29,41.705 16.29,41.701 16.287,41.698 15.896,41.886 15.463,42 15,42 c -1.654,0 -3,-1.346 -3,-3 0,-1.654 1.346,-3 3,-3 1.654,0 3,1.346 3,3 0,0.462 -0.114,0.896 -0.302,1.287 0.003,0.003 0.006,0.004 0.009,0.006 l 2.907,2.908 C 20.965,42.737 21.443,42.383 22,42.184 V 29.815 C 21.152,29.514 20.486,28.847 20.185,28 h -2.37 c -0.414,1.162 -1.513,2 -2.815,2 -1.654,0 -3,-1.346 -3,-3 0,-1.302 0.839,-2.401 2,-2.816 V 17 c 0,-0.552 0.447,-1 1,-1 h 5.185 C 20.486,15.153 21.152,14.486 22,14.184 V 11 c 0,-0.552 0.447,-1 1,-1 0.553,0 1,0.448 1,1 v 3.184 c 1.161,0.415 2,1.514 2,2.816 0,1.654 -1.346,3 -3,3 -1.302,0 -2.401,-0.838 -2.815,-2 z M 55.633,37.245 C 57.122,35.936 58,34.042 58,32 58,29.86 57.049,27.894 55.415,26.574 55.8,25.771 56,24.896 56,24 56,21.936 54.917,20.035 53.208,18.95 53.724,18.051 54,17.037 54,16 54,13.42 52.361,11.177 49.989,10.349 49.996,10.232 50,10.116 50,10 50,6.691 47.309,4 44,4 43.193,4 42.407,4.164 41.673,4.48 40.813,1.876 38.34,0 35.5,0 c -4.208,0 -6.079,3.796 -6.48,5.804 -0.007,0.033 0.002,0.065 0,0.099 C 29.017,5.937 29,5.965 29,6 V 52.94 C 28.774,55.779 26.363,58 23.5,58 20.647,58 18.243,55.771 18.026,52.924 17.986,52.403 17.522,52 17,52 16.688,52 16.394,52.146 16.204,52.394 15.428,53.415 14.26,54 13,54 10.794,54 9,52.206 9,50 c 0,-0.908 0.316,-1.776 0.916,-2.511 0.27,-0.331 0.3,-0.798 0.073,-1.161 C 9.763,45.965 9.335,45.785 8.913,45.884 8.578,45.962 8.279,46 8,46 5.794,46 4,44.206 4,42 4,40.351 5.047,38.851 6.604,38.267 6.975,38.128 7.229,37.784 7.252,37.39 7.275,36.995 7.063,36.623 6.713,36.442 5.039,35.579 4,33.876 4,32 4,30.236 4.907,28.636 6.427,27.72 6.664,27.577 6.831,27.342 6.889,27.071 6.946,26.799 6.888,26.517 6.729,26.29 6.252,25.609 6,24.818 6,24 6,22.339 7.058,20.836 8.631,20.259 8.942,20.145 9.177,19.884 9.258,19.563 9.338,19.241 9.253,18.9 9.032,18.653 8.366,17.91 8,16.968 8,16 c 0,-1.938 1.389,-3.589 3.301,-3.927 0.268,-0.048 0.507,-0.203 0.658,-0.43 0.151,-0.227 0.203,-0.506 0.145,-0.772 C 12.034,10.559 12,10.274 12,10 c 0,-2.206 1.794,-4 4,-4 0.866,0 1.701,0.289 2.416,0.836 0.291,0.222 0.68,0.268 1.013,0.12 C 19.764,6.807 19.99,6.488 20.021,6.124 20.211,3.812 22.179,2 24.5,2 c 1.114,0 2.035,0.358 2.815,1.094 0.403,0.379 1.036,0.36 1.414,-0.042 C 29.108,2.65 29.09,2.018 28.688,1.639 27.535,0.551 26.126,0 24.5,0 21.66,0 19.187,1.876 18.327,4.48 17.593,4.164 16.807,4 16,4 c -3.309,0 -6,2.691 -6,6 0,0.116 0.004,0.232 0.011,0.349 C 7.639,11.177 6,13.42 6,16 6,17.037 6.276,18.051 6.792,18.95 5.083,20.035 4,21.936 4,24 4,24.896 4.2,25.771 4.585,26.574 2.951,27.894 2,29.86 2,32 2,34.042 2.878,35.936 4.367,37.245 2.906,38.362 2,40.116 2,42 2,45.093 4.353,47.647 7.363,47.966 7.123,48.614 7,49.298 7,50 c 0,3.309 2.691,6 6,6 1.242,0 2.424,-0.377 3.416,-1.068 1.02,2.954 3.839,5.068 7.084,5.068 3.908,0 7.201,-3.042 7.497,-6.924 0.001,-0.013 -0.005,-0.025 -0.005,-0.038 C 30.993,53.024 31,53.014 31,53 V 6.11 C 31.148,5.496 32.135,2 35.5,2 c 2.321,0 4.289,1.812 4.479,4.124 0.031,0.364 0.257,0.683 0.592,0.832 0.333,0.148 0.722,0.102 1.013,-0.12 C 42.299,6.289 43.134,6 44,6 c 2.206,0 4,1.794 4,4 0,0.274 -0.034,0.559 -0.104,0.871 -0.058,0.266 -0.006,0.545 0.145,0.772 0.151,0.227 0.39,0.382 0.658,0.43 C 50.611,12.411 52,14.062 52,16 c 0,0.968 -0.366,1.91 -1.032,2.653 -0.221,0.247 -0.306,0.588 -0.226,0.91 0.081,0.321 0.316,0.582 0.627,0.696 C 52.942,20.836 54,22.339 54,24 c 0,0.818 -0.252,1.609 -0.729,2.29 -0.159,0.227 -0.217,0.509 -0.16,0.781 0.058,0.271 0.225,0.506 0.462,0.649 1.52,0.916 2.427,2.516 2.427,4.28 0,1.876 -1.039,3.579 -2.713,4.442 -0.35,0.181 -0.562,0.553 -0.539,0.948 0.023,0.394 0.277,0.738 0.648,0.877 C 54.953,38.851 56,40.351 56,42 c 0,2.206 -1.794,4 -4,4 -0.279,0 -0.578,-0.038 -0.913,-0.116 -0.42,-0.099 -0.849,0.081 -1.076,0.444 -0.227,0.363 -0.197,0.83 0.073,1.161 0.6,0.735 0.916,1.603 0.916,2.511 0,2.206 -1.794,4 -4,4 -1.264,0 -2.43,-0.592 -3.198,-1.625 -0.258,-0.345 -0.707,-0.486 -1.116,-0.352 -0.148,0.049 -0.278,0.13 -0.383,0.233 -0.186,0.166 -0.309,0.402 -0.329,0.668 C 41.757,55.771 39.353,58 36.5,58 c -1.257,0 -2.443,-0.413 -3.43,-1.194 -0.435,-0.343 -1.062,-0.269 -1.405,0.163 -0.343,0.433 -0.269,1.062 0.163,1.405 C 33.153,59.422 34.813,60 36.5,60 39.747,60 42.568,57.882 43.586,54.925 44.575,55.621 45.755,56 47,56 c 3.309,0 6,-2.691 6,-6 0,-0.702 -0.123,-1.386 -0.363,-2.034 C 55.647,47.647 58,45.093 58,42 58,40.116 57.094,38.362 55.633,37.245 Z M 38,45 c 0,0.552 0.447,1 1,1 1.458,0 3,1.542 3,3 0,0.552 0.447,1 1,1 0.553,0 1,-0.448 1,-1 0,-2.57 -2.43,-5 -5,-5 -0.553,0 -1,0.448 -1,1 z m 9,-27 c -1.458,0 -3,-1.542 -3,-3 0,-0.552 -0.447,-1 -1,-1 -0.553,0 -1,0.448 -1,1 0,2.57 2.43,5 5,5 0.553,0 1,-0.448 1,-1 0,-0.552 -0.447,-1 -1,-1 z M 35,40 c 0.553,0 1,-0.448 1,-1 0,-1.458 1.542,-3 3,-3 0.553,0 1,-0.448 1,-1 0,-0.552 -0.447,-1 -1,-1 -2.57,0 -5,2.43 -5,5 0,0.552 0.447,1 1,1 z m 4,-12 c 0.553,0 1,-0.448 1,-1 0,-0.552 -0.447,-1 -1,-1 -1.458,0 -3,-1.542 -3,-3 0,-0.552 -0.447,-1 -1,-1 -0.553,0 -1,0.448 -1,1 0,2.57 2.43,5 5,5 z m 10,-4 c -0.553,0 -1,0.448 -1,1 0,1.458 -1.542,3 -3,3 -0.553,0 -1,0.448 -1,1 0,0.552 0.447,1 1,1 2.57,0 5,-2.43 5,-5 0,-0.552 -0.447,-1 -1,-1 z m -4,12 c -0.553,0 -1,0.448 -1,1 0,0.552 0.447,1 1,1 1.458,0 3,1.542 3,3 0,0.552 0.447,1 1,1 0.553,0 1,-0.448 1,-1 0,-2.57 -2.43,-5 -5,-5 z M 34,14 c 0,-2.57 2.43,-5 5,-5 0.553,0 1,0.448 1,1 0,0.552 -0.447,1 -1,1 -1.458,0 -3,1.542 -3,3 0,0.552 -0.447,1 -1,1 -0.553,0 -1,-0.448 -1,-1 z"
-         style="fill:#660080;fill-opacity:1" />
+         style="fill:#008080;fill-opacity:1" />
     </g>
   </g>
   <text
+     y="0"
+     x="0"
      xml:space="preserve"
      id="text3619"
-     style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:7.05556px;line-height:1.25;font-family:'Agency FB';-inkscape-font-specification:'Agency FB, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;white-space:pre;shape-inside:url(#rect3621);fill:#000000;fill-opacity:1;stroke:none;"
-     transform="translate(-57.62331,15.715448)"><tspan
+     style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:condensed;font-size:7.05556px;line-height:1.25;font-family:'Agency FB';-inkscape-font-specification:'Agency FB, Bold Condensed';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;white-space:pre;shape-inside:url(#rect3621);fill:#000000;fill-opacity:1;stroke:none;text-align:justify"
+     transform="translate(-79.693325,29.683986)"><tspan
        x="-130.32617"
        y="-31.500466"><tspan
-         style="shape-inside:url(#rect3621)">Forecasters place the synoptic pattern in the context of the </tspan></tspan><tspan
+         dx="0 0 0 0 0 0 0 0 0 0 0 0 1.0186259 0 0 0 0 0 1.018622 0 0 0 1.0186259 0 0 0 0 0 0 0 0 1.0186259 0 0 0 0 0 0 0 1.0186259 0 0 1.0186259 0 0 0 1.0186259 0 0 0 0 0 0 0 1.0186335"
+         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:condensed;font-size:7.05556px;font-family:'Agency FB';-inkscape-font-specification:'Agency FB, Bold Condensed';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;text-align:justify;text-anchor:start;shape-inside:url(#rect3621)">Forecasters place the synoptic pattern in the context of </tspan></tspan><tspan
        x="-130.32617"
        y="-22.681016"><tspan
-         style="shape-inside:url(#rect3621)">experience of similar weather patterns in the past and how </tspan></tspan><tspan
+         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:condensed;font-size:7.05556px;font-family:'Agency FB';-inkscape-font-specification:'Agency FB, Bold Condensed';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;text-align:justify;text-anchor:start;shape-inside:url(#rect3621)">the </tspan><tspan
+         dx="0.25776589 0 0 0 0 0 0 0 0 0 0 0.25776732 0 0 0.25776732 0 0 0 0 0 0 0 0.25776732 0 0 0 0 0 0 0 0.2577635 0 0 0 0 0 0 0 0 0.2577635 0 0 0.2577635 0 0 0 0.25777113"
+         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:condensed;font-size:7.05556px;font-family:'Agency FB';-inkscape-font-specification:'Agency FB, Bold Condensed';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;text-align:justify;text-anchor:start;shape-inside:url(#rect3621)">experience of similar weather patterns in the past </tspan><tspan
+         dx="0.2577635"
+         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:condensed;font-size:7.05556px;font-family:'Agency FB';-inkscape-font-specification:'Agency FB, Bold Condensed';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;text-align:justify;text-anchor:start;shape-inside:url(#rect3621)">and </tspan></tspan><tspan
        x="-130.32617"
        y="-13.861566"><tspan
-         style="shape-inside:url(#rect3621)">the raw model forecasts related to </tspan><tspan
-         style="fill:#ffffff">local observations.</tspan></tspan></text>
-  <rect
-     ry="28.561426"
-     style="fill:#c62e47;fill-opacity:1;stroke-width:0.146613"
-     id="rect348"
-     width="180.37579"
-     height="57.122852"
-     x="-205.24771"
-     y="45.013382" />
-  <rect
-     y="127.62692"
-     x="-205.24771"
-     height="57.122852"
-     width="180.37579"
-     id="rect352"
-     style="fill:#c62e47;fill-opacity:1;stroke-width:0.146613"
-     ry="28.561426" />
-  <rect
-     ry="27.952372"
-     y="45.622437"
-     x="-19.888857"
-     height="55.904743"
-     width="180.63"
-     id="rect356"
-     style="fill:#660080;fill-opacity:1;stroke-width:0.145145" />
-  <rect
-     ry="27.952372"
-     y="128.23598"
-     x="-19.888857"
-     height="55.904743"
-     width="180.63"
-     id="rect360"
-     style="fill:#660080;fill-opacity:1;stroke-width:0.145145" />
-  <rect
-     style="fill:url(#linearGradient322);fill-opacity:1;stroke-width:0.421988"
-     id="rect3186"
-     width="55"
-     height="222"
-     x="-50.038818"
-     y="-38.091591" />
+         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:condensed;font-size:7.05556px;font-family:'Agency FB';-inkscape-font-specification:'Agency FB, Bold Condensed';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;text-align:justify;text-anchor:start;shape-inside:url(#rect3621)">how </tspan><tspan
+         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:condensed;font-size:7.05556px;font-family:'Agency FB';-inkscape-font-specification:'Agency FB, Bold Condensed';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;text-align:justify;text-anchor:start;shape-inside:url(#rect3621)">the raw model forecasts related to </tspan><tspan
+         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:condensed;font-size:7.05556px;font-family:'Agency FB';-inkscape-font-specification:'Agency FB, Bold Condensed';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;text-align:justify;text-anchor:start;fill:#ffffff">local </tspan><tspan
+         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:condensed;font-size:7.05556px;font-family:'Agency FB';-inkscape-font-specification:'Agency FB, Bold Condensed';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;text-align:justify;text-anchor:start;fill:#ffffff">observations.</tspan></tspan></text>
   <text
      y="0"
      x="44.741314"
-     transform="translate(57.993571,2.6192414)"
+     transform="translate(59.164389,15.013029)"
      style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:condensed;font-size:14.1111px;line-height:1.25;font-family:'Agency FB';-inkscape-font-specification:'Agency FB, Bold Condensed';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;white-space:pre;shape-inside:url(#rect3219);fill:#666666;fill-opacity:1;stroke:none;"
      id="text3217"
      xml:space="preserve"><tspan
@@ -391,15 +401,224 @@
        y="-52.672826"><tspan
          style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:condensed;font-size:14.1111px;font-family:'Agency FB';-inkscape-font-specification:'Agency FB, Bold Condensed';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;text-align:center;text-anchor:middle;fill:#666666;fill-opacity:1">VS</tspan></tspan></text>
   <g
-     id="g3603"
-     transform="translate(2.7878418)">
+     transform="translate(-341.34203,-17.46253)"
+     id="g367">
+    <text
+       transform="translate(337.09121,56.890661)"
+       id="text3229"
+       y="55.378246"
+       x="-20.107485"
+       style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:condensed;font-size:8.81944px;line-height:1.25;font-family:'Agency FB';-inkscape-font-specification:'Agency FB, Bold Condensed';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;text-align:center;text-anchor:middle;white-space:pre;inline-size:58.1086;fill:#666666;fill-opacity:1;stroke:none;stroke-width:0.264583"
+       xml:space="preserve"><tspan
+         x="-20.107485"
+         y="55.378246"><tspan
+           style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:condensed;font-size:8.81944px;font-family:'Agency FB';-inkscape-font-specification:'Agency FB, Bold Condensed';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;text-align:center;text-anchor:middle;fill:#666666;fill-opacity:1;stroke-width:0.264583">Post-Processing</tspan><tspan></tspan><tspan
+           y="55.378246"> </tspan></tspan><tspan
+         x="-20.107485"
+         y="66.402545"><tspan
+           style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:condensed;font-size:8.81944px;font-family:'Agency FB';-inkscape-font-specification:'Agency FB, Bold Condensed';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;text-align:center;text-anchor:middle;fill:#666666;fill-opacity:1;stroke-width:0.264583">Approach</tspan></tspan></text>
+    <g
+       inkscape:export-ydpi="96.16684"
+       inkscape:export-xdpi="96.16684"
+       style="fill:#666666;fill-opacity:1"
+       transform="matrix(0.32113914,0,0,0.32291293,306.667,70.826163)"
+       id="Processing">
+      <path
+         style="fill:#666666;fill-opacity:1"
+         id="path1324"
+         d="m 31.1057,37.8494 a 3.5971,3.5971 0 0 1 0.425,-4.5713 L 33.4192,31.39 a 3.5948,3.5948 0 0 1 4.5713,-0.4246 l 1.935,1.3236 a 1.7286,1.7286 0 0 1 0.0908,-0.2869 c 0.2579,-0.54 1.4732,-3.2485 1.6856,-3.595 A 3.5882,3.5882 0 0 1 44.76,26.6924 h 2.67 a 3.5744,3.5744 0 0 1 0.575,0.051 2.01,2.01 0 0 0 0.0383,-0.3812 V 22.6611 A 2.0179,2.0179 0 0 0 46.3978,20.6787 L 42.1087,19.874 a 1.832,1.832 0 0 1 -1.398,-1.174 17.64,17.64 0 0 0 -0.6944,-1.6788 1.8368,1.8368 0 0 1 0.1612,-1.8173 l 2.4619,-3.6 A 2.02,2.02 0 0 0 42.4011,9.0385 L 39.7839,6.4218 A 2.0186,2.0186 0 0 0 37.2185,6.183 l -3.6,2.4629 a 1.8329,1.8329 0 0 1 -1.8174,0.16 17.4516,17.4516 0 0 0 -1.68,-0.6934 A 1.8356,1.8356 0 0 1 28.948,6.7128 L 28.1433,2.4247 A 2.0154,2.0154 0 0 0 26.1619,0.7792 H 22.4607 A 2.0181,2.0181 0 0 0 20.4783,2.4243 L 19.6736,6.7128 A 1.8357,1.8357 0 0 1 18.5,8.1122 17.279,17.279 0 0 0 16.8213,8.8056 1.837,1.837 0 0 1 15.003,8.6456 l -3.6,-2.4629 A 2.02,2.02 0 0 0 8.8375,6.4215 l -2.6161,2.617 a 2.02,2.02 0 0 0 -0.2392,2.5654 l 2.4629,3.6 a 1.8352,1.8352 0 0 1 0.16,1.8178 17.3743,17.3743 0 0 0 -0.6943,1.6792 1.8327,1.8327 0 0 1 -1.3984,1.1731 l -4.288,0.8047 a 2.0176,2.0176 0 0 0 -1.6456,1.9824 v 3.7011 a 2.0177,2.0177 0 0 0 1.6456,1.9825 l 4.2871,0.8042 a 1.8332,1.8332 0 0 1 1.3994,1.1748 17.4507,17.4507 0 0 0 0.6943,1.6782 1.8355,1.8355 0 0 1 -0.16,1.8179 l -2.4629,3.6 a 2.0179,2.0179 0 0 0 0.2392,2.5649 l 2.6162,2.6172 a 2.0182,2.0182 0 0 0 2.5655,0.2383 l 3.6,-2.4624 a 1.8408,1.8408 0 0 1 1.8183,-0.16 17.1578,17.1578 0 0 0 1.6787,0.6939 1.8357,1.8357 0 0 1 1.1739,1.3994 l 0.8047,4.2886 a 2.0181,2.0181 0 0 0 1.9824,1.645 h 3.7012 a 2.0011,2.0011 0 0 0 0.7712,-0.159 3.5647,3.5647 0 0 1 -0.1,-0.7956 v -2.67 a 3.5969,3.5969 0 0 1 1.6492,-3.0227 31.9678,31.9678 0 0 1 4.1349,-1.5374 z m -6.7947,-5.73 a 7.6078,7.6078 0 1 1 7.6077,-7.6076 7.6078,7.6078 0 0 1 -7.6077,7.6075 z" />
+      <path
+         style="fill:#666666;fill-opacity:1"
+         id="path1326"
+         d="m 61.9643,43.5434 -3.0942,-0.58 a 1.6825,1.6825 0 0 1 -1.2832,-1.0815 12.0418,12.0418 0 0 0 -0.4858,-1.1764 1.6826,1.6826 0 0 1 0.1433,-1.67 l 1.7768,-2.5973 a 1.0946,1.0946 0 0 0 -0.1294,-1.3919 l -1.8882,-1.8881 a 1.0943,1.0943 0 0 0 -1.3918,-0.1294 l -2.5974,1.7766 a 1.6819,1.6819 0 0 1 -1.67,0.1433 12.16,12.16 0 0 0 -1.1763,-0.4857 1.6821,1.6821 0 0 1 -1.0815,-1.2833 L 48.506,30.0854 A 1.0948,1.0948 0 0 0 47.4303,29.1926 H 44.76 a 1.0948,1.0948 0 0 0 -1.0757,0.8928 l -0.5806,3.0943 a 1.6819,1.6819 0 0 1 -1.0813,1.2832 12.2,12.2 0 0 0 -1.1765,0.4858 1.682,1.682 0 0 1 -1.67,-0.1433 l -2.5972,-1.7766 a 1.0946,1.0946 0 0 0 -1.392,0.1294 l -1.8881,1.8878 a 1.0946,1.0946 0 0 0 -0.1294,1.3919 l 1.7768,2.5972 a 1.6824,1.6824 0 0 1 0.1433,1.67 12.0623,12.0623 0 0 0 -0.4858,1.1764 1.6825,1.6825 0 0 1 -1.2835,1.0815 l -3.0942,0.58 a 1.0949,1.0949 0 0 0 -0.8929,1.0759 v 2.67 a 1.0946,1.0946 0 0 0 0.8929,1.0758 l 3.0942,0.58 a 1.6825,1.6825 0 0 1 1.2832,1.0816 12.05,12.05 0 0 0 0.4858,1.1763 1.6821,1.6821 0 0 1 -0.1433,1.67 l -1.7768,2.5973 a 1.0946,1.0946 0 0 0 0.1294,1.3919 l 1.8882,1.8882 a 1.0945,1.0945 0 0 0 1.392,0.1294 l 2.5972,-1.7766 a 1.682,1.682 0 0 1 1.67,-0.1434 12.15,12.15 0 0 0 1.1765,0.4858 1.6822,1.6822 0 0 1 1.0813,1.2833 l 0.5806,3.0942 a 1.0945,1.0945 0 0 0 1.0757,0.8927 h 2.67 a 1.0945,1.0945 0 0 0 1.0757,-0.8926 l 0.5806,-3.0944 a 1.6822,1.6822 0 0 1 1.0813,-1.2832 12.1184,12.1184 0 0 0 1.1765,-0.4858 1.682,1.682 0 0 1 1.67,0.1434 l 2.5977,1.7772 a 1.0947,1.0947 0 0 0 1.392,-0.1294 l 1.8882,-1.8882 a 1.0944,1.0944 0 0 0 0.1294,-1.3918 l -1.7768,-2.5974 a 1.6821,1.6821 0 0 1 -0.1431,-1.67 12.0988,12.0988 0 0 0 0.4856,-1.1763 1.6825,1.6825 0 0 1 1.2831,-1.0812 l 3.0942,-0.58 a 1.0944,1.0944 0 0 0 0.8929,-1.0758 v -2.67 a 1.0946,1.0946 0 0 0 -0.8928,-1.0765 z m -15.8691,8.6235 a 6.2125,6.2125 0 1 1 6.2126,-6.2126 6.2126,6.2126 0 0 1 -6.2126,6.2126 z" />
+    </g>
+  </g>
+  <g
+     transform="translate(-406.95869,60.32487)"
+     id="g383">
+    <text
+       transform="translate(402.70787,45.866361)"
+       id="text3469"
+       y="55.378246"
+       x="-20.107485"
+       style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:condensed;font-size:8.81944px;line-height:1.25;font-family:'Agency FB';-inkscape-font-specification:'Agency FB, Bold Condensed';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;text-align:center;text-anchor:middle;white-space:pre;inline-size:49.6419;fill:#666666;fill-opacity:1;stroke:none;stroke-width:0.264583"
+       xml:space="preserve"><tspan
+         x="-20.107485"
+         y="55.378246"><tspan
+           style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:condensed;font-size:8.81944px;font-family:'Agency FB';-inkscape-font-specification:'Agency FB, Bold Condensed';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;text-align:center;text-anchor:middle;fill:#666666;fill-opacity:1;stroke-width:0.264583">Post-Processed</tspan><tspan></tspan><tspan
+           y="55.378246"> </tspan></tspan><tspan
+         x="-20.107485"
+         y="66.402545"><tspan
+           style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:condensed;font-size:8.81944px;font-family:'Agency FB';-inkscape-font-specification:'Agency FB, Bold Condensed';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;text-align:center;text-anchor:middle;fill:#666666;fill-opacity:1;stroke-width:0.264583">NMW Model</tspan><tspan></tspan><tspan
+           y="66.402545"> </tspan></tspan><tspan
+         x="-20.107485"
+         y="77.426844"><tspan
+           style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:condensed;font-size:8.81944px;font-family:'Agency FB';-inkscape-font-specification:'Agency FB, Bold Condensed';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;text-align:center;text-anchor:middle;fill:#666666;fill-opacity:1;stroke-width:0.264583">Output</tspan></tspan></text>
+    <g
+       id="g195"
+       style="fill:#666666;fill-opacity:1;stroke-width:19.4836;stroke-miterlimit:4;stroke-dasharray:none"
+       transform="matrix(0.04549898,0,0,0.04671448,371.15511,69.118871)">
+      <path
+         d="m 404.30762,395.73828 c -38.01123,38.90332 -88.80957,60.32813 -143.03711,60.32813 -110.3169,0 -200.066408,-89.74903 -200.066408,-200.06641 0,-110.31738 89.749508,-200.066406 200.066408,-200.066406 54.22803,0 105.02588,21.425781 143.03711,60.329106 2.70215,2.76757 7.1333,2.81738 9.89892,0.11523 2.76514,-2.70215 2.81641,-7.13379 0.11475,-9.89844 -40.66748,-41.623045 -95.02197,-64.545896 -153.05078,-64.545896 -57.1792,0 -110.93604,22.266602 -151.36768,62.698246 C 69.470703,145.06445 47.204102,198.82129 47.204102,256 c 0,57.17969 22.266601,110.93652 62.698728,151.36816 40.43164,40.43164 94.18848,62.69825 151.36768,62.69825 58.02832,0 112.38281,-22.92188 153.05078,-64.54493 2.70166,-2.76464 2.65039,-7.19628 -0.11475,-9.89843 -2.76562,-2.70118 -7.19677,-2.65235 -9.89892,0.11523 z"
+         id="path1353"
+         style="fill:#666666;fill-opacity:1;stroke-width:19.4836;stroke-miterlimit:4;stroke-dasharray:none" />
+      <path
+         d="M 461.82324,250.27539 314.55029,146.68359 c -2.1372,-1.50293 -4.93408,-1.68945 -7.25293,-0.4873 -2.31884,1.2041 -3.77441,3.59961 -3.77441,6.21289 V 210.8623 H 199.08008 c -3.86621,0 -7,3.13379 -7,7 v 76.2754 c 0,3.86621 3.13379,7 7,7 h 104.44287 v 58.45312 c 0,2.61328 1.45557,5.00879 3.77441,6.21289 1.01514,0.52637 2.12207,0.78711 3.2251,0.78711 1.41602,0 2.82617,-0.42969 4.02783,-1.27441 L 461.82324,261.72656 c 1.86377,-1.31054 2.97266,-3.44726 2.97266,-5.72558 0,-2.27832 -1.10889,-4.41407 -2.97266,-5.72559 z M 317.52295,346.1084 v -51.9707 c 0,-3.86622 -3.13379,-7 -7,-7 H 206.08008 v -62.2754 h 104.44287 c 3.86621,0 7,-3.13378 7,-7 v -51.9707 l 128.10596,90.10938 z"
+         id="path1355"
+         style="fill:#666666;fill-opacity:1;stroke-width:1680.84;stroke-miterlimit:4;stroke-dasharray:none" />
+    </g>
+  </g>
+  <text
+     xml:space="preserve"
+     id="text208"
+     style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:condensed;font-size:7.05556px;line-height:1.25;font-family:'Agency FB';-inkscape-font-specification:'Agency FB, Bold Condensed';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;white-space:pre;shape-inside:url(#rect210);fill:#008080;fill-opacity:1;stroke:none;"
+     transform="translate(337.57575,-4.3008137)"><tspan
+       x="-130.32617"
+       y="-31.500466"><tspan
+         style="fill:#4d4d4d">ecPoint </tspan><tspan
+         style="shape-inside:url(#rect210)">can learn from other </tspan></tspan><tspan
+       x="-130.32617"
+       y="-22.681016"><tspan
+         style="shape-inside:url(#rect210)">locations </tspan><tspan
+         style="fill:#4d4d4d;fill-opacity:1">what post-processing </tspan></tspan><tspan
+       x="-130.32617"
+       y="-13.861566"><tspan
+         style="fill:#4d4d4d;fill-opacity:1">to apply in areas with no local </tspan></tspan><tspan
+       x="-130.32617"
+       y="-5.0421152"><tspan
+         style="fill:#4d4d4d;fill-opacity:1">observations. Note that the </tspan></tspan><tspan
+       x="-130.32617"
+       y="3.7773352"><tspan
+         style="fill:#4d4d4d;fill-opacity:1">verification will still be difficult </tspan></tspan><tspan
+       x="-130.32617"
+       y="12.596786"><tspan
+         style="fill:#4d4d4d;fill-opacity:1">in such areas.</tspan></tspan></text>
+  <text
+     xml:space="preserve"
+     style="font-style:normal;font-weight:normal;font-size:10.5833px;line-height:1.25;font-family:sans-serif;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.264583"
+     x="287.86667"
+     y="101.6"
+     id="text222"><tspan
+       sodipodi:role="line"
+       id="tspan220"
+       x="287.86667"
+       y="101.6"
+       style="stroke-width:0.264583" /><tspan
+       sodipodi:role="line"
+       x="287.86667"
+       y="114.82912"
+       style="stroke-width:0.264583"
+       id="tspan224" /></text>
+  <path
+     id="path226"
+     style="fill:#008080;fill-opacity:1;stroke-width:0.119746"
+     d="m 161.89374,-14.182649 c 8.79475,0 15.875,8.2511697 15.875,18.50017 0,10.249 -7.08025,18.50016 -15.875,18.50016 H 7.8773197 c -0.66435,0 -1.3176301,-0.0527 -1.9600901,-0.14418 v -36.71197 c 0.64248,-0.0915 1.2957301,-0.14418 1.9600901,-0.14418 z" />
+  <text
+     y="0"
+     x="0"
+     transform="translate(149.28085,29.0587)"
+     style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:condensed;font-size:7.05556px;line-height:1.25;font-family:'Agency FB';-inkscape-font-specification:'Agency FB, Bold Condensed';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;text-align:justify;white-space:pre;shape-inside:url(#rect177);fill:#000000;fill-opacity:1;stroke:none"
+     id="text175"
+     xml:space="preserve"><tspan
+       x="-130.32617"
+       y="-31.500466"><tspan
+         dx="0 0 0 0 0 0 0 0 1.2307478 0 0 0 0 0 0 1.2307459 0 0 0 1.2307459 0 0 0 0 0 0 0 0 1.2307459 0 0 0 0 0 0 0 1.2307535 0 0 1.2307459 0 0 0 1.2307535 0 0 0 0 0 0 0 1.2307535 0 0 1.2307459"
+         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:condensed;font-size:7.05556px;font-family:'Agency FB';-inkscape-font-specification:'Agency FB, Bold Condensed';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;text-align:justify;text-anchor:start;shape-inside:url(#rect3621)">ecPoint places the synoptic pattern in the context of the </tspan></tspan><tspan
+       x="-130.32617"
+       y="-22.681016"><tspan
+         dx="0 0 0 0 0 0 0 0 0 0 0 0.076901078 0 0 0.076902986 0 0 0 0 0 0 0 0.076899171 0 0 0 0 0 0 0 0.0769068 0 0 0.076899171 0 0 0 0.076899171 0 0 0 0 0.076899171 0 0 0 0.076899171 0 0 0 0.0769068"
+         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:condensed;font-size:7.05556px;font-family:'Agency FB';-inkscape-font-specification:'Agency FB, Bold Condensed';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;text-align:justify;text-anchor:start;shape-inside:url(#rect3621)">experience of similar weather in the past and how the </tspan><tspan
+         dx="0.076891541"
+         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:condensed;font-size:7.05556px;font-family:'Agency FB';-inkscape-font-specification:'Agency FB, Bold Condensed';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;text-align:justify;text-anchor:start;shape-inside:url(#rect3621)">model </tspan></tspan><tspan
+       x="-130.32617"
+       y="-13.861566"><tspan
+         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:condensed;font-size:7.05556px;font-family:'Agency FB';-inkscape-font-specification:'Agency FB, Bold Condensed';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;text-align:justify;text-anchor:start;shape-inside:url(#rect3621)">forecasts related to </tspan><tspan
+         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:condensed;font-size:7.05556px;font-family:'Agency FB';-inkscape-font-specification:'Agency FB, Bold Condensed';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;text-align:justify;text-anchor:start;fill:#ffffff">global</tspan><tspan
+         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:condensed;font-size:7.05556px;font-family:'Agency FB';-inkscape-font-specification:'Agency FB, Bold Condensed';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;text-align:justify;text-anchor:start;fill:#ffffff"> observations.</tspan></tspan></text>
+  <text
+     y="0"
+     x="75.265053"
+     transform="translate(-203.4331,4.69502)"
+     style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:condensed;font-size:7.05556px;line-height:1.25;font-family:'Agency FB';-inkscape-font-specification:'Agency FB, Bold Condensed';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;text-align:end;white-space:pre;shape-inside:url(#rect421);fill:#c62e47;fill-opacity:1;stroke:none"
+     id="text413"
+     xml:space="preserve"><tspan
+       x="-129.17193"
+       y="-31.500466"><tspan
+         style="fill:#4d4d4d">Forecasters will have </tspan><tspan
+         style="fill:#c62e47;fill-opacity:1">difficulties </tspan></tspan><tspan
+       x="-116.56287"
+       y="-22.681016"><tspan
+         style="fill:#c62e47;fill-opacity:1">in gaining experience about </tspan></tspan><tspan
+       x="-113.75167"
+       y="-13.861566"><tspan
+         style="fill:#c62e47;fill-opacity:1">forecasts in areas with no </tspan></tspan><tspan
+       x="-83.434808"
+       y="-5.0421152"><tspan
+         style="fill:#c62e47;fill-opacity:1">observations. </tspan></tspan></text>
+  <g
+     transform="translate(9.9519981)"
+     id="g661">
+    <circle
+       r="2.5"
+       cy="4.3175159"
+       cx="170.31674"
+       id="path214"
+       style="fill:#333333;fill-opacity:1;stroke-width:0.11792" />
+    <circle
+       style="fill:#333333;fill-opacity:1;stroke-width:0.11792"
+       id="circle216"
+       cx="192.78081"
+       cy="-17.758387"
+       r="2.5" />
+    <path
+       style="fill:none;stroke:#000000;stroke-width:0.198536px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       d="m 170.28534,4.3358659 9.56155,-22.0942529 h 12.93391"
+       id="path423" />
+  </g>
+  <g
+     transform="translate(-8.3941108)"
+     id="g646">
+    <circle
+       style="fill:#333333;fill-opacity:1;stroke-width:0.11792"
+       id="circle425"
+       cx="218.7473"
+       cy="5.9059029"
+       r="2.5"
+       transform="scale(-1,1)" />
+    <circle
+       r="2.5"
+       cy="-16.265162"
+       cx="241.21136"
+       id="circle427"
+       style="fill:#333333;fill-opacity:1;stroke-width:0.11792"
+       transform="scale(-1,1)" />
+    <path
+       id="path429"
+       d="M -218.71588,5.9242526 -228.27743,-16.17 h -12.93391"
+       style="fill:none;stroke:#000000;stroke-width:0.198536px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1" />
+  </g>
+  <text
+     style="fill:black;fill-opacity:1;line-height:1.25;stroke:none;font-family:sans-serif;font-style:normal;font-weight:normal;font-size:10.58333333px;white-space:pre;shape-inside:url(#rect433);"
+     id="text431"
+     xml:space="preserve" />
+  <rect
+     ry="2.2161869e-06"
+     y="-14.038471"
+     x="-53.272865"
+     height="36.711971"
+     width="58.234043"
+     id="rect439"
+     style="fill:#f9f9f9;fill-opacity:1;stroke-width:0.264583" />
+  <g
+     transform="translate(-274.66702,-99.559329)"
+     id="g355">
     <text
        xml:space="preserve"
        style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:condensed;font-size:8.81944px;line-height:1.25;font-family:'Agency FB';-inkscape-font-specification:'Agency FB, Bold Condensed';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;text-align:center;text-anchor:middle;white-space:pre;inline-size:49.6419;fill:#666666;fill-opacity:1;stroke:none;stroke-width:0.264583"
        x="-20.107485"
        y="55.378246"
        id="text3443"
-       transform="translate(-5.3075183,-60.656209)"><tspan
+       transform="translate(270.53032,47.438185)"><tspan
          x="-20.107485"
          y="55.378246"><tspan
            style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:condensed;font-size:8.81944px;font-family:'Agency FB';-inkscape-font-specification:'Agency FB, Bold Condensed';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;text-align:center;text-anchor:middle;fill:#666666;fill-opacity:1;stroke-width:0.264583">Knowledge of</tspan><tspan></tspan><tspan
@@ -412,7 +631,7 @@
          y="77.426844"><tspan
            style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:condensed;font-size:8.81944px;font-family:'Agency FB';-inkscape-font-specification:'Agency FB, Bold Condensed';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;text-align:center;text-anchor:middle;fill:#666666;fill-opacity:1;stroke-width:0.264583">&amp; Local Weather</tspan></tspan></text>
     <g
-       transform="translate(0,-81.295833)"
+       transform="translate(275.83784,26.251479)"
        id="g3520">
       <g
          transform="matrix(1.2667391,0,0,1.3333333,-1.6958924,-6.259862)"
@@ -461,72 +680,283 @@
       </g>
     </g>
   </g>
+  <path
+     id="path447"
+     style="fill:#c62e47;fill-opacity:1;stroke-width:0.119746"
+     d="m -208.76641,62.017338 c -8.79475,0 -15.875,8.251163 -15.875,18.500163 0,10.249001 7.08025,18.500133 15.875,18.500133 h 154.016462 c 0.664343,0 1.317623,-0.0527 1.960087,-0.144167 V 62.161514 c -0.642477,-0.09147 -1.295728,-0.144176 -1.960087,-0.144176 z" />
+  <text
+     transform="translate(-79.693325,109.6684)"
+     style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:condensed;font-size:7.05556px;line-height:1.25;font-family:'Agency FB';-inkscape-font-specification:'Agency FB, Bold Condensed';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;text-align:justify;white-space:pre;shape-inside:url(#rect537);fill:#000000;fill-opacity:1;stroke:none"
+     id="text471"
+     xml:space="preserve"
+     x="0"
+     y="0"><tspan
+       x="-130.32617"
+       y="-31.500466"><tspan
+         dx="0 0 0 0 0 0 0 0 0 0 0 0 0.20558226 0.20558226 0 0 0 0 0 0 0 0 0.20558035"
+         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:condensed;font-size:7.05556px;font-family:'Agency FB';-inkscape-font-specification:'Agency FB, Bold Condensed';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;text-align:justify;text-anchor:start;shape-inside:url(#rect3621)">Forecasters  approach is </tspan><tspan
+         dx="0.20558035"
+         style="fill:#f9f9f9">subjective</tspan><tspan
+         dx="0 0 0.20558417 0 0 0 0 0 0.20558417 0 0 0 0 0 0 0.20558417 0 0 0.2055918"
+         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:condensed;font-size:7.05556px;font-family:'Agency FB';-inkscape-font-specification:'Agency FB, Bold Condensed';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;text-align:justify;text-anchor:start;shape-inside:url(#rect3621)">, based mainly on their </tspan></tspan><tspan
+       x="-130.32617"
+       y="-22.681016"><tspan
+         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:condensed;font-size:7.05556px;font-family:'Agency FB';-inkscape-font-specification:'Agency FB, Bold Condensed';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;text-align:justify;text-anchor:start;shape-inside:url(#rect3621)">personal experience.</tspan></tspan></text>
+  <text
+     transform="translate(337.57575,75.074185)"
+     style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:condensed;font-size:7.05556px;line-height:1.25;font-family:'Agency FB';-inkscape-font-specification:'Agency FB, Bold Condensed';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;white-space:pre;shape-inside:url(#rect539);fill:#008080;fill-opacity:1;stroke:none;"
+     id="text499"
+     xml:space="preserve"><tspan
+       x="-130.32617"
+       y="-31.500466"><tspan
+         style="fill:#4d4d4d">ecPoint </tspan><tspan
+         style="fill:#008080;fill-opacity:1">handles better the post-</tspan></tspan><tspan
+       x="-130.32617"
+       y="-22.681016"><tspan
+         style="fill:#008080;fill-opacity:1">processing of forecasts with </tspan></tspan><tspan
+       x="-130.32617"
+       y="-13.861566"><tspan
+         style="fill:#008080;fill-opacity:1">high spread </tspan><tspan
+         style="fill:#4d4d4d">because it produces </tspan></tspan><tspan
+       x="-130.32617"
+       y="-5.0421152"><tspan
+         style="fill:#4d4d4d">an integrated pdf that combines </tspan></tspan><tspan
+       x="-130.32617"
+       y="3.7773352"><tspan
+         style="fill:#4d4d4d">all the ensemble members.</tspan></tspan></text>
+  <path
+     d="m 161.89374,62.017332 c 8.79475,0 15.875,8.251169 15.875,18.50017 0,10.249 -7.08025,18.500138 -15.875,18.500138 H 7.8773214 c -0.66435,0 -1.3176301,-0.0527 -1.9600901,-0.144177 V 62.161512 c 0.64248,-0.0915 1.2957301,-0.14418 1.9600901,-0.14418 z"
+     style="fill:#008080;fill-opacity:1;stroke-width:0.119746"
+     id="path501" />
+  <text
+     xml:space="preserve"
+     id="text521"
+     style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:condensed;font-size:7.05556px;line-height:1.25;font-family:'Agency FB';-inkscape-font-specification:'Agency FB, Bold Condensed';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;text-align:justify;white-space:pre;shape-inside:url(#rect541);fill:#000000;fill-opacity:1;stroke:none"
+     transform="translate(149.28085,114.07812)"
+     x="0"
+     y="0"><tspan
+       x="-130.32617"
+       y="-31.500466"><tspan
+         style="shape-inside:url(#rect541)">ecPoint approach is </tspan><tspan
+         style="fill:#f9f9f9">objective</tspan><tspan
+         style="shape-inside:url(#rect541)">, based on observations.</tspan></tspan></text>
+  <text
+     xml:space="preserve"
+     id="text527"
+     style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:condensed;font-size:7.05556px;line-height:1.25;font-family:'Agency FB';-inkscape-font-specification:'Agency FB, Bold Condensed';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;text-align:end;white-space:pre;shape-inside:url(#rect543);fill:#c62e47;fill-opacity:1;stroke:none"
+     transform="translate(-203.4331,80.895017)"
+     x="75.265053"
+     y="0"><tspan
+       x="-125.47878"
+       y="-31.500466"><tspan
+         style="fill:#4d4d4d">Forecasters have</tspan><tspan
+         style="shape-inside:url(#rect543)"> difficulties in </tspan></tspan><tspan
+       x="-126.2367"
+       y="-22.681016"><tspan
+         style="shape-inside:url(#rect543)">post-processing forecasts with </tspan></tspan><tspan
+       x="-124.65196"
+       y="-13.861566"><tspan
+         style="shape-inside:url(#rect543)">high spread, </tspan><tspan
+         style="fill:#4d4d4d">e.g. at longer lead </tspan></tspan><tspan
+       x="-65.382496"
+       y="-5.0421152"><tspan
+         style="fill:#4d4d4d">times. </tspan></tspan></text>
   <g
-     id="g3610"
-     transform="translate(1.9253679,-1.9422863)">
-    <text
-       transform="translate(-4.5591636,30.528718)"
-       id="text3229"
-       y="55.378246"
-       x="-20.107485"
-       style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:condensed;font-size:8.81944px;line-height:1.25;font-family:'Agency FB';-inkscape-font-specification:'Agency FB, Bold Condensed';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;text-align:center;text-anchor:middle;white-space:pre;inline-size:58.1086;fill:#666666;fill-opacity:1;stroke:none;stroke-width:0.264583"
-       xml:space="preserve"><tspan
-         x="-20.107485"
-         y="55.378246"><tspan
-           style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:condensed;font-size:8.81944px;font-family:'Agency FB';-inkscape-font-specification:'Agency FB, Bold Condensed';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;text-align:center;text-anchor:middle;fill:#666666;fill-opacity:1;stroke-width:0.264583">Post-Processing</tspan><tspan></tspan><tspan
-           y="55.378246"> </tspan></tspan><tspan
-         x="-20.107485"
-         y="66.402545"><tspan
-           style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:condensed;font-size:8.81944px;font-family:'Agency FB';-inkscape-font-specification:'Agency FB, Bold Condensed';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;text-align:center;text-anchor:middle;fill:#666666;fill-opacity:1;stroke-width:0.264583">Approach</tspan></tspan></text>
-    <g
-       inkscape:export-ydpi="96.16684"
-       inkscape:export-xdpi="96.16684"
-       style="fill:#666666;fill-opacity:1"
-       transform="matrix(0.32113914,0,0,0.32291293,-35.512535,52.262263)"
-       id="Processing">
-      <path
-         style="fill:#666666;fill-opacity:1"
-         id="path1324"
-         d="m 31.1057,37.8494 a 3.5971,3.5971 0 0 1 0.425,-4.5713 L 33.4192,31.39 a 3.5948,3.5948 0 0 1 4.5713,-0.4246 l 1.935,1.3236 a 1.7286,1.7286 0 0 1 0.0908,-0.2869 c 0.2579,-0.54 1.4732,-3.2485 1.6856,-3.595 A 3.5882,3.5882 0 0 1 44.76,26.6924 h 2.67 a 3.5744,3.5744 0 0 1 0.575,0.051 2.01,2.01 0 0 0 0.0383,-0.3812 V 22.6611 A 2.0179,2.0179 0 0 0 46.3978,20.6787 L 42.1087,19.874 a 1.832,1.832 0 0 1 -1.398,-1.174 17.64,17.64 0 0 0 -0.6944,-1.6788 1.8368,1.8368 0 0 1 0.1612,-1.8173 l 2.4619,-3.6 A 2.02,2.02 0 0 0 42.4011,9.0385 L 39.7839,6.4218 A 2.0186,2.0186 0 0 0 37.2185,6.183 l -3.6,2.4629 a 1.8329,1.8329 0 0 1 -1.8174,0.16 17.4516,17.4516 0 0 0 -1.68,-0.6934 A 1.8356,1.8356 0 0 1 28.948,6.7128 L 28.1433,2.4247 A 2.0154,2.0154 0 0 0 26.1619,0.7792 H 22.4607 A 2.0181,2.0181 0 0 0 20.4783,2.4243 L 19.6736,6.7128 A 1.8357,1.8357 0 0 1 18.5,8.1122 17.279,17.279 0 0 0 16.8213,8.8056 1.837,1.837 0 0 1 15.003,8.6456 l -3.6,-2.4629 A 2.02,2.02 0 0 0 8.8375,6.4215 l -2.6161,2.617 a 2.02,2.02 0 0 0 -0.2392,2.5654 l 2.4629,3.6 a 1.8352,1.8352 0 0 1 0.16,1.8178 17.3743,17.3743 0 0 0 -0.6943,1.6792 1.8327,1.8327 0 0 1 -1.3984,1.1731 l -4.288,0.8047 a 2.0176,2.0176 0 0 0 -1.6456,1.9824 v 3.7011 a 2.0177,2.0177 0 0 0 1.6456,1.9825 l 4.2871,0.8042 a 1.8332,1.8332 0 0 1 1.3994,1.1748 17.4507,17.4507 0 0 0 0.6943,1.6782 1.8355,1.8355 0 0 1 -0.16,1.8179 l -2.4629,3.6 a 2.0179,2.0179 0 0 0 0.2392,2.5649 l 2.6162,2.6172 a 2.0182,2.0182 0 0 0 2.5655,0.2383 l 3.6,-2.4624 a 1.8408,1.8408 0 0 1 1.8183,-0.16 17.1578,17.1578 0 0 0 1.6787,0.6939 1.8357,1.8357 0 0 1 1.1739,1.3994 l 0.8047,4.2886 a 2.0181,2.0181 0 0 0 1.9824,1.645 h 3.7012 a 2.0011,2.0011 0 0 0 0.7712,-0.159 3.5647,3.5647 0 0 1 -0.1,-0.7956 v -2.67 a 3.5969,3.5969 0 0 1 1.6492,-3.0227 31.9678,31.9678 0 0 1 4.1349,-1.5374 z m -6.7947,-5.73 a 7.6078,7.6078 0 1 1 7.6077,-7.6076 7.6078,7.6078 0 0 1 -7.6077,7.6075 z" />
-      <path
-         style="fill:#666666;fill-opacity:1"
-         id="path1326"
-         d="m 61.9643,43.5434 -3.0942,-0.58 a 1.6825,1.6825 0 0 1 -1.2832,-1.0815 12.0418,12.0418 0 0 0 -0.4858,-1.1764 1.6826,1.6826 0 0 1 0.1433,-1.67 l 1.7768,-2.5973 a 1.0946,1.0946 0 0 0 -0.1294,-1.3919 l -1.8882,-1.8881 a 1.0943,1.0943 0 0 0 -1.3918,-0.1294 l -2.5974,1.7766 a 1.6819,1.6819 0 0 1 -1.67,0.1433 12.16,12.16 0 0 0 -1.1763,-0.4857 1.6821,1.6821 0 0 1 -1.0815,-1.2833 L 48.506,30.0854 A 1.0948,1.0948 0 0 0 47.4303,29.1926 H 44.76 a 1.0948,1.0948 0 0 0 -1.0757,0.8928 l -0.5806,3.0943 a 1.6819,1.6819 0 0 1 -1.0813,1.2832 12.2,12.2 0 0 0 -1.1765,0.4858 1.682,1.682 0 0 1 -1.67,-0.1433 l -2.5972,-1.7766 a 1.0946,1.0946 0 0 0 -1.392,0.1294 l -1.8881,1.8878 a 1.0946,1.0946 0 0 0 -0.1294,1.3919 l 1.7768,2.5972 a 1.6824,1.6824 0 0 1 0.1433,1.67 12.0623,12.0623 0 0 0 -0.4858,1.1764 1.6825,1.6825 0 0 1 -1.2835,1.0815 l -3.0942,0.58 a 1.0949,1.0949 0 0 0 -0.8929,1.0759 v 2.67 a 1.0946,1.0946 0 0 0 0.8929,1.0758 l 3.0942,0.58 a 1.6825,1.6825 0 0 1 1.2832,1.0816 12.05,12.05 0 0 0 0.4858,1.1763 1.6821,1.6821 0 0 1 -0.1433,1.67 l -1.7768,2.5973 a 1.0946,1.0946 0 0 0 0.1294,1.3919 l 1.8882,1.8882 a 1.0945,1.0945 0 0 0 1.392,0.1294 l 2.5972,-1.7766 a 1.682,1.682 0 0 1 1.67,-0.1434 12.15,12.15 0 0 0 1.1765,0.4858 1.6822,1.6822 0 0 1 1.0813,1.2833 l 0.5806,3.0942 a 1.0945,1.0945 0 0 0 1.0757,0.8927 h 2.67 a 1.0945,1.0945 0 0 0 1.0757,-0.8926 l 0.5806,-3.0944 a 1.6822,1.6822 0 0 1 1.0813,-1.2832 12.1184,12.1184 0 0 0 1.1765,-0.4858 1.682,1.682 0 0 1 1.67,0.1434 l 2.5977,1.7772 a 1.0947,1.0947 0 0 0 1.392,-0.1294 l 1.8882,-1.8882 a 1.0944,1.0944 0 0 0 0.1294,-1.3918 l -1.7768,-2.5974 a 1.6821,1.6821 0 0 1 -0.1431,-1.67 12.0988,12.0988 0 0 0 0.4856,-1.1763 1.6825,1.6825 0 0 1 1.2831,-1.0812 l 3.0942,-0.58 a 1.0944,1.0944 0 0 0 0.8929,-1.0758 v -2.67 a 1.0946,1.0946 0 0 0 -0.8928,-1.0765 z m -15.8691,8.6235 a 6.2125,6.2125 0 1 1 6.2126,-6.2126 6.2126,6.2126 0 0 1 -6.2126,6.2126 z" />
-    </g>
+     transform="translate(8.8936637)"
+     id="g666">
+    <circle
+       style="fill:#333333;fill-opacity:1;stroke-width:0.11792"
+       id="circle503"
+       cx="171.37508"
+       cy="80.517509"
+       r="2.5" />
+    <circle
+       r="2.5"
+       cy="58.441608"
+       cx="193.83914"
+       id="circle523"
+       style="fill:#333333;fill-opacity:1;stroke-width:0.11792" />
+    <path
+       id="path529"
+       d="m 171.34367,80.535863 9.56155,-22.094253 h 12.93391"
+       style="fill:none;stroke:#000000;stroke-width:0.198536px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1" />
   </g>
   <g
-     id="g3617"
-     transform="translate(2.7878418,-1.0733695)">
-    <text
-       transform="translate(-5.4216377,105.14806)"
-       id="text3469"
-       y="55.378246"
-       x="-20.107485"
-       style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:condensed;font-size:8.81944px;line-height:1.25;font-family:'Agency FB';-inkscape-font-specification:'Agency FB, Bold Condensed';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;text-align:center;text-anchor:middle;white-space:pre;inline-size:49.6419;fill:#666666;fill-opacity:1;stroke:none;stroke-width:0.264583"
-       xml:space="preserve"><tspan
-         x="-20.107485"
-         y="55.378246"><tspan
-           style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:condensed;font-size:8.81944px;font-family:'Agency FB';-inkscape-font-specification:'Agency FB, Bold Condensed';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;text-align:center;text-anchor:middle;fill:#666666;fill-opacity:1;stroke-width:0.264583">Post-Processed</tspan><tspan></tspan><tspan
-           y="55.378246"> </tspan></tspan><tspan
-         x="-20.107485"
-         y="66.402545"><tspan
-           style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:condensed;font-size:8.81944px;font-family:'Agency FB';-inkscape-font-specification:'Agency FB, Bold Condensed';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;text-align:center;text-anchor:middle;fill:#666666;fill-opacity:1;stroke-width:0.264583">NMW Model</tspan><tspan></tspan><tspan
-           y="66.402545"> </tspan></tspan><tspan
-         x="-20.107485"
-         y="77.426844"><tspan
-           style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:condensed;font-size:8.81944px;font-family:'Agency FB';-inkscape-font-specification:'Agency FB, Bold Condensed';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;text-align:center;text-anchor:middle;fill:#666666;fill-opacity:1;stroke-width:0.264583">Output</tspan></tspan></text>
-    <g
-       id="g195"
-       style="fill:#666666;fill-opacity:1;stroke-width:19.4836;stroke-miterlimit:4;stroke-dasharray:none"
-       transform="matrix(0.04549898,0,0,0.04671448,-36.974399,128.40057)">
-      <path
-         d="m 404.30762,395.73828 c -38.01123,38.90332 -88.80957,60.32813 -143.03711,60.32813 -110.3169,0 -200.066408,-89.74903 -200.066408,-200.06641 0,-110.31738 89.749508,-200.066406 200.066408,-200.066406 54.22803,0 105.02588,21.425781 143.03711,60.329106 2.70215,2.76757 7.1333,2.81738 9.89892,0.11523 2.76514,-2.70215 2.81641,-7.13379 0.11475,-9.89844 -40.66748,-41.623045 -95.02197,-64.545896 -153.05078,-64.545896 -57.1792,0 -110.93604,22.266602 -151.36768,62.698246 C 69.470703,145.06445 47.204102,198.82129 47.204102,256 c 0,57.17969 22.266601,110.93652 62.698728,151.36816 40.43164,40.43164 94.18848,62.69825 151.36768,62.69825 58.02832,0 112.38281,-22.92188 153.05078,-64.54493 2.70166,-2.76464 2.65039,-7.19628 -0.11475,-9.89843 -2.76562,-2.70118 -7.19677,-2.65235 -9.89892,0.11523 z"
-         id="path1353"
-         style="fill:#666666;fill-opacity:1;stroke-width:19.4836;stroke-miterlimit:4;stroke-dasharray:none" />
-      <path
-         d="M 461.82324,250.27539 314.55029,146.68359 c -2.1372,-1.50293 -4.93408,-1.68945 -7.25293,-0.4873 -2.31884,1.2041 -3.77441,3.59961 -3.77441,6.21289 V 210.8623 H 199.08008 c -3.86621,0 -7,3.13379 -7,7 v 76.2754 c 0,3.86621 3.13379,7 7,7 h 104.44287 v 58.45312 c 0,2.61328 1.45557,5.00879 3.77441,6.21289 1.01514,0.52637 2.12207,0.78711 3.2251,0.78711 1.41602,0 2.82617,-0.42969 4.02783,-1.27441 L 461.82324,261.72656 c 1.86377,-1.31054 2.97266,-3.44726 2.97266,-5.72558 0,-2.27832 -1.10889,-4.41407 -2.97266,-5.72559 z M 317.52295,346.1084 v -51.9707 c 0,-3.86622 -3.13379,-7 -7,-7 H 206.08008 v -62.2754 h 104.44287 c 3.86621,0 7,-3.13378 7,-7 v -51.9707 l 128.10596,90.10938 z"
-         id="path1355"
-         style="fill:#666666;fill-opacity:1;stroke-width:1680.84;stroke-miterlimit:4;stroke-dasharray:none" />
-    </g>
+     transform="translate(-9.4524452)"
+     id="g651">
+    <circle
+       transform="scale(-1,1)"
+       r="2.5"
+       cy="82.105896"
+       cx="217.68896"
+       id="circle531"
+       style="fill:#333333;fill-opacity:1;stroke-width:0.11792" />
+    <circle
+       transform="scale(-1,1)"
+       style="fill:#333333;fill-opacity:1;stroke-width:0.11792"
+       id="circle533"
+       cx="240.15303"
+       cy="59.93483"
+       r="2.5" />
+    <path
+       style="fill:none;stroke:#000000;stroke-width:0.198536px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       d="m -217.68896,82.105896 -9.56155,-22.094252 h -12.93391"
+       id="path535" />
+  </g>
+  <path
+     d="m -208.76641,139.80473 c -8.79475,0 -15.875,8.25116 -15.875,18.50016 0,10.249 7.08025,18.50016 15.875,18.50016 h 154.016462 c 0.664343,0 1.317623,-0.0527 1.960087,-0.14417 V 139.9489 c -0.642477,-0.0915 -1.295728,-0.14417 -1.960087,-0.14417 z"
+     style="fill:#c62e47;fill-opacity:1;stroke-width:0.119746"
+     id="path545" />
+  <text
+     y="0"
+     x="0"
+     xml:space="preserve"
+     id="text569"
+     style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:condensed;font-size:7.05556px;line-height:1.25;font-family:'Agency FB';-inkscape-font-specification:'Agency FB, Bold Condensed';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;text-align:justify;white-space:pre;shape-inside:url(#rect635);fill:#000000;fill-opacity:1;stroke:none"
+     transform="translate(-79.693325,183.04607)"><tspan
+       x="-130.32617"
+       y="-31.500466"><tspan
+         dx="0 0 0 0 0 0 0 0 0 0 0 0 1.5763575 0 0 0 1.5763537"
+         style="shape-inside:url(#rect635)">Forecasters can provide </tspan><tspan
+         dx="1.5763537"
+         style="fill:#f9f9f9">qualitative</tspan><tspan
+         style="shape-inside:url(#rect635)"> </tspan><tspan
+         dx="1.5763575"
+         style="fill:#f9f9f9">probabilities</tspan><tspan
+         dx="0 1.5763575 0 0 0 1.5763575"
+         style="shape-inside:url(#rect635)"> for an </tspan></tspan><tspan
+       x="-130.32617"
+       y="-22.681016"><tspan
+         dx="0 0 0 0 0 0 0 0.65642607"
+         style="shape-inside:url(#rect635)">event, which </tspan><tspan
+         dx="0.65642416"
+         style="fill:#f9f9f9">could</tspan><tspan
+         style="shape-inside:url(#rect635)"> </tspan><tspan
+         dx="0.65642798 0 0 0.65642798 0 0 0 0.65642416"
+         style="fill:#f9f9f9">be not reliable </tspan><tspan
+         dx="0.65642416 0 0 0.65642798 0 0 0 0.65642035 0 0 0 0 0 0 0 0 0 0 0.65642798 0 0 0.65641272"
+         style="shape-inside:url(#rect635)">if the forecaster is not </tspan></tspan><tspan
+       x="-130.32617"
+       y="-13.861566"><tspan
+         style="shape-inside:url(#rect635)">experienced forecasting that specific event.</tspan></tspan></text>
+  <text
+     xml:space="preserve"
+     id="text597"
+     style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:condensed;font-size:7.05556px;line-height:1.25;font-family:'Agency FB';-inkscape-font-specification:'Agency FB, Bold Condensed';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;white-space:pre;shape-inside:url(#rect637);fill:#008080;fill-opacity:1;stroke:none;"
+     transform="translate(337.57575,152.3324)"><tspan
+       x="-130.32617"
+       y="-31.500466"><tspan
+         style="fill:#4d4d4d">ecPoint is</tspan><tspan
+         style="shape-inside:url(#rect637)"> faster adapting to </tspan></tspan><tspan
+       x="-130.32617"
+       y="-22.681016"><tspan
+         style="shape-inside:url(#rect637)">updates in the NWP model </tspan><tspan
+         style="fill:#4d4d4d">as the </tspan></tspan><tspan
+       x="-130.32617"
+       y="-13.861566"><tspan
+         style="fill:#4d4d4d">relationship forecasts-</tspan></tspan><tspan
+       x="-130.32617"
+       y="-5.0421152"><tspan
+         style="fill:#4d4d4d">observations is defined by a </tspan></tspan><tspan
+       x="-130.32617"
+       y="3.7773352"><tspan
+         style="fill:#4d4d4d">dynamical calibration process.</tspan></tspan></text>
+  <path
+     id="path599"
+     style="fill:#008080;fill-opacity:1;stroke-width:0.119746"
+     d="m 161.89374,139.80472 c 8.79475,0 15.875,8.25117 15.875,18.50017 0,10.249 -7.08025,18.50017 -15.875,18.50017 H 7.8773214 c -0.66435,0 -1.3176301,-0.0527 -1.9600901,-0.14418 V 139.9489 c 0.64248,-0.0915 1.2957301,-0.14418 1.9600901,-0.14418 z" />
+  <text
+     y="0"
+     x="0"
+     transform="translate(149.28085,183.04607)"
+     style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:condensed;font-size:7.05556px;line-height:1.25;font-family:'Agency FB';-inkscape-font-specification:'Agency FB, Bold Condensed';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;text-align:justify;white-space:pre;shape-inside:url(#rect639);fill:#000000;fill-opacity:1;stroke:none"
+     id="text619"
+     xml:space="preserve"><tspan
+       x="-130.32617"
+       y="-31.500466"><tspan
+         dx="0 0 0 0 0 0 0 0 0.68666518 0 0 0 0.68666518"
+         style="shape-inside:url(#rect639)">ecPoint can provide </tspan><tspan
+         dx="0.68666708 0 0 0 0 0 0 0 0 0 0 0 0 0.68666708"
+         style="fill:#f9f9f9">quantitative probabilities</tspan><tspan
+         dx="0 0.68666327 0 0 0 0.68666327 0 0 0.68666327"
+         style="shape-inside:url(#rect639)"> for an event, </tspan></tspan><tspan
+       x="-130.32617"
+       y="-22.681016"><tspan
+         style="shape-inside:url(#rect639)">which </tspan><tspan
+         dx="0.019023538 0 0 0 0.01902163 0 0 0 0 0.019025445"
+         style="fill:#f9f9f9">are more reliable</tspan><tspan
+         dx="0 0.019022584 0 0 0.019026399 0 0 0 0.019026399 0 0 0 0.019026399 0 0 0 0 0 0 0 0.019022584 0 0 0.019022584 0 0 0 0.019018769"
+         style="shape-inside:url(#rect639)"> as are not related to the experience </tspan></tspan><tspan
+       x="-130.32617"
+       y="-13.861566"><tspan
+         style="shape-inside:url(#rect639)">of the forecaster or the rarity of the event at the location. </tspan></tspan></text>
+  <text
+     y="0"
+     x="75.265053"
+     transform="translate(-203.4331,149.30716)"
+     style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:condensed;font-size:7.05556px;line-height:1.25;font-family:'Agency FB';-inkscape-font-specification:'Agency FB, Bold Condensed';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;text-align:end;white-space:pre;shape-inside:url(#rect641);fill:#c62e47;fill-opacity:1;stroke:none"
+     id="text625"
+     xml:space="preserve"><tspan
+       x="-129.73692"
+       y="-31.500466"><tspan
+         style="fill:#4d4d4d">Forecasters are</tspan><tspan
+         style="shape-inside:url(#rect641)"> slower adpating </tspan></tspan><tspan
+       x="-126.18158"
+       y="-22.681016"><tspan
+         style="shape-inside:url(#rect641)">to updates in the NWP model </tspan><tspan
+         style="fill:#4d4d4d">as </tspan></tspan><tspan
+       x="-88.547333"
+       y="-13.861566"><tspan
+         style="fill:#4d4d4d">the relationship </tspan></tspan><tspan
+       x="-121.951"
+       y="-5.0421152"><tspan
+         style="fill:#4d4d4d">forecastsobservations will be </tspan></tspan><tspan
+       x="-126.37451"
+       y="3.7773352"><tspan
+         style="fill:#4d4d4d">dictated by hte past experience </tspan></tspan><tspan
+       x="-93.287788"
+       y="12.596786"><tspan
+         style="fill:#4d4d4d">of the forecaster.</tspan></tspan></text>
+  <g
+     transform="translate(7.3061698)"
+     id="g671">
+    <circle
+       r="2.5"
+       cy="158.30531"
+       cx="172.96257"
+       id="circle601"
+       style="fill:#333333;fill-opacity:1;stroke-width:0.11792" />
+    <circle
+       style="fill:#333333;fill-opacity:1;stroke-width:0.11792"
+       id="circle621"
+       cx="195.42664"
+       cy="136.2294"
+       r="2.5" />
+    <path
+       style="fill:none;stroke:#000000;stroke-width:0.198536px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       d="m 172.93117,158.32323 9.56155,-22.09425 h 12.93391"
+       id="path627" />
+  </g>
+  <g
+     transform="translate(-11.039939)"
+     id="g656">
+    <circle
+       style="fill:#333333;fill-opacity:1;stroke-width:0.11792"
+       id="circle629"
+       cx="216.10147"
+       cy="159.89369"
+       r="2.5"
+       transform="scale(-1,1)" />
+    <circle
+       r="2.5"
+       cy="137.72263"
+       cx="238.56554"
+       id="circle631"
+       style="fill:#333333;fill-opacity:1;stroke-width:0.11792"
+       transform="scale(-1,1)" />
+    <path
+       id="path633"
+       d="m -216.07005,159.91162 -9.56155,-22.09426 h -12.93391"
+       style="fill:none;stroke:#000000;stroke-width:0.198536px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1" />
   </g>
 </svg>
