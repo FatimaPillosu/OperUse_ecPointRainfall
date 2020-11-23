@@ -29,8 +29,8 @@
     <rect
        x="-130.32666"
        y="-38.091591"
-       width="142.50851"
-       height="47.200244"
+       width="144.09601"
+       height="72.618569"
        id="rect3621" />
     <rect
        x="-46.023813"
@@ -133,20 +133,20 @@
     </filter>
     <rect
        id="rect177"
-       height="48.258578"
-       width="145.68352"
+       height="73.40019"
+       width="142.93955"
        y="-38.091591"
        x="-130.32666" />
     <rect
        x="-130.32666"
        y="-38.091591"
-       width="98.58768"
-       height="74.187744"
+       width="105.99601"
+       height="86.887744"
        id="rect210" />
     <rect
        id="rect421"
-       height="56.196077"
-       width="68.954346"
+       height="69.95441"
+       width="81.654346"
        y="-38.091591"
        x="-130.32666" />
     <rect
@@ -157,44 +157,44 @@
        x="-130.32666" />
     <rect
        id="rect539"
-       height="85.829411"
-       width="98.058513"
+       height="91.121077"
+       width="98.058517"
        y="-38.091591"
        x="-130.32666" />
     <rect
        x="-130.32666"
        y="-38.091591"
-       width="145.68352"
+       width="140.92102"
        height="48.258578"
        id="rect541" />
     <rect
        x="-130.32666"
        y="-38.091591"
-       width="71.071014"
-       height="55.137744"
+       width="77.092026"
+       height="81.878679"
        id="rect543" />
     <rect
        x="-130.32666"
        y="-38.091591"
-       width="142.50851"
-       height="47.200244"
+       width="146.21268"
+       height="71.311034"
        id="rect635" />
     <rect
        x="-130.32666"
        y="-38.091591"
-       width="93.82518"
-       height="56.196078"
+       width="114.46268"
+       height="81.596078"
        id="rect637" />
     <rect
        id="rect639"
-       height="48.258578"
-       width="145.68352"
+       height="72.200211"
+       width="139.33352"
        y="-38.091591"
        x="-130.32666" />
     <rect
        id="rect641"
-       height="54.608578"
-       width="54.666847"
+       height="105.07897"
+       width="101.36408"
        y="-38.091591"
        x="-130.32666" />
   </defs>
@@ -208,8 +208,8 @@
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
      inkscape:zoom="0.5"
-     inkscape:cx="-35.730073"
-     inkscape:cy="300.66287"
+     inkscape:cx="-158.22538"
+     inkscape:cy="190.37564"
      inkscape:document-units="mm"
      inkscape:document-rotation="0"
      showgrid="false"
@@ -233,14 +233,14 @@
     </rdf:RDF>
   </metadata>
   <path
-     d="m -215.64562,-14.182649 c -8.79475,0 -15.875,11.1501223 -15.875,25.000002 0,13.849878 7.08025,24.999998 15.875,24.999998 h 154.0165 c 0.664343,0 1.317623,-0.07123 1.960087,-0.194833 v -49.610337 c -0.642477,-0.123607 -1.295728,-0.19483 -1.960087,-0.19483 z"
-     style="fill:#de8787;fill-opacity:1;stroke-width:0.139201"
+     d="m -215.64562,-39.582665 c -8.79475,0 -15.875,16.725191 -15.875,37.50001 0,20.77481 7.08025,37.49999 15.875,37.49999 h 154.0165 c 0.664343,0 1.317623,-0.106846 1.960087,-0.29225 V -39.29042 c -0.642477,-0.18541 -1.295728,-0.292245 -1.960087,-0.292245 z"
+     style="fill:#de8787;fill-opacity:1;stroke-width:0.170486"
      id="rect3184" />
   <text
      xml:space="preserve"
      id="text3188"
      style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:condensed;font-size:14.1111px;line-height:1.25;font-family:'Agency FB';-inkscape-font-specification:'Agency FB, Bold Condensed';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;white-space:pre;shape-inside:url(#rect3190);fill:#d35f5f;fill-opacity:1;stroke:none;"
-     transform="translate(-76.246864,30.688667)"
+     transform="translate(-76.246864,5.2886537)"
      x="44.741314"
      y="0"><tspan
        x="-120.04688"
@@ -249,7 +249,7 @@
   <text
      y="0"
      x="44.741314"
-     transform="translate(174.83249,31.114479)"
+     transform="translate(174.83249,5.7144657)"
      style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:condensed;font-size:14.1111px;line-height:1.25;font-family:'Agency FB';-inkscape-font-specification:'Agency FB, Bold Condensed';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;white-space:pre;shape-inside:url(#rect3198);fill:#ff7f2a;fill-opacity:1;stroke:none;"
      id="text3196"
      xml:space="preserve"><tspan
@@ -264,7 +264,7 @@
      inkscape:export-ydpi="96.16684"
      inkscape:export-xdpi="96.16684"
      style="fill:#d35f5f;fill-opacity:1"
-     transform="matrix(0.51724138,0,0,0.50088051,-162.14655,-68.54753)"
+     transform="matrix(0.51724138,0,0,0.50088051,-162.14655,-93.947546)"
      id="g1309">
     <path
        style="fill:#d35f5f;fill-opacity:1"
@@ -356,7 +356,7 @@
      id="People"
      fill-rule="evenodd"
      fill="none"
-     transform="matrix(0.53571429,0,0,0.5,76.842985,-67.492938)"
+     transform="matrix(0.53571429,0,0,0.5,76.842985,-92.892954)"
      style="fill:#ff9955;fill-opacity:1">
     <g
        transform="translate(-2)"
@@ -374,29 +374,33 @@
      x="0"
      xml:space="preserve"
      id="text3619"
-     style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:condensed;font-size:7.05556px;line-height:1.25;font-family:'Agency FB';-inkscape-font-specification:'Agency FB, Bold Condensed';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;text-align:justify;white-space:pre;shape-inside:url(#rect3621);fill:#000000;fill-opacity:1;stroke:none;"
-     transform="translate(-86.572496,27.49036)"><tspan
+     style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:condensed;font-size:10.5833px;line-height:1.25;font-family:'Agency FB';-inkscape-font-specification:'Agency FB, Condensed';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;text-align:justify;white-space:pre;shape-inside:url(#rect3621);fill:#000000;fill-opacity:1;stroke:none;"
+     transform="translate(-86.572496,3.6920946)"><tspan
        x="-130.32617"
-       y="-29.852643"><tspan
-         dx="0 0 0 0 0 0 0 0 0 0 0 0 2.8137462 0 0 0 0 0 2.8137424 0 0 0 2.8137462 0 0 0 0 0 0 0 0 2.8137462 0 0 0 0 0 0 0 2.8137462 0 0 2.8137538"
-         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:condensed;font-size:8.81944px;font-family:'Agency FB';-inkscape-font-specification:'Agency FB, Condensed';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;text-align:justify;text-anchor:start;shape-inside:url(#rect3621)">Forecasters place the synoptic pattern in the </tspan></tspan><tspan
+       y="-28.204839"><tspan
+         dx="0 0 0 0 0 0 0 0 0 0 0 0 1.2116091 0 0 0 0 0 1.2116129 0 0 0 1.2116129 0 0 0 0 0 0 0 0 1.2116129 0 0 0 0 0 0 0 1.2116053"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:condensed;font-size:10.5833px;font-family:'Agency FB';-inkscape-font-specification:'Agency FB, Condensed';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;text-align:justify;text-anchor:start;shape-inside:url(#rect3621)">Forecasters place the synoptic pattern in </tspan></tspan><tspan
        x="-130.32617"
-       y="-18.828344"><tspan
-         dx="0 0 0 0 0 0 0 0 3.192704 0 0 3.192704 0 0 0 3.1927059 0 0 0 0 0 0 0 0 0 0 3.1927059 0 0 3.1927059 0 0 0 0 0 0 0 3.1926982"
-         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:condensed;font-size:8.81944px;font-family:'Agency FB';-inkscape-font-specification:'Agency FB, Condensed';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;text-align:justify;text-anchor:start;shape-inside:url(#rect3621)">context of the experience of similar weather </tspan></tspan><tspan
+       y="-14.975715"><tspan
+         dx="0 0 0 0 2.1431086 0 0 0 0 0 0 0 2.1431086 0 0 2.1431086 0 0 0 2.1431086 0 0 0 0 0 0 0 0 0 0 2.1431086 0 0 2.1431086"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:condensed;font-size:10.5833px;font-family:'Agency FB';-inkscape-font-specification:'Agency FB, Condensed';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;text-align:justify;text-anchor:start;shape-inside:url(#rect3621)">the context of the experience of similar </tspan></tspan><tspan
        x="-130.32617"
-       y="-7.8040441"><tspan
-         dx="0 0 0 0 0 0 0 0 0 2.7131984 0 0 2.7131984 0 0 0 2.7132022 0 0 0 0 2.7132022 0 0 0 2.7131984 0 0 0 2.7132061 0 0 0 2.7131984 0 0 0 2.7131984"
-         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:condensed;font-size:8.81944px;font-family:'Agency FB';-inkscape-font-specification:'Agency FB, Condensed';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;text-align:justify;text-anchor:start;shape-inside:url(#rect3621)">patterns in the past and how the raw model </tspan></tspan><tspan
+       y="-1.7465908"><tspan
+         dx="0 0 0 0 0 0 0 0 0.94516587 0 0 0 0 0 0 0 0 0.94516778 0 0 0.94517159 0 0 0 0.94516397 0 0 0 0 0.94516397 0 0 0 0.94517159 0 0 0 0.94517159"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:condensed;font-size:10.5833px;font-family:'Agency FB';-inkscape-font-specification:'Agency FB, Condensed';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;text-align:justify;text-anchor:start;shape-inside:url(#rect3621)">weather patterns in the past and how the </tspan></tspan><tspan
        x="-130.32617"
-       y="3.2202556"><tspan
-         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:condensed;font-size:8.81944px;font-family:'Agency FB';-inkscape-font-specification:'Agency FB, Condensed';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal">forecasts related to</tspan><tspan
-         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:condensed;font-size:8.81944px;font-family:'Agency FB';-inkscape-font-specification:'Agency FB, Bold Condensed';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;text-align:justify;text-anchor:start;shape-inside:url(#rect3621)"> </tspan><tspan
-         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:condensed;font-size:8.81944px;font-family:'Agency FB';-inkscape-font-specification:'Agency FB, Bold Condensed';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;text-align:justify;text-anchor:start;fill:#ffffff">local observations.</tspan></tspan></text>
+       y="11.482533"><tspan
+         dx="0 0 0 0 4.2501764 0 0 0 0 0 4.2501755 0 0 0 0 0 0 0 0 0 4.2501793 0 0 0 0 0 0 0 4.2501717"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:condensed;font-size:10.5833px;font-family:'Agency FB';-inkscape-font-specification:'Agency FB, Condensed';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;text-align:justify;text-anchor:start;shape-inside:url(#rect3621)">raw model forecasts related to </tspan><tspan
+         dx="4.2501717"
+         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:condensed;font-size:10.5833px;font-family:'Agency FB';-inkscape-font-specification:'Agency FB, Bold Condensed';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;text-align:justify;text-anchor:start;fill:#ffffff">local </tspan></tspan><tspan
+       x="-130.32617"
+       y="24.711657"><tspan
+         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:condensed;font-size:10.5833px;font-family:'Agency FB';-inkscape-font-specification:'Agency FB, Bold Condensed';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;text-align:justify;text-anchor:start;fill:#ffffff">observations.</tspan></tspan></text>
   <text
      y="0"
      x="44.741314"
-     transform="translate(57.047721,15.013029)"
+     transform="translate(57.047721,-10.386975)"
      style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:condensed;font-size:14.1111px;line-height:1.25;font-family:'Agency FB';-inkscape-font-specification:'Agency FB, Bold Condensed';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;white-space:pre;shape-inside:url(#rect3219);fill:#666666;fill-opacity:1;stroke:none;"
      id="text3217"
      xml:space="preserve"><tspan
@@ -404,27 +408,31 @@
        y="-49.377142"><tspan
          style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:condensed;font-size:17.6389px;font-family:'Agency FB';-inkscape-font-specification:'Agency FB, Bold Condensed';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;text-align:center;text-anchor:middle;fill:#666666;fill-opacity:1">VS</tspan></tspan></text>
   <g
-     transform="translate(-343.45871,-12.223993)"
+     transform="translate(-341.75709,1.5343487)"
      id="g367">
     <text
-       transform="translate(337.09121,56.890661)"
+       transform="translate(334.97454,53.186497)"
        id="text3229"
        y="55.378246"
        x="-20.107485"
-       style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:condensed;font-size:8.81944px;line-height:1.25;font-family:'Agency FB';-inkscape-font-specification:'Agency FB, Bold Condensed';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;text-align:center;text-anchor:middle;white-space:pre;inline-size:60.5511;fill:#666666;fill-opacity:1;stroke:none;stroke-width:0.264583"
+       style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:condensed;font-size:12.3472px;line-height:1.25;font-family:'Agency FB';-inkscape-font-specification:'Agency FB, Bold Condensed';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;text-align:center;text-anchor:middle;white-space:pre;inline-size:60.5511;fill:#666666;fill-opacity:1;stroke:none;stroke-width:0.264583"
        xml:space="preserve"><tspan
          x="-20.107485"
          y="55.378246"><tspan
-           style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:condensed;font-size:10.5833px;font-family:'Agency FB';-inkscape-font-specification:'Agency FB, Bold Condensed';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;text-align:center;text-anchor:middle;fill:#666666;fill-opacity:1;stroke-width:0.264583">Post-Processing</tspan><tspan></tspan><tspan
-           y="55.378246"> </tspan></tspan><tspan
+           style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:condensed;font-size:12.3472px;font-family:'Agency FB';-inkscape-font-specification:'Agency FB, Bold Condensed';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;text-align:center;text-anchor:middle;fill:#666666;fill-opacity:1;stroke-width:0.264583">Post-</tspan></tspan><tspan
          x="-20.107485"
-         y="68.607371"><tspan
-           style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:condensed;font-size:10.5833px;font-family:'Agency FB';-inkscape-font-specification:'Agency FB, Bold Condensed';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;text-align:center;text-anchor:middle;fill:#666666;fill-opacity:1;stroke-width:0.264583">Approach</tspan></tspan></text>
+         y="70.812244"><tspan
+           style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:condensed;font-size:12.3472px;font-family:'Agency FB';-inkscape-font-specification:'Agency FB, Bold Condensed';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;text-align:center;text-anchor:middle;fill:#666666;fill-opacity:1;stroke-width:0.264583">Processing</tspan><tspan
+           style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:condensed;font-size:12.3472px;font-family:'Agency FB';-inkscape-font-specification:'Agency FB, Bold Condensed';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal"></tspan><tspan
+           y="70.812244"> </tspan></tspan><tspan
+         x="-20.107485"
+         y="86.246242"><tspan
+           style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:condensed;font-size:12.3472px;font-family:'Agency FB';-inkscape-font-specification:'Agency FB, Bold Condensed';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;text-align:center;text-anchor:middle;fill:#666666;fill-opacity:1;stroke-width:0.264583">Approach</tspan></tspan></text>
     <g
        inkscape:export-ydpi="96.16684"
        inkscape:export-xdpi="96.16684"
        style="fill:#666666;fill-opacity:1"
-       transform="matrix(0.32113914,0,0,0.32291293,306.667,70.826163)"
+       transform="matrix(0.40142393,0,0,0.40364117,302.41813,65.47159)"
        id="Processing">
       <path
          style="fill:#666666;fill-opacity:1"
@@ -437,30 +445,35 @@
     </g>
   </g>
   <g
-     transform="translate(-409.07537,64.460985)"
+     transform="translate(-409.49042,114.73195)"
      id="g383">
     <text
-       transform="translate(402.70787,45.866361)"
+       transform="translate(402.70787,38.987194)"
        id="text3469"
        y="55.378246"
        x="-20.107485"
-       style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:condensed;font-size:8.81944px;line-height:1.25;font-family:'Agency FB';-inkscape-font-specification:'Agency FB, Bold Condensed';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;text-align:center;text-anchor:middle;white-space:pre;inline-size:60.5511;fill:#666666;fill-opacity:1;stroke:none;stroke-width:0.264583"
+       style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:condensed;font-size:12.3472px;line-height:1.25;font-family:'Agency FB';-inkscape-font-specification:'Agency FB, Bold Condensed';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;text-align:center;text-anchor:middle;white-space:pre;inline-size:60.5511;fill:#666666;fill-opacity:1;stroke:none;stroke-width:0.264583"
        xml:space="preserve"><tspan
          x="-20.107485"
          y="55.378246"><tspan
-           style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:condensed;font-size:10.5833px;font-family:'Agency FB';-inkscape-font-specification:'Agency FB, Bold Condensed';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;text-align:center;text-anchor:middle;fill:#666666;fill-opacity:1;stroke-width:0.264583">Post-Processed</tspan><tspan></tspan><tspan
-           y="55.378246"> </tspan></tspan><tspan
+           style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:condensed;font-size:12.3472px;font-family:'Agency FB';-inkscape-font-specification:'Agency FB, Bold Condensed';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;text-align:center;text-anchor:middle;fill:#666666;fill-opacity:1;stroke-width:0.264583">Post-</tspan></tspan><tspan
          x="-20.107485"
-         y="68.607371"><tspan
-           style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:condensed;font-size:10.5833px;font-family:'Agency FB';-inkscape-font-specification:'Agency FB, Bold Condensed';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;text-align:center;text-anchor:middle;fill:#666666;fill-opacity:1;stroke-width:0.264583">NMW Model</tspan><tspan></tspan><tspan
-           y="68.607371"> </tspan></tspan><tspan
+         y="70.812244"><tspan
+           style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:condensed;font-size:12.3472px;font-family:'Agency FB';-inkscape-font-specification:'Agency FB, Bold Condensed';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;text-align:center;text-anchor:middle;fill:#666666;fill-opacity:1;stroke-width:0.264583">Processed</tspan><tspan
+           style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:condensed;font-size:12.3472px;font-family:'Agency FB';-inkscape-font-specification:'Agency FB, Bold Condensed';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal"></tspan><tspan
+           y="70.812244"> </tspan></tspan><tspan
          x="-20.107485"
-         y="81.836497"><tspan
-           style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:condensed;font-size:10.5833px;font-family:'Agency FB';-inkscape-font-specification:'Agency FB, Bold Condensed';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;text-align:center;text-anchor:middle;fill:#666666;fill-opacity:1;stroke-width:0.264583">Output</tspan></tspan></text>
+         y="86.246242"><tspan
+           style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:condensed;font-size:12.3472px;font-family:'Agency FB';-inkscape-font-specification:'Agency FB, Bold Condensed';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;text-align:center;text-anchor:middle;fill:#666666;fill-opacity:1;stroke-width:0.264583">NMW Model</tspan><tspan
+           style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:condensed;font-size:12.3472px;font-family:'Agency FB';-inkscape-font-specification:'Agency FB, Bold Condensed';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal"></tspan><tspan
+           y="86.246242"> </tspan></tspan><tspan
+         x="-20.107485"
+         y="101.68024"><tspan
+           style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:condensed;font-size:12.3472px;font-family:'Agency FB';-inkscape-font-specification:'Agency FB, Bold Condensed';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;text-align:center;text-anchor:middle;fill:#666666;fill-opacity:1;stroke-width:0.264583">Output</tspan></tspan></text>
     <g
        id="g195"
        style="fill:#666666;fill-opacity:1;stroke-width:19.4836;stroke-miterlimit:4;stroke-dasharray:none"
-       transform="matrix(0.04549898,0,0,0.04671448,371.15511,69.118871)">
+       transform="matrix(0.05986708,0,0,0.05839309,367.55784,51.166645)">
       <path
          d="m 404.30762,395.73828 c -38.01123,38.90332 -88.80957,60.32813 -143.03711,60.32813 -110.3169,0 -200.066408,-89.74903 -200.066408,-200.06641 0,-110.31738 89.749508,-200.066406 200.066408,-200.066406 54.22803,0 105.02588,21.425781 143.03711,60.329106 2.70215,2.76757 7.1333,2.81738 9.89892,0.11523 2.76514,-2.70215 2.81641,-7.13379 0.11475,-9.89844 -40.66748,-41.623045 -95.02197,-64.545896 -153.05078,-64.545896 -57.1792,0 -110.93604,22.266602 -151.36768,62.698246 C 69.470703,145.06445 47.204102,198.82129 47.204102,256 c 0,57.17969 22.266601,110.93652 62.698728,151.36816 40.43164,40.43164 94.18848,62.69825 151.36768,62.69825 58.02832,0 112.38281,-22.92188 153.05078,-64.54493 2.70166,-2.76464 2.65039,-7.19628 -0.11475,-9.89843 -2.76562,-2.70118 -7.19677,-2.65235 -9.89892,0.11523 z"
          id="path1353"
@@ -475,28 +488,28 @@
      xml:space="preserve"
      id="text208"
      style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:condensed;font-size:8.81944px;line-height:1.25;font-family:'Agency FB';-inkscape-font-specification:'Agency FB, Bold Condensed';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;white-space:pre;shape-inside:url(#rect210);fill:#008080;fill-opacity:1;stroke:none;"
-     transform="translate(334.5528,-5.8883138)"><tspan
+     transform="translate(334.02363,-27.58416)"><tspan
        x="-130.32617"
-       y="-29.852643"><tspan
-         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:condensed;font-size:8.81944px;font-family:'Agency FB';-inkscape-font-specification:'Agency FB, Bold Condensed';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;fill:#4d4d4d">ecPoint </tspan><tspan
-         style="shape-inside:url(#rect210);fill:#ff7f2a">can learn from other </tspan></tspan><tspan
+       y="-28.204839"><tspan
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:condensed;font-size:10.5833px;font-family:'Agency FB';-inkscape-font-specification:'Agency FB, Condensed';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;fill:#4d4d4d">ecPoint </tspan><tspan
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:condensed;font-size:10.5833px;font-family:'Agency FB';-inkscape-font-specification:'Agency FB, Condensed';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;shape-inside:url(#rect210);fill:#ff7f2a">can learn from other </tspan></tspan><tspan
        x="-130.32617"
-       y="-18.828344"><tspan
-         style="fill:#ff7f2a">locations</tspan><tspan
-         style="shape-inside:url(#rect210);fill:#ff7f2a"> </tspan><tspan
-         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:condensed;font-size:8.81944px;font-family:'Agency FB';-inkscape-font-specification:'Agency FB, Bold Condensed';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;fill:#4d4d4d;fill-opacity:1">what post-processing </tspan></tspan><tspan
+       y="-14.975715"><tspan
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:condensed;font-size:10.5833px;font-family:'Agency FB';-inkscape-font-specification:'Agency FB, Condensed';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;fill:#ff7f2a">locations</tspan><tspan
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:condensed;font-size:10.5833px;font-family:'Agency FB';-inkscape-font-specification:'Agency FB, Condensed';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;shape-inside:url(#rect210);fill:#ff7f2a"> </tspan><tspan
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:condensed;font-size:10.5833px;font-family:'Agency FB';-inkscape-font-specification:'Agency FB, Condensed';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;fill:#4d4d4d;fill-opacity:1">what post-processing </tspan></tspan><tspan
        x="-130.32617"
-       y="-7.8040441"><tspan
-         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:condensed;font-size:8.81944px;font-family:'Agency FB';-inkscape-font-specification:'Agency FB, Bold Condensed';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;fill:#4d4d4d;fill-opacity:1">to apply in areas with no local </tspan></tspan><tspan
+       y="-1.7465908"><tspan
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:condensed;font-size:10.5833px;font-family:'Agency FB';-inkscape-font-specification:'Agency FB, Condensed';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;fill:#4d4d4d;fill-opacity:1">to apply in areas with no local </tspan></tspan><tspan
        x="-130.32617"
-       y="3.2202556"><tspan
-         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:condensed;font-size:8.81944px;font-family:'Agency FB';-inkscape-font-specification:'Agency FB, Bold Condensed';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;fill:#4d4d4d;fill-opacity:1">observations. Note that the </tspan></tspan><tspan
+       y="11.482533"><tspan
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:condensed;font-size:10.5833px;font-family:'Agency FB';-inkscape-font-specification:'Agency FB, Condensed';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;fill:#4d4d4d;fill-opacity:1">observations. Note that the </tspan></tspan><tspan
        x="-130.32617"
-       y="14.244555"><tspan
-         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:condensed;font-size:8.81944px;font-family:'Agency FB';-inkscape-font-specification:'Agency FB, Bold Condensed';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;fill:#4d4d4d;fill-opacity:1">verification will still be difficult </tspan></tspan><tspan
+       y="24.711657"><tspan
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:condensed;font-size:10.5833px;font-family:'Agency FB';-inkscape-font-specification:'Agency FB, Condensed';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;fill:#4d4d4d;fill-opacity:1">verification will still be difficult </tspan></tspan><tspan
        x="-130.32617"
-       y="25.268855"><tspan
-         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:condensed;font-size:8.81944px;font-family:'Agency FB';-inkscape-font-specification:'Agency FB, Bold Condensed';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;fill:#4d4d4d;fill-opacity:1">in such areas.</tspan></tspan></text>
+       y="37.940781"><tspan
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:condensed;font-size:10.5833px;font-family:'Agency FB';-inkscape-font-specification:'Agency FB, Condensed';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;fill:#4d4d4d;fill-opacity:1">in such areas.</tspan></tspan></text>
   <text
      xml:space="preserve"
      style="font-style:normal;font-weight:normal;font-size:10.5833px;line-height:1.25;font-family:sans-serif;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.264583"
@@ -515,62 +528,57 @@
        id="tspan224" /></text>
   <path
      id="path226"
-     style="fill:#ffb380;fill-opacity:1;stroke-width:0.139201"
-     d="m 161.89374,-14.182649 c 8.79475,0 15.875,11.1501299 15.875,25.000007 0,13.849876 -7.08025,24.999993 -15.875,24.999993 H 7.8773197 c -0.66435,0 -1.3176301,-0.07122 -1.9600901,-0.194836 v -49.610328 c 0.64248,-0.123647 1.2957301,-0.194836 1.9600901,-0.194836 z" />
+     style="fill:#ffb380;fill-opacity:1;stroke-width:0.170486"
+     d="m 161.89374,-39.582665 c 8.79475,0 15.875,16.725202 15.875,37.500017 0,20.774807 -7.08025,37.499983 -15.875,37.499983 H 7.8773197 c -0.66435,0 -1.3176301,-0.10683 -1.9600901,-0.292254 v -74.415492 c 0.64248,-0.185471 1.2957301,-0.292254 1.9600901,-0.292254 z" />
   <text
      y="0"
      x="0"
-     transform="translate(149.28085,26.708741)"
-     style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:condensed;font-size:8.81944px;line-height:1.25;font-family:'Agency FB';-inkscape-font-specification:'Agency FB, Bold Condensed';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;text-align:justify;white-space:pre;shape-inside:url(#rect177);fill:#000000;fill-opacity:1;stroke:none;"
+     transform="translate(150.58316,9.3687287)"
+     style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:condensed;font-size:10.5833px;line-height:1.25;font-family:'Agency FB';-inkscape-font-specification:'Agency FB, Condensed';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;text-align:justify;white-space:pre;shape-inside:url(#rect177);fill:#000000;fill-opacity:1;stroke:none;"
      id="text175"
      xml:space="preserve"><tspan
        x="-130.32617"
-       y="-29.852643"><tspan
-         dx="0 0 0 0 0 0 0 0 0.078490019 0 0 0 0 0 0 0.078490019 0 0 0 0.078490019 0 0 0 0 0 0 0 0 0.078493834 0 0 0 0 0 0 0 0.078486204 0 0 0.078486204 0 0 0 0.078493834 0 0 0 0 0 0 0 0.078478575"
-         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:condensed;font-size:8.81944px;font-family:'Agency FB';-inkscape-font-specification:'Agency FB, Condensed';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;text-align:justify;text-anchor:start;shape-inside:url(#rect3621)">ecPoint places the synoptic pattern in the context of </tspan></tspan><tspan
+       y="-28.204839"><tspan
+         dx="0 0 0 0 0 0 0 0 0.71706033 0 0 0 0 0 0 0.71706033 0 0 0 0.71705651 0 0 0 0 0 0 0 0 0.71706033 0 0 0 0 0 0 0 0.71706033 0 0 0.71706796"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:condensed;font-size:10.5833px;font-family:'Agency FB';-inkscape-font-specification:'Agency FB, Condensed';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;text-align:justify;text-anchor:start;shape-inside:url(#rect3621)">ecPoint places the synoptic pattern in the </tspan></tspan><tspan
        x="-130.32617"
-       y="-18.828344"><tspan
-         dx="0 0 0 0 1.1464689 0 0 0 0 0 0 0 0 0 0 1.1464717 0 0 1.1464717 0 0 0 0 0 0 0 1.1464717 0 0 0 0 0 0 0 1.1464717"
-         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:condensed;font-size:8.81944px;font-family:'Agency FB';-inkscape-font-specification:'Agency FB, Condensed';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;text-align:justify;text-anchor:start;shape-inside:url(#rect3621)">the experience of similar weather in </tspan><tspan
-         dx="1.1464717 0 0 0 1.1464717 0 0 0 0 1.1464794"
-         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:condensed;font-size:8.81944px;font-family:'Agency FB';-inkscape-font-specification:'Agency FB, Condensed';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;text-align:justify;text-anchor:start;shape-inside:url(#rect3621)">the past and </tspan></tspan><tspan
+       y="-14.975715"><tspan
+         dx="0 0 0 0 0 0 0 0 4.8829536 0 0 4.8829536 0 0 0 4.8829536 0 0 0 0 0 0 0 0 0 0 4.8829536 0 0 4.8829536"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:condensed;font-size:10.5833px;font-family:'Agency FB';-inkscape-font-specification:'Agency FB, Condensed';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;text-align:justify;text-anchor:start;shape-inside:url(#rect3621)">context of the experience of similar </tspan></tspan><tspan
        x="-130.32617"
-       y="-7.8040441"><tspan
-         dx="0 0 0 0 4.7440462"
-         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:condensed;font-size:8.81944px;font-family:'Agency FB';-inkscape-font-specification:'Agency FB, Condensed';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;text-align:justify;text-anchor:start;shape-inside:url(#rect3621)">how the </tspan><tspan
-         dx="4.7440462 0 0 0 0 0 4.7440443 0 0 0 0 0 0 0 0 0 4.7440481 0 0 0 0 0 0 0 4.7440519"
-         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:condensed;font-size:8.81944px;font-family:'Agency FB';-inkscape-font-specification:'Agency FB, Condensed';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal">model forecasts related to</tspan><tspan
-         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:condensed;font-size:8.81944px;font-family:'Agency FB';-inkscape-font-specification:'Agency FB, Bold Condensed';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;text-align:justify;text-anchor:start;shape-inside:url(#rect3621)"> </tspan><tspan
-         dx="4.7440467"
-         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:condensed;font-size:8.81944px;font-family:'Agency FB';-inkscape-font-specification:'Agency FB, Bold Condensed';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;text-align:justify;text-anchor:start;fill:#ffffff">global </tspan></tspan><tspan
+       y="-1.7465908"><tspan
+         dx="0 0 0 0 0 0 0 0 2.0084059 0 0 2.0084078 0 0 0 2.0084078 0 0 0 0 2.0084116 0 0 0 2.008404 0 0 0 2.008404 0 0 0 2.008404"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:condensed;font-size:10.5833px;font-family:'Agency FB';-inkscape-font-specification:'Agency FB, Condensed';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;text-align:justify;text-anchor:start;shape-inside:url(#rect3621)">weather in the past and how the model </tspan></tspan><tspan
        x="-130.32617"
-       y="3.2202556"><tspan
-         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:condensed;font-size:8.81944px;font-family:'Agency FB';-inkscape-font-specification:'Agency FB, Bold Condensed';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;text-align:justify;text-anchor:start;fill:#ffffff">observations.</tspan></tspan></text>
+       y="11.482533"><tspan
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:condensed;font-size:10.5833px;font-family:'Agency FB';-inkscape-font-specification:'Agency FB, Condensed';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;text-align:justify;text-anchor:start;shape-inside:url(#rect3621)">forecasts related to </tspan><tspan
+         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:condensed;font-size:10.5833px;font-family:'Agency FB';-inkscape-font-specification:'Agency FB, Bold Condensed';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;text-align:justify;text-anchor:start;fill:#ffffff">global observations.</tspan></tspan></text>
   <text
      y="0"
      x="75.265053"
-     transform="translate(-196.15218,2.0491865)"
-     style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:condensed;font-size:8.81944px;line-height:1.25;font-family:'Agency FB';-inkscape-font-specification:'Agency FB, Bold Condensed';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;text-align:end;white-space:pre;shape-inside:url(#rect421);fill:#c62e47;fill-opacity:1;stroke:none;"
+     transform="translate(-208.32302,-21.763322)"
+     style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:condensed;font-size:10.5833px;line-height:1.25;font-family:'Agency FB';-inkscape-font-specification:'Agency FB, Condensed';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;text-align:end;white-space:pre;shape-inside:url(#rect421);fill:#c62e47;fill-opacity:1;stroke:none;"
      id="text413"
      xml:space="preserve"><tspan
-       x="-125.96855"
-       y="-29.852643"><tspan
-         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:condensed;font-size:8.81944px;font-family:'Agency FB';-inkscape-font-specification:'Agency FB, Bold Condensed';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;fill:#4d4d4d">Forecasters will have </tspan></tspan><tspan
-       x="-123.31583"
-       y="-18.828344"><tspan
-         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:condensed;font-size:8.81944px;font-family:'Agency FB';-inkscape-font-specification:'Agency FB, Bold Condensed';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;fill:#d35f5f;fill-opacity:1">difficulties in gaining </tspan></tspan><tspan
-       x="-113.20448"
-       y="-7.8040441"><tspan
-         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:condensed;font-size:8.81944px;font-family:'Agency FB';-inkscape-font-specification:'Agency FB, Bold Condensed';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;fill:#d35f5f;fill-opacity:1">experience about </tspan></tspan><tspan
-       x="-116.6668"
-       y="3.2202556"><tspan
-         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:condensed;font-size:8.81944px;font-family:'Agency FB';-inkscape-font-specification:'Agency FB, Bold Condensed';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;fill:#d35f5f;fill-opacity:1">forecasts in areas </tspan></tspan><tspan
-       x="-125.58959"
-       y="14.244555"><tspan
-         style="fill:#d35f5f">with no observations.</tspan><tspan
-         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:condensed;font-size:8.81944px;font-family:'Agency FB';-inkscape-font-specification:'Agency FB, Bold Condensed';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;fill:#c62e47;fill-opacity:1"> </tspan></tspan></text>
+       x="-120.10915"
+       y="-28.204839"><tspan
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:condensed;font-size:10.5833px;font-family:'Agency FB';-inkscape-font-specification:'Agency FB, Condensed';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;fill:#4d4d4d">Forecasters will have </tspan></tspan><tspan
+       x="-117.3393"
+       y="-14.975715"><tspan
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:condensed;font-size:10.5833px;font-family:'Agency FB';-inkscape-font-specification:'Agency FB, Condensed';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;fill:#d35f5f;fill-opacity:1">difficulties in gaining </tspan></tspan><tspan
+       x="-106.03253"
+       y="-1.7465908"><tspan
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:condensed;font-size:10.5833px;font-family:'Agency FB';-inkscape-font-specification:'Agency FB, Condensed';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;fill:#d35f5f;fill-opacity:1">experience about </tspan></tspan><tspan
+       x="-126.06225"
+       y="11.482533"><tspan
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:condensed;font-size:10.5833px;font-family:'Agency FB';-inkscape-font-specification:'Agency FB, Condensed';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;fill:#d35f5f;fill-opacity:1">forecasts in areas </tspan><tspan
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:condensed;font-size:10.5833px;font-family:'Agency FB';-inkscape-font-specification:'Agency FB, Condensed';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;fill:#d35f5f">with </tspan></tspan><tspan
+       x="-103.84146"
+       y="24.711657"><tspan
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:condensed;font-size:10.5833px;font-family:'Agency FB';-inkscape-font-specification:'Agency FB, Condensed';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;fill:#d35f5f">no observations.</tspan><tspan
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:condensed;font-size:10.5833px;font-family:'Agency FB';-inkscape-font-specification:'Agency FB, Condensed';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;fill:#c62e47;fill-opacity:1"> </tspan></tspan></text>
   <g
-     transform="translate(7.4831961,6.3527928)"
+     transform="translate(7.4794185,-7.2709663)"
      id="g661">
     <circle
        r="2.5"
@@ -590,7 +598,7 @@
        id="path423" />
   </g>
   <g
-     transform="translate(-12.755482,6.8855196)"
+     transform="translate(-12.792469,-9.5022481)"
      id="g646">
     <circle
        style="fill:#333333;fill-opacity:1;stroke-width:0.11792"
@@ -616,170 +624,188 @@
      id="text431"
      xml:space="preserve" />
   <g
-     transform="translate(-276.7837,-89.369214)"
+     transform="translate(-277.31287,-91.485881)"
      id="g355">
-    <text
-       xml:space="preserve"
-       style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:condensed;font-size:8.81944px;line-height:1.25;font-family:'Agency FB';-inkscape-font-specification:'Agency FB, Bold Condensed';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;text-align:center;text-anchor:middle;white-space:pre;inline-size:60.3228;fill:#666666;fill-opacity:1;stroke:none;stroke-width:0.264583"
-       x="-20.107485"
-       y="55.378246"
-       id="text3443"
-       transform="translate(270.53032,47.438185)"><tspan
-         x="-20.107485"
-         y="55.378246"><tspan
-           style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:condensed;font-size:10.5833px;font-family:'Agency FB';-inkscape-font-specification:'Agency FB, Bold Condensed';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;text-align:center;text-anchor:middle;fill:#666666;fill-opacity:1;stroke-width:0.264583">Knowledge of</tspan><tspan></tspan><tspan
-           y="55.378246"> </tspan></tspan><tspan
-         x="-20.107485"
-         y="68.607371"><tspan
-           style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:condensed;font-size:10.5833px;font-family:'Agency FB';-inkscape-font-specification:'Agency FB, Bold Condensed';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;text-align:center;text-anchor:middle;fill:#666666;fill-opacity:1;stroke-width:0.264583">Raw NWP Model</tspan><tspan></tspan><tspan
-           y="68.607371"> </tspan></tspan><tspan
-         x="-20.107485"
-         y="81.836497"><tspan
-           style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:condensed;font-size:10.5833px;font-family:'Agency FB';-inkscape-font-specification:'Agency FB, Bold Condensed';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;text-align:center;text-anchor:middle;fill:#666666;fill-opacity:1;stroke-width:0.264583">&amp; Local Weather</tspan></tspan></text>
     <g
-       transform="translate(275.83784,26.251479)"
-       id="g3520">
+       id="g565">
+      <text
+         transform="translate(270.53032,28.388169)"
+         id="text3443"
+         y="55.378246"
+         x="-20.107485"
+         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:condensed;font-size:12.3472px;line-height:1.25;font-family:'Agency FB';-inkscape-font-specification:'Agency FB, Bold Condensed';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;text-align:center;text-anchor:middle;white-space:pre;inline-size:60.3228;fill:#666666;fill-opacity:1;stroke:none;stroke-width:0.264583"
+         xml:space="preserve"><tspan
+           x="-20.107485"
+           y="55.378246"><tspan
+             style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:condensed;font-size:12.3472px;font-family:'Agency FB';-inkscape-font-specification:'Agency FB, Bold Condensed';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;text-align:center;text-anchor:middle;fill:#666666;fill-opacity:1;stroke-width:0.264583">Knowledge of</tspan><tspan
+             style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:condensed;font-size:12.3472px;font-family:'Agency FB';-inkscape-font-specification:'Agency FB, Bold Condensed';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal"></tspan><tspan
+             y="55.378246"> </tspan></tspan><tspan
+           x="-20.107485"
+           y="70.812244"><tspan
+             style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:condensed;font-size:12.3472px;font-family:'Agency FB';-inkscape-font-specification:'Agency FB, Bold Condensed';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;text-align:center;text-anchor:middle;fill:#666666;fill-opacity:1;stroke-width:0.264583">Raw NWP</tspan><tspan
+             y="70.812244"> </tspan></tspan><tspan
+           x="-20.107485"
+           y="86.246242"><tspan
+             style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:condensed;font-size:12.3472px;font-family:'Agency FB';-inkscape-font-specification:'Agency FB, Bold Condensed';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;text-align:center;text-anchor:middle;fill:#666666;fill-opacity:1;stroke-width:0.264583">Model</tspan><tspan
+             style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:condensed;font-size:12.3472px;font-family:'Agency FB';-inkscape-font-specification:'Agency FB, Bold Condensed';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal"> </tspan><tspan
+             style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:condensed;font-size:12.3472px;font-family:'Agency FB';-inkscape-font-specification:'Agency FB, Bold Condensed';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;text-align:center;text-anchor:middle;fill:#666666;fill-opacity:1;stroke-width:0.264583">&amp; Local</tspan><tspan
+             y="86.246242"> </tspan></tspan><tspan
+           x="-20.107485"
+           y="101.68024"><tspan
+             style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:condensed;font-size:12.3472px;font-family:'Agency FB';-inkscape-font-specification:'Agency FB, Bold Condensed';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;text-align:center;text-anchor:middle;fill:#666666;fill-opacity:1;stroke-width:0.264583">Weather</tspan></tspan></text>
       <g
-         transform="matrix(1.2667391,0,0,1.3333333,-1.6958924,-6.259862)"
-         style="fill:#666666;fill-opacity:1"
-         id="g3461">
-        <path
-           id="path3445"
-           d="m -18.654802,41.312609 a 4.4785753,4.180701 0 0 0 -4.285725,4.000669 4.5000039,4.2007043 0 0 0 1.226795,2.850478 2.4428592,2.2803823 0 0 1 0.916077,1.650277 0.53571474,0.50008384 0 0 0 0.535708,0.500085 h 3.214289 a 0.53571474,0.50008384 0 0 0 0.535708,-0.500085 2.3892878,2.230374 0 0 1 0.905366,-1.640275 4.216075,3.9356598 0 0 0 1.237506,-2.86048 4.3767894,4.0856849 0 0 0 -1.307157,-2.915489 4.1089322,3.8356431 0 0 0 -2.978567,-1.08518 z m 2.324998,6.141029 a 3.6803603,3.435576 0 0 0 -1.205353,1.860311 h -2.239291 a 3.7500031,3.5005868 0 0 0 -1.178566,-1.85531 3.4339316,3.2055375 0 0 1 -0.916077,-2.145361 3.3696458,3.1455274 0 0 1 3.214289,-3.000503 3.0160741,2.8154721 0 0 1 2.212503,0.800135 3.3000028,3.0805164 0 0 1 1.001785,2.200368 3.1767885,2.9654973 0 0 1 -0.905366,2.14036 z"
-           class="cls-1"
-           style="fill:#666666;fill-opacity:1;stroke-width:0.517592" />
-        <path
-           id="path3447"
-           d="m -17.047658,50.814201 h -3.214289 a 0.53571508,0.50008416 0 0 0 0,1.000168 h 3.214289 a 0.53571508,0.50008416 0 0 0 0,-1.000168 z"
-           class="cls-1"
-           style="fill:#666666;fill-opacity:1;stroke-width:0.517592" />
-        <path
-           id="path3449"
-           d="m -17.583366,52.314452 h -2.142873 a 0.53571544,0.5000845 0 0 0 0,1.000169 h 2.142873 a 0.53571544,0.5000845 0 0 0 0,-1.000169 z"
-           class="cls-1"
-           style="fill:#666666;fill-opacity:1;stroke-width:0.517592" />
-        <path
-           id="path3451"
-           d="m -18.654802,40.31244 a 0.53571474,0.50008384 0 0 0 0.535708,-0.500083 v -1.000168 a 0.53571478,0.50008387 0 0 0 -1.071416,0 v 1.000168 a 0.53571474,0.50008384 0 0 0 0.535708,0.500083 z"
-           class="cls-1"
-           style="fill:#666666;fill-opacity:1;stroke-width:0.517592" />
-        <path
-           id="path3453"
-           d="m -24.547671,44.813195 h -1.071416 a 0.53571508,0.50008416 0 0 0 0,1.000168 h 1.071416 a 0.53571508,0.50008416 0 0 0 0,-1.000168 z"
-           class="cls-1"
-           style="fill:#666666;fill-opacity:1;stroke-width:0.517592" />
-        <path
-           id="path3455"
-           d="m -11.690518,44.813195 h -1.071416 a 0.53571508,0.50008416 0 0 0 0,1.000168 h 1.071416 a 0.53571508,0.50008416 0 0 0 0,-1.000168 z"
-           class="cls-1"
-           style="fill:#666666;fill-opacity:1;stroke-width:0.517592" />
-        <path
-           id="path3457"
-           d="m -13.351237,40.362448 a 0.53571474,0.50008384 0 0 0 -0.755352,0 l -0.760719,0.705119 a 0.53571474,0.50008384 0 0 0 0,0.710119 0.53571474,0.50008384 0 0 0 0.38037,0.145025 0.53571474,0.50008384 0 0 0 0.380349,-0.145025 l 0.755352,-0.710119 a 0.53571474,0.50008384 0 0 0 0,-0.705119 z"
-           class="cls-1"
-           style="fill:#666666;fill-opacity:1;stroke-width:0.517592" />
-        <path
-           id="path3459"
-           d="m -22.442318,41.777686 a 0.53571474,0.50008384 0 0 0 0,-0.710119 l -0.760698,-0.705119 a 0.53571474,0.50008384 0 0 0 -0.755373,0.705119 l 0.755373,0.710119 a 0.53571474,0.50008384 0 0 0 0.380349,0.145025 0.53571474,0.50008384 0 0 0 0.380349,-0.145025 z"
-           class="cls-1"
-           style="fill:#666666;fill-opacity:1;stroke-width:0.517592" />
+         id="g3520"
+         transform="matrix(1.3157895,0,0,1.25,284.03081,-10.355101)">
+        <g
+           id="g3461"
+           style="fill:#666666;fill-opacity:1"
+           transform="matrix(1.2667391,0,0,1.3333333,-1.6958924,-6.259862)">
+          <path
+             style="fill:#666666;fill-opacity:1;stroke-width:0.517592"
+             class="cls-1"
+             d="m -18.654802,41.312609 a 4.4785753,4.180701 0 0 0 -4.285725,4.000669 4.5000039,4.2007043 0 0 0 1.226795,2.850478 2.4428592,2.2803823 0 0 1 0.916077,1.650277 0.53571474,0.50008384 0 0 0 0.535708,0.500085 h 3.214289 a 0.53571474,0.50008384 0 0 0 0.535708,-0.500085 2.3892878,2.230374 0 0 1 0.905366,-1.640275 4.216075,3.9356598 0 0 0 1.237506,-2.86048 4.3767894,4.0856849 0 0 0 -1.307157,-2.915489 4.1089322,3.8356431 0 0 0 -2.978567,-1.08518 z m 2.324998,6.141029 a 3.6803603,3.435576 0 0 0 -1.205353,1.860311 h -2.239291 a 3.7500031,3.5005868 0 0 0 -1.178566,-1.85531 3.4339316,3.2055375 0 0 1 -0.916077,-2.145361 3.3696458,3.1455274 0 0 1 3.214289,-3.000503 3.0160741,2.8154721 0 0 1 2.212503,0.800135 3.3000028,3.0805164 0 0 1 1.001785,2.200368 3.1767885,2.9654973 0 0 1 -0.905366,2.14036 z"
+             id="path3445" />
+          <path
+             style="fill:#666666;fill-opacity:1;stroke-width:0.517592"
+             class="cls-1"
+             d="m -17.047658,50.814201 h -3.214289 a 0.53571508,0.50008416 0 0 0 0,1.000168 h 3.214289 a 0.53571508,0.50008416 0 0 0 0,-1.000168 z"
+             id="path3447" />
+          <path
+             style="fill:#666666;fill-opacity:1;stroke-width:0.517592"
+             class="cls-1"
+             d="m -17.583366,52.314452 h -2.142873 a 0.53571544,0.5000845 0 0 0 0,1.000169 h 2.142873 a 0.53571544,0.5000845 0 0 0 0,-1.000169 z"
+             id="path3449" />
+          <path
+             style="fill:#666666;fill-opacity:1;stroke-width:0.517592"
+             class="cls-1"
+             d="m -18.654802,40.31244 a 0.53571474,0.50008384 0 0 0 0.535708,-0.500083 v -1.000168 a 0.53571478,0.50008387 0 0 0 -1.071416,0 v 1.000168 a 0.53571474,0.50008384 0 0 0 0.535708,0.500083 z"
+             id="path3451" />
+          <path
+             style="fill:#666666;fill-opacity:1;stroke-width:0.517592"
+             class="cls-1"
+             d="m -24.547671,44.813195 h -1.071416 a 0.53571508,0.50008416 0 0 0 0,1.000168 h 1.071416 a 0.53571508,0.50008416 0 0 0 0,-1.000168 z"
+             id="path3453" />
+          <path
+             style="fill:#666666;fill-opacity:1;stroke-width:0.517592"
+             class="cls-1"
+             d="m -11.690518,44.813195 h -1.071416 a 0.53571508,0.50008416 0 0 0 0,1.000168 h 1.071416 a 0.53571508,0.50008416 0 0 0 0,-1.000168 z"
+             id="path3455" />
+          <path
+             style="fill:#666666;fill-opacity:1;stroke-width:0.517592"
+             class="cls-1"
+             d="m -13.351237,40.362448 a 0.53571474,0.50008384 0 0 0 -0.755352,0 l -0.760719,0.705119 a 0.53571474,0.50008384 0 0 0 0,0.710119 0.53571474,0.50008384 0 0 0 0.38037,0.145025 0.53571474,0.50008384 0 0 0 0.380349,-0.145025 l 0.755352,-0.710119 a 0.53571474,0.50008384 0 0 0 0,-0.705119 z"
+             id="path3457" />
+          <path
+             style="fill:#666666;fill-opacity:1;stroke-width:0.517592"
+             class="cls-1"
+             d="m -22.442318,41.777686 a 0.53571474,0.50008384 0 0 0 0,-0.710119 l -0.760698,-0.705119 a 0.53571474,0.50008384 0 0 0 -0.755373,0.705119 l 0.755373,0.710119 a 0.53571474,0.50008384 0 0 0 0.380349,0.145025 0.53571474,0.50008384 0 0 0 0.380349,-0.145025 z"
+             id="path3459" />
+        </g>
       </g>
     </g>
   </g>
   <path
      id="path447"
-     style="fill:#de8787;fill-opacity:1;stroke-width:0.139201"
-     d="m -215.64562,62.017338 c -8.79475,0 -15.875,11.150131 -15.875,25.00002 0,13.849892 7.08025,24.999982 15.875,24.999982 h 154.016501 c 0.664343,0 1.317623,-0.0712 1.960087,-0.19482 V 62.212169 c -0.642477,-0.123607 -1.295728,-0.194831 -1.960087,-0.194831 z" />
+     style="fill:#de8787;fill-opacity:1;stroke-width:0.170486"
+     d="m -215.64562,67.573641 c -8.79475,0 -15.875,16.725196 -15.875,37.500099 0,20.77484 7.08025,37.49998 15.875,37.49998 h 154.016501 c 0.664343,0 1.317623,-0.10685 1.960087,-0.29224 V 67.865887 c -0.642477,-0.18541 -1.295728,-0.292246 -1.960087,-0.292246 z" />
   <text
-     transform="translate(-86.699102,113.93304)"
+     transform="translate(-86.699102,123.13964)"
      style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:condensed;font-size:8.81944px;line-height:1.25;font-family:'Agency FB';-inkscape-font-specification:'Agency FB, Bold Condensed';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;text-align:justify;white-space:pre;shape-inside:url(#rect537);fill:#000000;fill-opacity:1;stroke:none;"
      id="text471"
      xml:space="preserve"
      x="0"
      y="0"><tspan
        x="-130.32617"
-       y="-29.852643"><tspan
-         dx="0 0 0 0 0 0 0 0 0 0 0 0 0.15815234 0.15815234 0 0 0 0 0 0 0 0 0.15814853"
-         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:condensed;font-size:8.81944px;font-family:'Agency FB';-inkscape-font-specification:'Agency FB, Condensed';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;text-align:justify;text-anchor:start;shape-inside:url(#rect3621)">Forecasters  approach is </tspan><tspan
-         dx="0.15815234"
-         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:condensed;font-size:8.81944px;font-family:'Agency FB';-inkscape-font-specification:'Agency FB, Bold Condensed';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;fill:#f9f9f9">subjective</tspan><tspan
-         dx="0 0 0.15815234 0 0 0 0 0 0.15815234"
-         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:condensed;font-size:8.81944px;font-family:'Agency FB';-inkscape-font-specification:'Agency FB, Condensed';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;text-align:justify;text-anchor:start;shape-inside:url(#rect3621)">, based mainly </tspan></tspan><tspan
+       y="-28.204839"><tspan
+         dx="0 0 0 0 0 0 0 0 0 0 0 0 4.5230064 4.5230064 0 0 0 0 0 0 0 0 4.5230064"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:condensed;font-size:10.5833px;font-family:'Agency FB';-inkscape-font-specification:'Agency FB, Condensed';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;text-align:justify;text-anchor:start;shape-inside:url(#rect3621)">Forecasters  approach is </tspan><tspan
+         dx="4.5230064"
+         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:condensed;font-size:10.5833px;font-family:'Agency FB';-inkscape-font-specification:'Agency FB, Bold Condensed';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;fill:#f9f9f9">subjective</tspan><tspan
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:condensed;font-size:10.5833px;font-family:'Agency FB';-inkscape-font-specification:'Agency FB, Condensed';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;text-align:justify;text-anchor:start;shape-inside:url(#rect3621)">, </tspan></tspan><tspan
        x="-130.32617"
-       y="-18.828344"><tspan
-         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:condensed;font-size:8.81944px;font-family:'Agency FB';-inkscape-font-specification:'Agency FB, Condensed';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;text-align:justify;text-anchor:start;shape-inside:url(#rect3621)">on their personal experience.</tspan></tspan></text>
+       y="-14.975715"><tspan
+         dx="0 0 0 0 0 0 9.9335136 0 0 0 0 0 0 9.9335136 0 0 9.9335136 0 0 0 0 0 9.9335136"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:condensed;font-size:10.5833px;font-family:'Agency FB';-inkscape-font-specification:'Agency FB, Condensed';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;text-align:justify;text-anchor:start;shape-inside:url(#rect3621)">based mainly on their personal </tspan></tspan><tspan
+       x="-130.32617"
+       y="-1.7465908"><tspan
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:condensed;font-size:10.5833px;font-family:'Agency FB';-inkscape-font-specification:'Agency FB, Condensed';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;text-align:justify;text-anchor:start;shape-inside:url(#rect3621)">experience.</tspan></tspan></text>
   <text
-     transform="translate(334.34003,76.661686)"
+     transform="translate(334.34003,79.307529)"
      style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:condensed;font-size:8.81944px;line-height:1.25;font-family:'Agency FB';-inkscape-font-specification:'Agency FB, Bold Condensed';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;white-space:pre;shape-inside:url(#rect539);fill:#008080;fill-opacity:1;stroke:none;"
      id="text499"
      xml:space="preserve"><tspan
        x="-130.32617"
-       y="-29.852643"><tspan
-         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:condensed;font-size:8.81944px;font-family:'Agency FB';-inkscape-font-specification:'Agency FB, Bold Condensed';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;fill:#4d4d4d">ecPoint </tspan><tspan
-         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:condensed;font-size:8.81944px;font-family:'Agency FB';-inkscape-font-specification:'Agency FB, Bold Condensed';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;fill:#ff7f2a;fill-opacity:1">handles better the post-</tspan></tspan><tspan
+       y="-28.204839"><tspan
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:condensed;font-size:10.5833px;font-family:'Agency FB';-inkscape-font-specification:'Agency FB, Condensed';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;fill:#4d4d4d">ecPoint </tspan><tspan
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:condensed;font-size:10.5833px;font-family:'Agency FB';-inkscape-font-specification:'Agency FB, Condensed';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;fill:#ff7f2a;fill-opacity:1">handles better the </tspan></tspan><tspan
        x="-130.32617"
-       y="-18.828344"><tspan
-         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:condensed;font-size:8.81944px;font-family:'Agency FB';-inkscape-font-specification:'Agency FB, Bold Condensed';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;fill:#ff7f2a;fill-opacity:1">processing of forecasts with </tspan></tspan><tspan
+       y="-14.975715"><tspan
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:condensed;font-size:10.5833px;font-family:'Agency FB';-inkscape-font-specification:'Agency FB, Condensed';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;fill:#ff7f2a;fill-opacity:1">post-</tspan><tspan
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:condensed;font-size:10.5833px;font-family:'Agency FB';-inkscape-font-specification:'Agency FB, Condensed';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;fill:#ff7f2a;fill-opacity:1">processing of forecasts </tspan></tspan><tspan
        x="-130.32617"
-       y="-7.8040441"><tspan
-         style="fill:#ff7f2a">high spread</tspan><tspan
-         style="shape-inside:url(#rect539);fill:#ff6600"> </tspan><tspan
-         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:condensed;font-size:8.81944px;font-family:'Agency FB';-inkscape-font-specification:'Agency FB, Bold Condensed';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;fill:#4d4d4d">because it produces </tspan></tspan><tspan
+       y="-1.7465908"><tspan
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:condensed;font-size:10.5833px;font-family:'Agency FB';-inkscape-font-specification:'Agency FB, Condensed';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;fill:#ff7f2a;fill-opacity:1">with </tspan><tspan
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:condensed;font-size:10.5833px;font-family:'Agency FB';-inkscape-font-specification:'Agency FB, Condensed';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;fill:#ff7f2a">high spread</tspan><tspan
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:condensed;font-size:10.5833px;font-family:'Agency FB';-inkscape-font-specification:'Agency FB, Condensed';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;shape-inside:url(#rect539);fill:#ff6600"> </tspan><tspan
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:condensed;font-size:10.5833px;font-family:'Agency FB';-inkscape-font-specification:'Agency FB, Condensed';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;fill:#4d4d4d">because it </tspan></tspan><tspan
        x="-130.32617"
-       y="3.2202556"><tspan
-         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:condensed;font-size:8.81944px;font-family:'Agency FB';-inkscape-font-specification:'Agency FB, Bold Condensed';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;fill:#4d4d4d">an integrated pdf that combines </tspan></tspan><tspan
+       y="11.482533"><tspan
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:condensed;font-size:10.5833px;font-family:'Agency FB';-inkscape-font-specification:'Agency FB, Condensed';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;fill:#4d4d4d">produces an integrated pdf </tspan></tspan><tspan
        x="-130.32617"
-       y="14.244555"><tspan
-         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:condensed;font-size:8.81944px;font-family:'Agency FB';-inkscape-font-specification:'Agency FB, Bold Condensed';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;fill:#4d4d4d">all the ensemble members.</tspan></tspan></text>
+       y="24.711657"><tspan
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:condensed;font-size:10.5833px;font-family:'Agency FB';-inkscape-font-specification:'Agency FB, Condensed';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;fill:#4d4d4d">that combines all the </tspan></tspan><tspan
+       x="-130.32617"
+       y="37.940781"><tspan
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:condensed;font-size:10.5833px;font-family:'Agency FB';-inkscape-font-specification:'Agency FB, Condensed';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;fill:#4d4d4d">ensemble members.</tspan></tspan></text>
   <path
-     d="m 161.89374,62.01734 c 8.79475,0 15.875,11.150136 15.875,25.000022 0,13.849888 -7.08025,24.999978 -15.875,24.999978 H 7.8773214 c -0.66435,0 -1.3176301,-0.0712 -1.9600901,-0.19483 V 62.212176 c 0.64248,-0.123647 1.2957301,-0.194836 1.9600901,-0.194836 z"
-     style="fill:#ffb380;fill-opacity:1;stroke-width:0.139201"
+     d="m 161.89374,67.573643 c 8.79475,0 15.875,16.725204 15.875,37.500107 0,20.77484 -7.08025,37.49997 -15.875,37.49997 H 7.8773214 c -0.66435,0 -1.3176301,-0.1068 -1.9600901,-0.29224 V 67.865897 c 0.64248,-0.18547 1.2957301,-0.292254 1.9600901,-0.292254 z"
+     style="fill:#ffb380;fill-opacity:1;stroke-width:0.170486"
      id="path501" />
   <text
      xml:space="preserve"
      id="text521"
-     style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:condensed;font-size:8.81944px;line-height:1.25;font-family:'Agency FB';-inkscape-font-specification:'Agency FB, Bold Condensed';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;text-align:justify;white-space:pre;shape-inside:url(#rect541);fill:#000000;fill-opacity:1;stroke:none;"
-     transform="translate(149.28085,114.71894)"
+     style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:condensed;font-size:10.5833px;line-height:1.25;font-family:'Agency FB';-inkscape-font-specification:'Agency FB, Condensed';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;text-align:justify;white-space:pre;shape-inside:url(#rect541);fill:#000000;fill-opacity:1;stroke:none;"
+     transform="translate(149.28085,130.69212)"
      x="0"
      y="0"><tspan
        x="-130.32617"
-       y="-29.852643"><tspan
-         dx="0 0 0 0 0 0 0 0 6.77806 0 0 0 0 0 0 0 0 6.77806"
-         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:condensed;font-size:8.81944px;font-family:'Agency FB';-inkscape-font-specification:'Agency FB, Condensed';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;shape-inside:url(#rect541)">ecPoint approach is </tspan><tspan
-         dx="6.7780638"
-         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:condensed;font-size:8.81944px;font-family:'Agency FB';-inkscape-font-specification:'Agency FB, Bold Condensed';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;fill:#f9f9f9">objective</tspan><tspan
-         dx="0 0 6.7780638 0 0 0 0 0 6.7780638"
-         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:condensed;font-size:8.81944px;font-family:'Agency FB';-inkscape-font-specification:'Agency FB, Condensed';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;shape-inside:url(#rect541)">, based on </tspan></tspan><tspan
+       y="-28.204839"><tspan
+         dx="0 0 0 0 0 0 0 0 1.3536665 0 0 0 0 0 0 0 0 1.3536685"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:condensed;font-size:10.5833px;font-family:'Agency FB';-inkscape-font-specification:'Agency FB, Condensed';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;shape-inside:url(#rect541)">ecPoint approach is </tspan><tspan
+         dx="1.3536646"
+         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:condensed;font-size:10.5833px;font-family:'Agency FB';-inkscape-font-specification:'Agency FB, Bold Condensed';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;fill:#f9f9f9">objective</tspan><tspan
+         dx="0 0 1.3536646 0 0 0 0 0 1.3536723"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:condensed;font-size:10.5833px;font-family:'Agency FB';-inkscape-font-specification:'Agency FB, Condensed';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;shape-inside:url(#rect541)">, based on </tspan></tspan><tspan
        x="-130.32617"
-       y="-18.828344"><tspan
-         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:condensed;font-size:8.81944px;font-family:'Agency FB';-inkscape-font-specification:'Agency FB, Condensed';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;shape-inside:url(#rect541)">observations.</tspan></tspan></text>
+       y="-14.975715"><tspan
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:condensed;font-size:10.5833px;font-family:'Agency FB';-inkscape-font-specification:'Agency FB, Condensed';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;shape-inside:url(#rect541)">observations.</tspan></tspan></text>
   <text
      xml:space="preserve"
      id="text527"
-     style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:condensed;font-size:8.81944px;line-height:1.25;font-family:'Agency FB';-inkscape-font-specification:'Agency FB, Bold Condensed';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;text-align:end;white-space:pre;shape-inside:url(#rect543);fill:#c62e47;fill-opacity:1;stroke:none;"
-     transform="translate(-198.2506,73.486679)"
+     style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:condensed;font-size:8.81944px;line-height:1.25;font-family:'Agency FB';-inkscape-font-specification:'Agency FB, Condensed';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;text-align:end;white-space:pre;shape-inside:url(#rect543);fill:#c62e47;fill-opacity:1;stroke:none;"
+     transform="translate(-204.60061,89.890857)"
      x="75.265053"
      y="0"><tspan
-       x="-112.06915"
-       y="-29.852643"><tspan
-         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:condensed;font-size:8.81944px;font-family:'Agency FB';-inkscape-font-specification:'Agency FB, Bold Condensed';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;fill:#4d4d4d">Forecasters have</tspan><tspan
-         style="shape-inside:url(#rect543)"> </tspan></tspan><tspan
-       x="-115.56592"
-       y="-18.828344"><tspan
-         style="shape-inside:url(#rect543);fill:#d35f5f">difficulties in post-</tspan></tspan><tspan
-       x="-123.42073"
-       y="-7.8040441"><tspan
-         style="shape-inside:url(#rect543);fill:#d35f5f">processing forecasts </tspan></tspan><tspan
-       x="-122.81784"
-       y="3.2202556"><tspan
-         style="fill:#d35f5f">with high spread,</tspan><tspan
-         style="shape-inside:url(#rect543)"> </tspan><tspan
-         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:condensed;font-size:8.81944px;font-family:'Agency FB';-inkscape-font-specification:'Agency FB, Bold Condensed';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;fill:#4d4d4d">e.g. </tspan></tspan><tspan
-       x="-120.64743"
-       y="14.244555"><tspan
-         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:condensed;font-size:8.81944px;font-family:'Agency FB';-inkscape-font-specification:'Agency FB, Bold Condensed';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;fill:#4d4d4d">at longer lead times. </tspan></tspan></text>
+       x="-111.60789"
+       y="-28.204839"><tspan
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:condensed;font-size:10.5833px;font-family:'Agency FB';-inkscape-font-specification:'Agency FB, Condensed';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;fill:#4d4d4d">Forecasters have</tspan><tspan
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:condensed;font-size:10.5833px;font-family:'Agency FB';-inkscape-font-specification:'Agency FB, Condensed';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;shape-inside:url(#rect543)"> </tspan></tspan><tspan
+       x="-115.78333"
+       y="-14.975715"><tspan
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:condensed;font-size:10.5833px;font-family:'Agency FB';-inkscape-font-specification:'Agency FB, Condensed';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;shape-inside:url(#rect543);fill:#d35f5f">difficulties in post-</tspan></tspan><tspan
+       x="-124.32025"
+       y="-1.7465908"><tspan
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:condensed;font-size:10.5833px;font-family:'Agency FB';-inkscape-font-specification:'Agency FB, Condensed';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;shape-inside:url(#rect543);fill:#d35f5f">processing forecasts </tspan></tspan><tspan
+       x="-123.67946"
+       y="11.482533"><tspan
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:condensed;font-size:10.5833px;font-family:'Agency FB';-inkscape-font-specification:'Agency FB, Condensed';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;fill:#d35f5f">with high spread,</tspan><tspan
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:condensed;font-size:10.5833px;font-family:'Agency FB';-inkscape-font-specification:'Agency FB, Condensed';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;shape-inside:url(#rect543)"> </tspan><tspan
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:condensed;font-size:10.5833px;font-family:'Agency FB';-inkscape-font-specification:'Agency FB, Condensed';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;fill:#4d4d4d">e.g. </tspan></tspan><tspan
+       x="-121.48839"
+       y="24.711657"><tspan
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:condensed;font-size:10.5833px;font-family:'Agency FB';-inkscape-font-specification:'Agency FB, Condensed';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;fill:#4d4d4d">at longer lead times. </tspan></tspan></text>
   <g
-     transform="translate(6.4231046,6.8808929)"
+     transform="translate(6.4248631,24.343396)"
      id="g666">
     <circle
        style="fill:#333333;fill-opacity:1;stroke-width:0.11792"
@@ -799,7 +825,7 @@
        style="fill:none;stroke:#000000;stroke-width:0.198536px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1" />
   </g>
   <g
-     transform="translate(-13.795047,3.1929365)"
+     transform="translate(-13.782766,25.946704)"
      id="g651">
     <circle
        transform="scale(-1,1)"
@@ -821,135 +847,140 @@
        id="path535" />
   </g>
   <path
-     d="m -215.64562,139.80473 c -8.79475,0 -15.875,11.15012 -15.875,25 0,13.84988 7.08025,25 15.875,25 h 154.016501 c 0.664343,0 1.317623,-0.0712 1.960087,-0.19483 v -49.61035 c -0.642477,-0.12365 -1.295728,-0.19482 -1.960087,-0.19482 z"
-     style="fill:#de8787;fill-opacity:1;stroke-width:0.139201"
+     d="m -215.64562,174.72995 c -8.79475,0 -15.875,16.72518 -15.875,37.50001 0,20.77481 7.08025,37.49999 15.875,37.49999 h 154.016501 c 0.664343,0 1.317623,-0.10682 1.960087,-0.29223 v -74.41555 c -0.642477,-0.18546 -1.295728,-0.29222 -1.960087,-0.29222 z"
+     style="fill:#de8787;fill-opacity:1;stroke-width:0.170485"
      id="path545" />
   <text
      y="0"
      x="0"
      xml:space="preserve"
      id="text569"
-     style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:condensed;font-size:8.81944px;line-height:1.25;font-family:'Agency FB';-inkscape-font-specification:'Agency FB, Bold Condensed';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;text-align:justify;white-space:pre;shape-inside:url(#rect635);fill:#000000;fill-opacity:1;stroke:none;"
-     transform="translate(-86.572496,180.69612)"><tspan
+     style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:condensed;font-size:10.5833px;line-height:1.25;font-family:'Agency FB';-inkscape-font-specification:'Agency FB, Condensed';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;text-align:justify;white-space:pre;shape-inside:url(#rect635);fill:#000000;fill-opacity:1;stroke:none;"
+     transform="translate(-86.572496,218.01504)"><tspan
        x="-130.32617"
-       y="-29.852643"><tspan
-         dx="0 0 0 0 0 0 0 0 0 0 0 0 0.52575564 0 0 0 0.52575564"
-         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:condensed;font-size:8.81944px;font-family:'Agency FB';-inkscape-font-specification:'Agency FB, Condensed';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;shape-inside:url(#rect635)">Forecasters can provide </tspan><tspan
-         dx="0.52575946"
-         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:condensed;font-size:8.81944px;font-family:'Agency FB';-inkscape-font-specification:'Agency FB, Bold Condensed';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;fill:#f9f9f9">qualitative</tspan><tspan
-         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:condensed;font-size:8.81944px;font-family:'Agency FB';-inkscape-font-specification:'Agency FB, Bold Condensed';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;shape-inside:url(#rect635)"> </tspan><tspan
-         dx="0.52575433"
-         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:condensed;font-size:8.81944px;font-family:'Agency FB';-inkscape-font-specification:'Agency FB, Bold Condensed';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;fill:#f9f9f9">probabilities</tspan><tspan
-         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:condensed;font-size:8.81944px;font-family:'Agency FB';-inkscape-font-specification:'Agency FB, Condensed';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;shape-inside:url(#rect635)"> </tspan></tspan><tspan
+       y="-28.204839"><tspan
+         dx="0 0 0 0 0 0 0 0 0 0 0 0 8.3130074 0 0 0 8.3130074"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:condensed;font-size:10.5833px;font-family:'Agency FB';-inkscape-font-specification:'Agency FB, Condensed';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;shape-inside:url(#rect635)">Forecasters can provide </tspan><tspan
+         dx="8.3130074"
+         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:condensed;font-size:10.5833px;font-family:'Agency FB';-inkscape-font-specification:'Agency FB, Bold Condensed';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;fill:#f9f9f9">qualitative</tspan><tspan
+         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:condensed;font-size:10.5833px;font-family:'Agency FB';-inkscape-font-specification:'Agency FB, Bold Condensed';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;shape-inside:url(#rect635)"> </tspan></tspan><tspan
        x="-130.32617"
-       y="-18.828344"><tspan
-         dx="0 0 0 0 1.2212617 0 0 1.2212608 0 0 0 0 0 0 1.2212627"
-         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:condensed;font-size:8.81944px;font-family:'Agency FB';-inkscape-font-specification:'Agency FB, Condensed';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;shape-inside:url(#rect635)">for an event, which </tspan><tspan
-         dx="1.2212627"
-         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:condensed;font-size:8.81944px;font-family:'Agency FB';-inkscape-font-specification:'Agency FB, Bold Condensed';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;fill:#f9f9f9">could</tspan><tspan
-         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:condensed;font-size:8.81944px;font-family:'Agency FB';-inkscape-font-specification:'Agency FB, Bold Condensed';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;shape-inside:url(#rect635)"> </tspan><tspan
-         dx="1.2212652 0 0 1.2212652 0 0 0 1.2212652"
-         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:condensed;font-size:8.81944px;font-family:'Agency FB';-inkscape-font-specification:'Agency FB, Bold Condensed';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal">be not reliable</tspan><tspan
-         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:condensed;font-size:8.81944px;font-family:'Agency FB';-inkscape-font-specification:'Agency FB, Condensed';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;fill:#f9f9f9"> </tspan><tspan
-         dx="1.2212627 0 0 1.2212703"
-         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:condensed;font-size:8.81944px;font-family:'Agency FB';-inkscape-font-specification:'Agency FB, Condensed';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;shape-inside:url(#rect635)">if the </tspan></tspan><tspan
+       y="-14.975715"><tspan
+         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:condensed;font-size:10.5833px;font-family:'Agency FB';-inkscape-font-specification:'Agency FB, Bold Condensed';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;fill:#f9f9f9">probabilities</tspan><tspan
+         dx="0 0.60462213 0 0 0 0.60462594 0 0 0.60462594 0 0 0 0 0 0 0.60462213"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:condensed;font-size:10.5833px;font-family:'Agency FB';-inkscape-font-specification:'Agency FB, Condensed';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;shape-inside:url(#rect635)"> for an event, which </tspan><tspan
+         dx="0.60462594"
+         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:condensed;font-size:10.5833px;font-family:'Agency FB';-inkscape-font-specification:'Agency FB, Bold Condensed';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;fill:#f9f9f9">could</tspan><tspan
+         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:condensed;font-size:10.5833px;font-family:'Agency FB';-inkscape-font-specification:'Agency FB, Bold Condensed';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;shape-inside:url(#rect635)"> </tspan><tspan
+         dx="0.60462642"
+         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:condensed;font-size:10.5833px;font-family:'Agency FB';-inkscape-font-specification:'Agency FB, Bold Condensed';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal">be </tspan></tspan><tspan
        x="-130.32617"
-       y="-7.8040441"><tspan
-         dx="0 0 0 0 0 0 0 0 0 0 0 2.7115924 0 0 2.7115886 0 0 0 2.7115886 0 0 0 0 0 0 0 0 0 0 0 2.7115886 0 0 0 0 0 0 0 0 0 0 0 2.7115886"
-         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:condensed;font-size:8.81944px;font-family:'Agency FB';-inkscape-font-specification:'Agency FB, Condensed';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;shape-inside:url(#rect635)">forecaster is not experienced forecasting that </tspan></tspan><tspan
+       y="-1.7465908"><tspan
+         dx="0 0 0 0 4.6112566"
+         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:condensed;font-size:10.5833px;font-family:'Agency FB';-inkscape-font-specification:'Agency FB, Bold Condensed';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal">not reliable</tspan><tspan
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:condensed;font-size:10.5833px;font-family:'Agency FB';-inkscape-font-specification:'Agency FB, Condensed';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;fill:#f9f9f9"> </tspan><tspan
+         dx="4.6112556 0 0 4.6112556 0 0 0 4.6112595 0 0 0 0 0 0 0 0 0 0 4.6112518 0 0 4.6112595"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:condensed;font-size:10.5833px;font-family:'Agency FB';-inkscape-font-specification:'Agency FB, Condensed';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;shape-inside:url(#rect635)">if the forecaster is not </tspan></tspan><tspan
        x="-130.32617"
-       y="3.2202556"><tspan
-         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:condensed;font-size:8.81944px;font-family:'Agency FB';-inkscape-font-specification:'Agency FB, Condensed';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;shape-inside:url(#rect635)">specific event.</tspan></tspan></text>
+       y="11.482533"><tspan
+         dx="0 0 0 0 0 0 0 0 0 0 0 0 7.3277168 0 0 0 0 0 0 0 0 0 0 0 7.3277168 0 0 0 0 7.3277092"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:condensed;font-size:10.5833px;font-family:'Agency FB';-inkscape-font-specification:'Agency FB, Condensed';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;shape-inside:url(#rect635)">experienced forecasting that specific </tspan></tspan><tspan
+       x="-130.32617"
+       y="24.711657"><tspan
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:condensed;font-size:10.5833px;font-family:'Agency FB';-inkscape-font-specification:'Agency FB, Condensed';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;shape-inside:url(#rect635)">event.</tspan></tspan></text>
   <text
      xml:space="preserve"
      id="text597"
      style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:condensed;font-size:8.81944px;line-height:1.25;font-family:'Agency FB';-inkscape-font-specification:'Agency FB, Bold Condensed';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;white-space:pre;shape-inside:url(#rect637);fill:#008080;fill-opacity:1;stroke:none;"
-     transform="translate(334.39758,156.56576)"><tspan
+     transform="translate(333.86842,194.66598)"><tspan
        x="-130.32617"
-       y="-29.852643"><tspan
-         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:condensed;font-size:8.81944px;font-family:'Agency FB';-inkscape-font-specification:'Agency FB, Bold Condensed';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;fill:#4d4d4d">ecPoint is</tspan><tspan
-         style="shape-inside:url(#rect637)"> </tspan><tspan
-         style="fill:#ff7f2a">faster adapting to </tspan></tspan><tspan
+       y="-28.204839"><tspan
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:condensed;font-size:10.5833px;font-family:'Agency FB';-inkscape-font-specification:'Agency FB, Condensed';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;fill:#4d4d4d">ecPoint is</tspan><tspan
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:condensed;font-size:10.5833px;font-family:'Agency FB';-inkscape-font-specification:'Agency FB, Condensed';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;shape-inside:url(#rect637)"> </tspan><tspan
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:condensed;font-size:10.5833px;font-family:'Agency FB';-inkscape-font-specification:'Agency FB, Condensed';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;fill:#ff7f2a">faster adapting to </tspan></tspan><tspan
        x="-130.32617"
-       y="-18.828344"><tspan
-         style="fill:#ff7f2a">updates in the NWP model</tspan><tspan
-         style="shape-inside:url(#rect637);fill:#ff6600"> </tspan><tspan
-         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:condensed;font-size:8.81944px;font-family:'Agency FB';-inkscape-font-specification:'Agency FB, Bold Condensed';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;fill:#4d4d4d">as </tspan></tspan><tspan
+       y="-14.975715"><tspan
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:condensed;font-size:10.5833px;font-family:'Agency FB';-inkscape-font-specification:'Agency FB, Condensed';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;fill:#ff7f2a">updates in the NWP model</tspan><tspan
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:condensed;font-size:10.5833px;font-family:'Agency FB';-inkscape-font-specification:'Agency FB, Condensed';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;shape-inside:url(#rect637);fill:#ff6600"> </tspan><tspan
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:condensed;font-size:10.5833px;font-family:'Agency FB';-inkscape-font-specification:'Agency FB, Condensed';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;fill:#4d4d4d">as the </tspan></tspan><tspan
        x="-130.32617"
-       y="-7.8040441"><tspan
-         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:condensed;font-size:8.81944px;font-family:'Agency FB';-inkscape-font-specification:'Agency FB, Bold Condensed';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;fill:#4d4d4d">the relationship forecasts-</tspan></tspan><tspan
+       y="-1.7465908"><tspan
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:condensed;font-size:10.5833px;font-family:'Agency FB';-inkscape-font-specification:'Agency FB, Condensed';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;fill:#4d4d4d">relationship forecasts-</tspan></tspan><tspan
        x="-130.32617"
-       y="3.2202556"><tspan
-         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:condensed;font-size:8.81944px;font-family:'Agency FB';-inkscape-font-specification:'Agency FB, Bold Condensed';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;fill:#4d4d4d">observations is defined by a </tspan></tspan><tspan
+       y="11.482533"><tspan
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:condensed;font-size:10.5833px;font-family:'Agency FB';-inkscape-font-specification:'Agency FB, Condensed';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;fill:#4d4d4d">observations is defined by a </tspan></tspan><tspan
        x="-130.32617"
-       y="14.244555"><tspan
-         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:condensed;font-size:8.81944px;font-family:'Agency FB';-inkscape-font-specification:'Agency FB, Bold Condensed';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;fill:#4d4d4d">dynamical. calibration process.</tspan></tspan></text>
+       y="24.711657"><tspan
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:condensed;font-size:10.5833px;font-family:'Agency FB';-inkscape-font-specification:'Agency FB, Condensed';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;fill:#4d4d4d">dynamical. calibration process.</tspan></tspan></text>
   <path
      id="path599"
-     style="fill:#ffb380;fill-opacity:1;stroke-width:0.139201"
-     d="m 161.89374,139.80473 c 8.79475,0 15.875,11.15012 15.875,25 0,13.84987 -7.08025,25 -15.875,25 H 7.8773214 c -0.66435,0 -1.3176301,-0.0712 -1.9600901,-0.19484 v -49.61033 c 0.64248,-0.12365 1.2957301,-0.19483 1.9600901,-0.19483 z" />
+     style="fill:#ffb380;fill-opacity:1;stroke-width:0.170486"
+     d="m 161.89374,174.72995 c 8.79475,0 15.875,16.72518 15.875,37.5 0,20.77481 -7.08025,37.5 -15.875,37.5 H 7.8773214 c -0.66435,0 -1.3176301,-0.1068 -1.9600901,-0.29226 V 175.0222 c 0.64248,-0.18548 1.2957301,-0.29225 1.9600901,-0.29225 z" />
   <text
      y="0"
      x="0"
-     transform="translate(149.28085,180.69611)"
+     transform="translate(149.28085,215.62133)"
      style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:condensed;font-size:8.81944px;line-height:1.25;font-family:'Agency FB';-inkscape-font-specification:'Agency FB, Bold Condensed';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;text-align:justify;white-space:pre;shape-inside:url(#rect639);fill:#000000;fill-opacity:1;stroke:none;"
      id="text619"
      xml:space="preserve"><tspan
        x="-130.32617"
-       y="-29.852643"><tspan
-         dx="0 0 0 0 0 0 0 0 0.82493854 0 0 0 0.82493854"
-         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:condensed;font-size:8.81944px;font-family:'Agency FB';-inkscape-font-specification:'Agency FB, Condensed';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;shape-inside:url(#rect639)">ecPoint can provide </tspan><tspan
-         dx="0.82493854 0 0 0 0 0 0 0 0 0 0 0 0 0.82493722"
-         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:condensed;font-size:8.81944px;font-family:'Agency FB';-inkscape-font-specification:'Agency FB, Bold Condensed';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;fill:#f9f9f9">quantitative probabilities</tspan><tspan
-         dx="0 0.82493854"
-         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:condensed;font-size:8.81944px;font-family:'Agency FB';-inkscape-font-specification:'Agency FB, Condensed';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;shape-inside:url(#rect639)"> for </tspan></tspan><tspan
+       y="-28.204839"><tspan
+         dx="0 0 0 0 0 0 0 0 9.5960369 0 0 0 9.596035"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:condensed;font-size:10.5833px;font-family:'Agency FB';-inkscape-font-specification:'Agency FB, Condensed';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;shape-inside:url(#rect639)">ecPoint can provide </tspan><tspan
+         dx="9.596035"
+         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:condensed;font-size:10.5833px;font-family:'Agency FB';-inkscape-font-specification:'Agency FB, Bold Condensed';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;fill:#f9f9f9">quantitative </tspan></tspan><tspan
        x="-130.32617"
-       y="-18.828344"><tspan
-         dx="0 0 0 2.3134954 0 0 0 0 0 0 2.3134944"
-         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:condensed;font-size:8.81944px;font-family:'Agency FB';-inkscape-font-specification:'Agency FB, Condensed';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;shape-inside:url(#rect639)">an event, which </tspan><tspan
-         dx="2.3134944 0 0 0 2.3134933 0 0 0 0 2.3134933"
-         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:condensed;font-size:8.81944px;font-family:'Agency FB';-inkscape-font-specification:'Agency FB, Bold Condensed';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;fill:#f9f9f9">are more reliable</tspan><tspan
-         dx="0 2.3134944 0 0 2.3134944 0 0 0 2.3134944"
-         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:condensed;font-size:8.81944px;font-family:'Agency FB';-inkscape-font-specification:'Agency FB, Condensed';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;shape-inside:url(#rect639)"> as are not </tspan></tspan><tspan
+       y="-14.975715"><tspan
+         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:condensed;font-size:10.5833px;font-family:'Agency FB';-inkscape-font-specification:'Agency FB, Bold Condensed';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;fill:#f9f9f9">probabilities</tspan><tspan
+         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:condensed;font-size:10.5833px;font-family:'Agency FB';-inkscape-font-specification:'Agency FB, Bold Condensed';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal"> </tspan><tspan
+         dx="2.8430831 0 0 0 2.8430827 0 0 2.8430827 0 0 0 0 0 0 2.8430789"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:condensed;font-size:10.5833px;font-family:'Agency FB';-inkscape-font-specification:'Agency FB, Condensed';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;shape-inside:url(#rect639)">for an event, which </tspan><tspan
+         dx="2.8430827"
+         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:condensed;font-size:10.5833px;font-family:'Agency FB';-inkscape-font-specification:'Agency FB, Bold Condensed';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;fill:#f9f9f9">are </tspan></tspan><tspan
        x="-130.32617"
-       y="-7.8040441"><tspan
-         dx="0 0 0 0 0 0 0 0 0.9612968 0 0 0.9612968 0 0 0 0.9612987 0 0 0 0 0 0 0 0 0 0 0.9612987 0 0 0.9612987 0 0 0 0.96129107 0 0 0 0 0 0 0 0 0 0 0.9612987 0 0 0.96130633"
-         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:condensed;font-size:8.81944px;font-family:'Agency FB';-inkscape-font-specification:'Agency FB, Condensed';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;shape-inside:url(#rect639)">related to the experience of the forecaster or the </tspan></tspan><tspan
+       y="-1.7465908"><tspan
+         dx="0 0 0 0 0 1.0326831"
+         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:condensed;font-size:10.5833px;font-family:'Agency FB';-inkscape-font-specification:'Agency FB, Bold Condensed';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;fill:#f9f9f9">more reliable</tspan><tspan
+         dx="0 1.0326807 0 0 1.0326846 0 0 0 1.0326846 0 0 0 1.0326807 0 0 0 0 0 0 0 1.0326769 0 0 1.0326846"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:condensed;font-size:10.5833px;font-family:'Agency FB';-inkscape-font-specification:'Agency FB, Condensed';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;shape-inside:url(#rect639)"> as are not related to the </tspan></tspan><tspan
        x="-130.32617"
-       y="3.2202556"><tspan
-         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:condensed;font-size:8.81944px;font-family:'Agency FB';-inkscape-font-specification:'Agency FB, Condensed';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;shape-inside:url(#rect639)">rarity of the event at the location. </tspan></tspan></text>
+       y="11.482533"><tspan
+         dx="0 0 0 0 0 0 0 0 0 0 0 4.2445412 0 0 4.2445412 0 0 0 4.2445412 0 0 0 0 0 0 0 0 0 0 4.2445412 0 0 4.2445412"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:condensed;font-size:10.5833px;font-family:'Agency FB';-inkscape-font-specification:'Agency FB, Condensed';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;shape-inside:url(#rect639)">experience of the forecaster or the </tspan></tspan><tspan
+       x="-130.32617"
+       y="24.711657"><tspan
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:condensed;font-size:10.5833px;font-family:'Agency FB';-inkscape-font-specification:'Agency FB, Condensed';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;shape-inside:url(#rect639)">rarity of the event at the location. </tspan></tspan></text>
   <text
      y="0"
      x="75.265053"
-     transform="translate(-181.8271,150.89467)"
-     style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:condensed;font-size:8.81944px;line-height:1.25;font-family:'Agency FB';-inkscape-font-specification:'Agency FB, Bold Condensed';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;text-align:end;white-space:pre;shape-inside:url(#rect641);fill:#c62e47;fill-opacity:1;stroke:none;"
+     transform="translate(-229.4521,192.69905)"
+     style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:condensed;font-size:8.81944px;line-height:1.25;font-family:'Agency FB';-inkscape-font-specification:'Agency FB, Condensed';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;text-align:end;white-space:pre;shape-inside:url(#rect641);fill:#c62e47;fill-opacity:1;stroke:none;"
      id="text625"
      xml:space="preserve"><tspan
-       x="-124.73552"
-       y="-29.852643"><tspan
-         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:condensed;font-size:8.81944px;font-family:'Agency FB';-inkscape-font-specification:'Agency FB, Bold Condensed';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;fill:#4d4d4d">Forecasters are</tspan><tspan
-         style="shape-inside:url(#rect641)"> </tspan></tspan><tspan
-       x="-123.44361"
-       y="-18.828344"><tspan
-         style="shape-inside:url(#rect641);fill:#d35f5f">slower adpating </tspan></tspan><tspan
-       x="-125.78627"
-       y="-7.8040441"><tspan
-         style="shape-inside:url(#rect641);fill:#d35f5f">to updates in the </tspan></tspan><tspan
-       x="-129.35194"
-       y="3.2202556"><tspan
-         style="fill:#d35f5f">NWP model</tspan><tspan
-         style="shape-inside:url(#rect641)"> </tspan><tspan
-         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:condensed;font-size:8.81944px;font-family:'Agency FB';-inkscape-font-specification:'Agency FB, Bold Condensed';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;fill:#4d4d4d">as the </tspan></tspan><tspan
-       x="-113.07387"
-       y="14.244555"><tspan
-         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:condensed;font-size:8.81944px;font-family:'Agency FB';-inkscape-font-specification:'Agency FB, Bold Condensed';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;fill:#4d4d4d">relationship. </tspan></tspan><tspan
-       style="visibility:hidden"
-       x="-130.32617"
-       y="24.756732"><tspan
-         dx="0 2.2737617 3.5828972 3.3072901 3.5312214 3.5139952 3.5139961 3.4278679 2.428791 3.4278679 3.5828991 3.6173477 3.4278679 3.5312195 3.3072929 3.4278679 3.5139961 2.428791 1.7225456 3.5828972 3.6173477 3.4278717 1.8258972 4.788681 1.7225418 1.7225494 1.7225494 1.8258972 3.6173477 3.5312195 1.8259048 3.6001205 1.7225494 3.5139923 2.4287949 3.5139923 2.4287949 3.5312195 3.6001205 1.8258972 3.6173553 3.4278641 1.8258972 3.6173553 2.4287872 3.5312195 1.8258972 3.6001282 3.5139923 3.4278717 2.4287872 1.8258972 3.5312195 3.3589783 3.6001129 3.5312195 3.3072968 1.7225494 3.5312195 3.6173401 3.5140076 3.5312195 1.8258972 3.582901 2.2737579 1.8258972 2.4287872 3.6173553 3.5312195 1.8258972 2.2737579 3.582901 3.3072968 3.5312195 3.5139923 3.5139923 3.4278717 2.4287872 3.5312195 3.3072968"
-         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:condensed;font-size:8.81944px;font-family:'Agency FB';-inkscape-font-specification:'Agency FB, Bold Condensed';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;fill:#4d4d4d">forecastsobservations will be dictated by hte past experience of the forecaster.</tspan></tspan></text>
+       x="-107.73819"
+       y="-28.204839"><tspan
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:condensed;font-size:10.5833px;font-family:'Agency FB';-inkscape-font-specification:'Agency FB, Condensed';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;fill:#4d4d4d">Forecasters are</tspan><tspan
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:condensed;font-size:10.5833px;font-family:'Agency FB';-inkscape-font-specification:'Agency FB, Condensed';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;shape-inside:url(#rect641)"> </tspan><tspan
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:condensed;font-size:10.5833px;font-family:'Agency FB';-inkscape-font-specification:'Agency FB, Condensed';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;shape-inside:url(#rect641);fill:#d35f5f">slower </tspan></tspan><tspan
+       x="-115.34494"
+       y="-14.975715"><tspan
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:condensed;font-size:10.5833px;font-family:'Agency FB';-inkscape-font-specification:'Agency FB, Condensed';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;shape-inside:url(#rect641);fill:#d35f5f">adpating to updates in the </tspan></tspan><tspan
+       x="-130.021"
+       y="-1.7465908"><tspan
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:condensed;font-size:10.5833px;font-family:'Agency FB';-inkscape-font-specification:'Agency FB, Condensed';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;fill:#d35f5f">NWP model</tspan><tspan
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:condensed;font-size:10.5833px;font-family:'Agency FB';-inkscape-font-specification:'Agency FB, Condensed';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;shape-inside:url(#rect641)"> </tspan><tspan
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:condensed;font-size:10.5833px;font-family:'Agency FB';-inkscape-font-specification:'Agency FB, Condensed';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;fill:#4d4d4d">as the relationship </tspan></tspan><tspan
+       x="-120.63659"
+       y="11.482533"><tspan
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:condensed;font-size:10.5833px;font-family:'Agency FB';-inkscape-font-specification:'Agency FB, Condensed';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;fill:#4d4d4d">forecasts-observations will </tspan></tspan><tspan
+       x="-105.03036"
+       y="24.711657"><tspan
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:condensed;font-size:10.5833px;font-family:'Agency FB';-inkscape-font-specification:'Agency FB, Condensed';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;fill:#4d4d4d">be dictated by the past </tspan></tspan><tspan
+       x="-126.52768"
+       y="37.940781"><tspan
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:condensed;font-size:10.5833px;font-family:'Agency FB';-inkscape-font-specification:'Agency FB, Condensed';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;fill:#4d4d4d">experience of the forecaster.</tspan></tspan></text>
   <g
-     transform="translate(4.6821513,10.009045)"
+     transform="translate(4.837567,53.930075)"
      id="g671">
     <circle
        r="2.5"
@@ -969,7 +1000,7 @@
        id="path627" />
   </g>
   <g
-     transform="translate(-15.363334,2.7906133)"
+     transform="translate(-15.386423,55.728183)"
      id="g656">
     <circle
        style="fill:#333333;fill-opacity:1;stroke-width:0.11792"
