@@ -1,7 +1,5 @@
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 % TemplateV5.tex --  LaTeX-based template for submissions to the American Meteorological Society
 % Version 5.0, 2 January 2020
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
 % Paper layout
 %\documentclass{ametsocV5} %for submission
@@ -14,8 +12,6 @@
 \usepackage{newtxmath}
 \usepackage{enumitem}
 \usepackage{multirow}
-\usepackage{xcolor}
-\usepackage{svg}
 \usepackage{amsmath}
 
 
@@ -30,7 +26,7 @@
 % AUTHORS %
 %%%%%%%%%%%
 
-\authors{Fatima Pillosu\correspondingauthor{Fatima Pillosu, fatima.pillosu@ecmwf.int}}
+\authors{Fatima M. Pillosu\correspondingauthor{Fatima Pillosu, fatima.pillosu@ecmwf.int}}
 \affiliation{University of Reading, Reading, UK \\
 European Centre for Medium-Range Weather Forecasts, Reading, UK}
 
@@ -86,47 +82,75 @@ Hungary and Costa Rica have meteorological services with different experience in
 Section 2 discusses the experience of Hungary and Costa Rica in probabilistic weather forecasting. Section 3  introduces ecPoint-Rainfall. Section 4 presents the design of products based on ecPoint-Rainfall developed at both meteorological services and how they were subsequently used in a subjective evaluation of the post-processed rainfall forecasts. Section 5 discusses the outcomes of such subjective evaluation. Concluding remarks are presented in section 5.
 According to \citet{Fundel2019}, users need the opportunity to familiarise with the quality of new products in their everyday practice in order to appreciate their entire value in decision-making processes.
 
-%%%%%%%%%%%%%%%%%%%%
-% Background
-\section{Background}
-
-\begin{figure}
-\centerline{\includegraphics[width=19pc]{manuscript/Figures/Fig1.jpg}}
-\caption{Orography of Costa Rica (a) and Hungary (b). The insert box shows the location of Hungary and Costa Rica in Europe and America, respectively.}
-\label{Fig1}
-\end{figure}
-
-\subsection{National Meteorological Institute of Costa Rica (IMN)} 
-IMN, in Costa Rica (see Fig.\ref{Fig1}a), has recent experience with EPSs and with ECMWF forecasts, which they started using in 2018. They work mainly with the Global Forecast System (GFS) developed by the National Centers for Environmental Prediction in USA and with the Weather Research and Forecasting (WRF) system. From the latter, IMN has developed a series of model versions (WRF-1.5, WRF-5, WRF-AR, WRF-Sarapiquí, WRF, WRF-8, WRF-15) that are tailored to different needs, such as prediction of tropical waves, tropical cyclones, cold fronts, hail and forest fires. Such versions have different spatial and temporal resolutions, different domains, and different model configurations. The most recent model, WRF-1.5, was developed in 2018 at IMN in order to produce forecasts at 1.5 km resolution up to 5 days in advance which improves the predictions for convective systems that can generate extreme rainfall events in Costa Rica. 
-
-
-\subsection{Hungarian Meteorological Service (OMSZ)}
-OMSZ, in Hungary (see Fig.\ref{Fig1}b), has a long experience working with EPSs. They are at the forefront of developing ensemble based products, adopted also by other centres, see for example \citet{Gascon2018}, and they use probabilistic forecasts in their day-to-day operational duties to use warning to the public and end-users. OMSZ has a long history of collaborations with ECMWF. Not only has OMSZ a long tradition of carrying out objective verification of ECMWF ensemble forecasts \citep{Hewson2020}, but has also been using ECMWF software and archived forecasts since 1995. Forecasters from OMSZ also take part regularly in educational and training programmes at ECMWF. \par
-OMSZ has also experience in post-processing of rainfall forecasts. Objective verification has shown that calibration can add value to rainfall forecasts for small-scale low-predictability phenomena, such as extreme rainfall events, and such positive calibration results can get reflected also on downstream applications, such as hydrological forecasts \citep{Ihasz2018,Matrai2017}.
 
 
 %%%%%%%%%%%%%%%%%%%%
 % ecPoint-Rainfall
 
-\begin{figure*}
-\centerline{\includegraphics[width=39pc]{manuscript/Figures/Fig2.png}}
-\caption{Comparison of approaches for forecasts adjustments: expert human adjustment vs. ecPoint.}
-\label{Fig.2}
-\end{figure*}
-
-\begin{figure*}
-\centerline{\includegraphics[width=39pc]{manuscript/Figures/Fig22.png}}
-\caption{ecPoint Workflow.}
-\label{Fig.22}
-\end{figure*}
-
-
 \section{ecPoint-Rainfall}
-\subsection{ecPoint-Rainfall}
+
+\begin{figure*}
+\centerline{\includegraphics[width=39pc]{manuscript/Figures/Fig1.png}}
+\caption{ecPoint Workflow. The figure describes (top) the offline calibration process to be done for each post-processed model, and for each model version. The figure then describes (bottom) the forecast generation process and the products that can be derived and issued to users. The specific results shown in this figure relate to the family ecPoint-Rainfall, and the operationally computed 12-hourly rainfall accumulations run at ECMWF twice per day.}
+\label{Fig.1}
+\end{figure*}
+
 ecPoint is a statistical post-processing technique that provides probabilistic bias-corrected forecasts at point scale from ensemble or deterministic numerical weather prediction (NWP) model outputs. Different hydro-meteorological variables, from different NWP models, can potentially be post-processed using the ecPoint technique to create, what is known as, the "ecPoint Family". ecPoint-Rainfall is the branch of the family that produces rainfall forecasts that mirror rain gauge measurements \citep{Hewson2020a}. In this paper, the ecPoint-Rainfall forecasts are post-processed raw ECMWF ENS rainfall forecasts. It is worth noting that what described to the following also applies to other NWP models. \parTo explain the reasons why ecPoint-Rainfall and raw ECMWF ENS rainfall forecasts may differ, let us consider an ENS grid cell and radar-derived totals for a rainfall event. Let us considered that the grid cell average rainfall total is about 17mm, while the minimum and maximum rainfall amounts are about 2mm and 60mm, respectively. The following can be stated. First, a completely accurate ENS member forecast would predict 17mm. However, this would not give the user any idea on what could be the spatial variability, within the grid cell, of the local (i.e. point) rainfall amounts when a particular G\_WT occurs. This describes an issue of sub-grid variability within the model grid box. Secondly, a particular G\_WT might show that an ENS member tends, on average, to over-predict (or under-predict) the grid-box rainfall by 15\%, delivering a forecast of 20mm (or 14mm) instead of 17mm. This describes an issue of model bias at grid-scale. By anticipating the sub-grid variability within the grid-box and correcting for biases in the model at grid-scale, ecPoint-Rainfall provides probabilities of bias-corrected rainfall forecasts at a point within the grid-box. However, ecPoint-Rainfall does not say where that point is within the ENS grid-box. \par
 The calibration dataset for ecPoint-Rainfall is built applying the new concept of "Remote Calibration" described in \citet{Hewson2020a}. Typically, traditional post-processing methods use observations from a particular site. Such an approach limits the size of the calibration dataset, and forces to wait for at least ~20 years to have a robust calibration dataset, which still might not contain (enough) extremes cases for the considered site. The "Remote Calibration" approach removes any location labels and, instead, generates calibration datasets for particular G\_WTs pulling observations from where, around the world, those G\_WTs occurred. This approach facilitates the generation of extensive training datasets to post-process rainfall, including extremes. Indeed, the sites where a certain G\_WT occurs relatively often build the calibration dataset also for those sites where the same G\_WT would generate extreme rainfall. To give an order of magnitude, in order to create a similar calibration dataset for a location with similar size of one generated with the Remote Calibration approach, one would need to wait from hundreds to thousands of years. It is essential to highlight that the error bars on forecasts for globally extreme rainfall events (e.g. tropical cyclones) will be inevitably larger than for "not globally" extremes due to a lack of events in the calibration dataset. \par
  ecPoint-Rainfall outperforms raw ECMWF ENS in predicting localised rainfall events, including extremes \citet{Hewson2020a}. \par
 In practice, ecPoint produces 100 equally probable point rainfall realisations for each of the 51 ENS members and each grid-box. For each grid-box, such 5100 values are distilled down into 99 percentile fields (1,2,..99) being those the final ecPoint-Rainfall product. Outputs from ecPoint-Rainfall are produced at ECMWF twice per day (at 00 and 12 UTC), up to 10 days, for overlapping 12-hourly accumulation periods, namely (T+0,T+12), (T+6,T+18),...,(T+234,T+246).
+
+
+
+%%%%%%%%%%%%%%%%%%%%
+% Background on Costa Rica
+\section{Background on Costa Rica}
+
+\begin{figure}
+\centerline{\includegraphics[width=19pc]{manuscript/Figures/Fig2.jpg}}
+\caption{Orography of Costa Rica (a) and Hungary (b). The insert box shows the location of Hungary and Costa Rica in Europe and America, respectively.}
+\label{Fig2}
+\end{figure}
+
+\subsection{Extreme rainfall events in Costa Rica}
+
+\subsection{ The National Meteorological Institute of Costa Rica (IMN)} 
+IMN, in Costa Rica , has recent experience with EPSs and with ECMWF forecasts, which they started using in 2018. They work mainly with the Global Forecast System (GFS) developed by the National Centers for Environmental Prediction in USA and with the Weather Research and Forecasting (WRF) system. From the latter, IMN has developed a series of model versions (WRF-1.5, WRF-5, WRF-AR, WRF-Sarapiquí, WRF, WRF-8, WRF-15) that are tailored to different needs, such as prediction of tropical waves, tropical cyclones, cold fronts, hail and forest fires. Such versions have different spatial and temporal resolutions, different domains, and different model configurations. The most recent model, WRF-1.5, was developed in 2018 at IMN in order to produce forecasts at 1.5 km resolution up to 5 days in advance which improves the predictions for convective systems that can generate extreme rainfall events in Costa Rica. 
+
+\subsection{Products used to forecast extreme rainfall at IMN}
+
+\subsection{Description of case study chosen for the trial by IMN}
+The event selected occurred between October, 3rd 2018 and October 5th 2018. It was generated from a trough that evolved into an almost stationary low pressure over The Caribbean Sea, triggering moist south-westerly airflows from the Pacific Ocean towards the coast and generating extreme rainfall events mainly over Regiòn Pacifico Norte, Pacifico Central, and Pacifico Sur (see climate region in Fig.\ref{Fig3}a). Recordings (see Fig.\ref{Fig3}o1-6) show overall extremely variable rainfall totals, comprised between 20 and 200 mm/12h, with a peak of 309.2 mm near the south coast of the Nicoya peninsula on October 4th. The extreme rainfall caused severe flash floods and local landslides, (see Fig.\ref{Fig3}i1-2). One person died, hundreds were moved to refuges, and basic infrastructure was adversely affected.
+
+
+\subsection{ecPoint-Rainfall product(s) developed at IMN during the trial}
+
+\begin{figure}
+\centerline{\includegraphics[width=18pc]{manuscript/Figures/Fig5.jpg}}
+\caption{Product developed by IMN based on the 85th percentile of ecPoint-Rainfall.}
+\label{Fig5}
+\end{figure}
+
+During the trial, IMN had access to the 99 percentiles for ecPoint-Rainfall. However, IMN developed a product based only on the 85th percentile of ecPoint-Rainfall (see Fig.\ref{Fig5}). The selection of the 85th percentile was not based on previous experience with probabilistic products \textit{("en realidad no solemos usar muy seguido herramientas probabilísticas para pronóstico} del tiempo."} [translation: actually, we don't often use probabilistic tools to forecast the weather.]). The selection of the 85th percentile was not carried out through a formal study. IMN reported that the 85th percentile (and not, for example, the 99th) was selected in order to forecast also more common events that, even if they are no that extreme, can still cause severe impacts in certain regions of Costa Rica.
+
+
+
+%%%%%%%%%%%%%%%%%%%%
+% Background on Costa Rica
+\section{Background on Hungary}
+
+\subsection{Extreme rainfall events in Hungary}
+
+\subsection{The Hungarian Meteorological Service (OMSZ)}
+OMSZ, in Hungary (see Fig.\ref{Fig1}b), has a long experience working with EPSs. They are at the forefront of developing ensemble based products, adopted also by other centres, see for example \citet{Gascon2018}, and they use probabilistic forecasts in their day-to-day operational duties to use warning to the public and end-users. OMSZ has a long history of collaborations with ECMWF. Not only has OMSZ a long tradition of carrying out objective verification of ECMWF ensemble forecasts \citep{Hewson2020}, but has also been using ECMWF software and archived forecasts since 1995. Forecasters from OMSZ also take part regularly in educational and training programmes at ECMWF. \par
+OMSZ has also experience in post-processing of rainfall forecasts. Objective verification has shown that calibration can add value to rainfall forecasts for small-scale low-predictability phenomena, such as extreme rainfall events, and such positive calibration results can get reflected also on downstream applications, such as hydrological forecasts \citep{Ihasz2018,Matrai2017}.
+
+\subsection{Products used to forecast extreme rainfall at OMSZ}
+
+\subsection{Description of case study chosen for the trial by OMSZ}
+
+\subsection{ecPoint-Rainfall product(s) developed at OMSZ during the trial}
+
 
 
 %%%%%%%%%%%%%%%%%%%%
@@ -152,20 +176,7 @@ The forecasters who monitored the ecPoint-Rainfall forecasts in their day-to-day
 % Results
 \section{Results}
 
-\begin{table*}[]
-\caption{Summary of the work carried out by IMN and OMSZ to evaluate ecPoint-Rainfall.}
-\label{Table1}
-\begin{tabular}{|l|l|l|}
-\hline
-\multicolumn{1}{|c|}{\multirow{3}{*}{\begin{tabular}[c]{@{}c@{}}IMN \\ (Costa Rica)\end{tabular}}} &
-  Developed Products &
-  \begin{tabular}[c]{@{}l@{}} During the trial, IMN had access to the 99 percentiles for ecPoint-Rainfall. However, IMN \\ developed a product based only on the 85th percentile of ecPoint-Rainfall (see Fig.\ref{Fig2}). \\ The selection of the 85th percentile was not based on previous experience with probabilistic\\ products \textit{("en realidad no solemos usar muy seguido herramientas probabilísticas para} \\ \textit{pronóstico} del tiempo."} [translation: actually, we don't often use probabilistic tools to forecast \\ the weather.]). The selection of the 85th percentile was not carried out through a formal study \\either. IMN reported that the 85th percentile (and not, for example, the 99th) was selected in order \\ to forecast also more common events that, even if they are no that extreme, can still cause severe \\ impacts in certain regions of Costa Rica.\end{tabular} \\ \cline{2-3} 
-\multicolumn{1}{|c|}{} &
-  Case Study Description &
-  \begin{tabular}[c]{@{}l@{}}The event selected occurred between October, 3rd 2018 and October 5th 2018. It was \\ generated from a trough that evolved into an almost stationary low pressure over The \\ Caribbean Sea, triggering moist south-westerly airflows from the Pacific Ocean towards the \\ coast and generating extreme rainfall events mainly over Regiòn Pacifico Norte, Pacifico Central, \\ and Pacifico Sur (see climate region in Fig.\ref{Fig3}a). Recordings (see Fig.\ref{Fig3}o1-6) show overall \\ extremely variable rainfall totals, comprised between 20 and 200 mm/12h, with a peak of \\ 309.2 mm near the south coast of the Nicoya peninsula on October 4th. The extreme rainfall \\ caused severe flash floods and local landslides, (see Fig.\ref{Fig3}i1-2). One person died, hundreds \\ were moved to refuges, and basic infrastructure was adversely affected.\end{tabular} \\ \cline{2-3} 
-\multicolumn{1}{|c|}{} &
-  Verification Results &
-  \begin{tabular}[c]{@{}l@{}}IMN evaluated the ecPoint-Rainfall guidance for the selected event from short (day 1) to medium \\ (day 7) lead times employing the product they developed during the trial (see Fig.\ref{Fig2}). Only \\ 12 UTC runs were analyzed as those are the only ones used at IMN for daily warnings \\ given the time difference between Europe and Central America (UTC-6). IMN’s own \\ conclusions can be summarized in three main points:\\
+IMN evaluated the ecPoint-Rainfall guidance for the selected event from short (day 1) to medium \\ (day 7) lead times employing the product they developed during the trial (see Fig.\ref{Fig2}). Only \\ 12 UTC runs were analyzed as those are the only ones used at IMN for daily warnings \\ given the time difference between Europe and Central America (UTC-6). IMN’s own \\ conclusions can be summarized in three main points:\\
 
 1. \textit{"ecPoint-Rainfall predicted well the beginning and the end of the rainfall event in every} \\ 
 \textit{run from September 27th}. \\
@@ -177,18 +188,8 @@ The forecasters who monitored the ecPoint-Rainfall forecasts in their day-to-day
 \textit{day of delay} [October 5th] \textit{the wettest day which was on October 4th.}  \\
 
 
-\end{tabular} \\ \hline
-\multirow{3}{*}{\begin{tabular}[c]{@{}l@{}}OMSZ\\ (Hungary)\end{tabular}} & Developed Products     &  \\ \cline{2-3} 
-                                                                          & Case Study Description &  \\ \cline{2-3} 
-                                                                          & Verification Results   &  \\ \hline
-\end{tabular}
-\end{table*}
 
-\begin{figure}
-\centerline{\includegraphics[width=18pc]{manuscript/Figures/Fig4.jpg}}
-\caption{Product developed by IMN based on the 85th percentile of ecPoint-Rainfall.}
-\label{Fig4}
-\end{figure}
+
 
 \begin{figure*}
 \centerline{\includegraphics[width=39pc]{manuscript/Figures/Fig5.jpg}}
@@ -246,6 +247,13 @@ The guidance provided by the raw ENS and ecPoint-Rainfall could be supported by 
 %%%%%%%%%%%%%%%%%%%%
 % Discussions
 \section{Discussions}
+
+\begin{figure*}
+\centerline{\includegraphics[width=39pc]{manuscript/Figures/Fig9.png}}
+\caption{Comparison of approaches for forecasts adjustments: expert human adjustment vs. ecPoint.}
+\label{Fig.9}
+\end{figure*}
+
 
 ECMWF continuously updates end-user needs and feedback through annual user meetings, training sessions or direct feedback, ensuring that resulting forecast products are more readily understood by recipients and integrated into their operational environments. Such request of feedback was considered even more critical for ecPoint-Rainfall as it adds layers of complexity to traditional EPS products and its outputs risk to be misunderstood if proper training is not provided. Hungary and Costa Rica volunteered to test ecPoint-Rainfall performance in predicting high-impact extreme rainfall events over a one-year trial period. Both countries decided to base their analysis on case studies. Based on the information collected on how operational forecasters used the post-processed rainfall products, this study also wants to outline some best practices when using ecPoint-Rainfall.  
 
