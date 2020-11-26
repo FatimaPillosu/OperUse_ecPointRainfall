@@ -40,7 +40,7 @@ European Centre for Medium-Range Weather Forecasts, Reading, UK}
 \extraaffil{European Centre for Medium-Range Weather Forecasts, Reading, UK}
 
 \extraauthor{Christel Prudhomme}
-\extraaffil{European Centre for Medium-Range Weather Forecasts, Reading, UK\\
+\extraaffil{European Centre for Medium-Range Weather Forecasts, Reading, UK \\
 Loughborough University, Loughborough, UK}
 
 \extraauthor{Elisabeth Stephens}
@@ -48,7 +48,7 @@ Loughborough University, Loughborough, UK}
 
 \extraauthor{Hannah L. Cloke}
 \extraaffil{University of Reading, Reading, UK \\
-Uppsala University, Uppsala, Sweden\\
+Uppsala University, Uppsala, Sweden \\
 Centre of Natural hazards and Disaster Science, Uppsala, Sweden}
 
 
@@ -56,10 +56,7 @@ Centre of Natural hazards and Disaster Science, Uppsala, Sweden}
 %%%%%%%%%%%%
 % ABSTRACT %
 %%%%%%%%%%%%
-\abstract{Users of Numerical Weather Prediction (NWP) models often require forecasts for specific locations. When they have access only to raw gridded NWP model outputs, forecasters are trained to interpret such model output on the basis of their experience and expertise. Such expert post-processing adds value by correcting raw forecasts for specific weather conditions, but does have limitations in that particularly when new or more complex forecast products are released. Some of this limitations are .
-Following the release of new statistically post-processed point-rainfall forecasts (ecPoint-Rainfall) at the European Centre for Medium-Range Weather Forecasts (ECMWF), this study evaluates to what extent traditional guidelines for standard probabilistic ensemble-based forecasts (PEFs) are sufficient for the adoption of ecPoint-Rainfall. During a one-year trial period, ecPoint-Rainfall was tested in an operational environment at two meteorological centres with different expertise on PEFs: the Hungarian Meteorological Service and the National Meteorological Institute of Costa Rica. Later, crucial aspects that conditioned or might condition in future the adoption of ecPoint-Rainfall were explored with the forecasters that used ecPoint-Rainfall in their day-to-day work. This paper summarises the outcomes of the initial independent feedback and the subsequent discussions on how valuable ecPoint-Rainfall was perceived. The overall impression is that ecPoint-Rainfall could improve the prediction of extreme localized rainfall events only if tailored training is provided, no matter what is the prior forecasters experience on PEFs.}
-
-
+\abstract{Numerical Weather Prediction (NWP) models produce forecasts that, although improve continuously in reliability/skill, represent an average over the model grid-box. For some applications, users require forecasts at specific locations instead. Forecasters can add value to model predictions issued for smaller scales than the model resolution as they understand model biases/errors, interpret how they might impact the weather at a location, and summarize the information to users. However, forecasters call upon past model performance experience, which can take years to build up, it is no easily adaptable to new model versions, and it might generate biased forecasts. A novel statistical post-processing methodology (ecPoint) that produces more reliable/skilful probabilistic forecasts at points can also help forecasters to overcome the challenges mentioned earlier. The formulation of ecPoint probabilities does not depend on personal experience. They are based on a global observational database instead. ecPoint probabilities adapt quickly to biases/errors in new model versions thanks to a dynamic calibration process. Finally, ecPoint summarizes in one intelligible probability distribution the complex raw probabilistic information. Thus, forecasters do not have to do it themselves. However, ecPoint adds layers of complexity to traditional probabilistic ensemble-based forecasts (PEFs). Could current standard PEFs training be sufficient to make forecasters fully appreciate ecPoint potentialities and adopt it in operational environments? A one-year trial with two different users showed that ecPoint-tailored training must be provided to improve the understanding of ecPoint forecasts, no matter what is the previous experience of forecasters with PEFs. Therefore, this study defines guidelines to communicate ecPoint forecasts to users better.}
 
 
 %%%%%%%%%%%%%%%%%%%%%%
@@ -72,6 +69,19 @@ Following the release of new statistically post-processed point-rainfall forecas
 %%%%%%%%%%%%%%%%%%%%
 % INTRODUCTION
 \section{Introduction}
+
+
+
+Numerical Weather Prediction (NWP) models produce forecasts that, although improve continuously in reliability and skill, represent an average over the model grid-box. Whilst, for some applications, users require forecasts at specific locations. Despite NWP modelling advancements, significant weather events will still happen at a location within the gaps, in time and space, not picked by the models. Experienced forecasters add value to predictions issued for smaller scales than the model resolution as they understand model biases and model errors at (sub-)grid scale, interpret how they might impact the weather at a specific location, and summarize all this information in an intelligible way for the relevant users. 
+However, forecasters call upon past model performance experience, which can take years to build up, might generate biased forecasts based on what such experience can recall, and can take some time to adapt it to new model versions. 
+
+However, forecasters call upon past model performance experience, which can take years to build up, might generate biased forecasts based on what such experience can recall, and can take some time to adapt it to new model versions. 
+
+
+A new statistical post-processing methodology (ecPoint) can help to overcome these challenges, e.g. the probabilities that ecPoint assigns to a point forecast do not depend on personal experiences, ecPoint provides automatically adapts the probabilities for an event for new model versions, and helps forecasters to mathematically summarize the probabilistic information contained in the raw forecasts. However, ecPoint adds layers of complexity to traditional probabilistic ensemble-based forecasts (PEFs), and it is currently not fully understood whether traditional training provided for standard PEFs is sufficient to train forecasters in the use of ecPoint forecasts and favour its adoption in operational environments. During a one-year trial, the Hungarian Meteorological Service (OMSZ) and the National Meteorological Institute of Costa Rica (IMN) used ecPoint-Rainfall forecasts to predict extreme localized rainfall events. The overall impression is that ecPoint-Rainfall could improve the predictions for such events if tailored training is provided, no matter what is the prior forecasters experience with PEFs.
+
+
+
 
 \textit{"Forecasts possess no intrinsic value. They acquire value through their ability to influence the decisions made by users of the forecasts”} \citep{Murphy1993}. Thus increases in forecast accuracy do not necessarily imply increases in forecast value, as the quality/value relationship is user and problem-specific. \par
 Let's examine the diffusion of adoption of probabilistic ensemble-based forecasts (PEFs). \citet{Lorenz1963} advocated that the chaotic nature of the atmosphere would impose a limit on how far ahead deterministic predictions could work. In the 1990s, the emergence of ensemble prediction systems (EPSs) marked de facto the paradigm shift from a deterministic to a probabilistic approach as such systems predict not only the most likely weather scenario but also its probability of occurrence, as well as other possible alternative outcomes \citep{Bauer2015,Buizza2018a,Palmer2019}. Today, providing the uncertainty around a forecast \textit{“is not} [seen anymore as] \textit{a bolt-on extra, but rather a sine qua non”} to deliver a prediction which would otherwise be incomplete \citep{Palmer2017}. EPSs also provide more consistent, less “jumpy” predictions. Without such characteristics, forecasts become more difficult to handle and can cause users to lose confidence in the forecasts \citep{Richardson2020}. \par
