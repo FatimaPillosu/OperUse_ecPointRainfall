@@ -70,9 +70,12 @@ Centre of Natural hazards and Disaster Science, Uppsala, Sweden}
 % INTRODUCTION
 \section{Introduction}
 
+Numerical Weather Prediction (NWP) models have been continuously improving over the last years,  although improve continuously in reliability and skill, represent an average over the model grid-box. 
 
 
-Numerical Weather Prediction (NWP) models produce forecasts that, although improve continuously in reliability and skill, represent an average over the model grid-box. Whilst, for some applications, users require forecasts at specific locations. Despite NWP modelling advancements, significant weather events will still happen at a location within the gaps, in time and space, not picked by the models. Experienced forecasters add value to predictions issued for smaller scales than the model resolution as they understand model biases and model errors at (sub-)grid scale, interpret how they might impact the weather at a specific location, and summarize all this information in an intelligible way for the relevant users. 
+
+
+Whilst, for some applications, users require forecasts at specific locations. Despite NWP modelling advancements, significant weather events will still happen at a location within the gaps, in time and space, not picked by the models. Experienced forecasters add value to predictions issued for smaller scales than the model resolution as they understand model biases and model errors at (sub-)grid scale, interpret how they might impact the weather at a specific location, and summarize all this information in an intelligible way for the relevant users. 
 However, forecasters call upon past model performance experience, which can take years to build up, might generate biased forecasts based on what such experience can recall, and can take some time to adapt it to new model versions. 
 
 However, forecasters call upon past model performance experience, which can take years to build up, might generate biased forecasts based on what such experience can recall, and can take some time to adapt it to new model versions. 
@@ -89,7 +92,7 @@ Theoretical studies \citep{Richardson2000,Richardson2001,Palmer2002,Zhu2002,Buiz
 Therefore, even the most recent discussions \citep{Zhang2019}  highlight the importance of giving proper attention to the whole forecasting chain to expand the adoption of PEFs to a broader group of end-users. This includes (i) continuous improvements in the formulation of probabilistic weather predictions, (ii) using post-event analysis to constantly evaluate and update communication strategies for low-probability high-impact events without reducing trust through, (iii) user-engagement, (iv) user-testing, and (v) awareness of design principles. \par
 In 2019, a new post-processed point-rainfall product, called ecPoint-Rainfall became operational at ECMWF. A one-year global verification showed that, for points, ecPoint-Rainfall provides more reliable and skilful rainfall forecasts than the raw ECMWF ensemble (ENS), with marked improvements in the discrimination ability for extreme rainfall events (> 50 mm/12h) in the medium range being particularly noteworthy \citep{Hewson2020a}. However, the new product was not assessed from a user perspective. ecPoint-Rainfall adds layers of complexity to standard PEFs and, without a user-focused evaluation, it is impossible to assess to what extent end-users, including those experienced in probabilistic weather forecasting, might find the interpretation of the new forecasts conceptually challenging. Such complexity might lead to a misunderstanding or misuse of the product, eventually undermining a possible broader adoption. Therefore, this study aims to assess whether traditional PEF guidelines are appropriate also for ecPoint-Rainfall, or whether they would need to be somehow tailored to best communicate the specific features and the added value of this new product, even in case of experienced users of probabilistic forecasts. \par
 Hungary and Costa Rica have meteorological services with different experience in probabilistic weather forecasting, and they volunteered to test ecPoint-Rainfall within their operational environments over a one-year trial period. Both  meteorological services reported on the ecPoint-Rainfall performance in predicting extreme rainfall events that caused significant impacts in their own countries during the trial. Such analysis complements the more general verification carried out by \citet{Hewson2020a} by illustrating the performance of ecPoint-Rainfall in two different climatological regions of the world. Then, subsequent discussions were carried out to understand how ecPoint-Rainfall was viewed  operationally, and which aspects might condition in future its full adoption within operational environments. \par
-Section 2 discusses the experience of Hungary and Costa Rica in probabilistic weather forecasting. Section 3  introduces ecPoint-Rainfall. Section 4 presents the design of products based on ecPoint-Rainfall developed at both meteorological services and how they were subsequently used in a subjective evaluation of the post-processed rainfall forecasts. Section 5 discusses the outcomes of such subjective evaluation. Concluding remarks are presented in section 5.
+Section 2 discusses the experience of Hungary and Costa Rica in probabilistic weather forecasting. Section 3  introduces ecPoint-Rainfall. Section 4 presents the design of products based on ecPoint-Rainfall developed at both meteorological services and how they were subsequently used in a  evaluation of the post-processed rainfall forecasts. Section 5 discusses the outcomes of such subjective evaluation. Concluding remarks are presented in section 5.
 According to \citet{Fundel2019}, users need the opportunity to familiarise with the quality of new products in their everyday practice in order to appreciate their entire value in decision-making processes.
 
 
@@ -117,7 +120,7 @@ In practice, ecPoint produces 100 equally probable point rainfall realisations f
 \section{Background on Costa Rica}
 
 \begin{figure}
-\centerline{\includegraphics[width=19pc]{manuscript/Figures/Fig2.jpg}}
+\centerline{\includegraphics[width=19pc]{manuscript/Figures/Fig2.png}}
 \caption{Orography of Costa Rica (a) and Hungary (b). The insert box shows the location of Hungary and Costa Rica in Europe and America, respectively.}
 \label{Fig2}
 \end{figure}
@@ -136,12 +139,12 @@ The event selected occurred between October, 3rd 2018 and October 5th 2018. It w
 \subsection{ecPoint-Rainfall product(s) developed at IMN during the trial}
 
 \begin{figure}
-\centerline{\includegraphics[width=18pc]{manuscript/Figures/Fig5.jpg}}
+\centerline{\includegraphics[width=18pc]{manuscript/Figures/Fig3.jpg}}
 \caption{Product developed by IMN based on the 85th percentile of ecPoint-Rainfall.}
-\label{Fig5}
+\label{Fig3}
 \end{figure}
 
-During the trial, IMN had access to the 99 percentiles for ecPoint-Rainfall. However, IMN developed a product based only on the 85th percentile of ecPoint-Rainfall (see Fig.\ref{Fig5}). The selection of the 85th percentile was not based on previous experience with probabilistic products \textit{("en realidad no solemos usar muy seguido herramientas probabilísticas para pronóstico} del tiempo."} [translation: actually, we don't often use probabilistic tools to forecast the weather.]). The selection of the 85th percentile was not carried out through a formal study. IMN reported that the 85th percentile (and not, for example, the 99th) was selected in order to forecast also more common events that, even if they are no that extreme, can still cause severe impacts in certain regions of Costa Rica.
+During the trial, IMN had access to the 99 percentiles for ecPoint-Rainfall. However, IMN developed a product based only on the 85th percentile of ecPoint-Rainfall (see Fig.\ref{Fig3}). The selection of the 85th percentile was not based on previous experience with probabilistic products \textit{("en realidad no solemos usar muy seguido herramientas probabilísticas para pronóstico} del tiempo."} [translation: actually, we don't often use probabilistic tools to forecast the weather.]). The selection of the 85th percentile was not carried out through a formal study. IMN reported that the 85th percentile (and not, for example, the 99th) was selected in order to forecast also more common events that, even if they are no that extreme, can still cause severe impacts in certain regions of Costa Rica.
 
 
 
@@ -165,18 +168,40 @@ OMSZ has also experience in post-processing of rainfall forecasts. Objective ver
 
 %%%%%%%%%%%%%%%%%%%%
 % Methods
-\section{Methods} 
-
+\section{The trial} 
 
 \begin{figure*}
-\centerline{\includegraphics[width=39pc]{manuscript/Figures/Fig3.png}}
+\centerline{\includegraphics[width=39pc]{manuscript/Figures/Fig4.png}}
 \caption{Timeline of the trial phases. The first phase, the "real-time phase", took place between 2018 and 2019 and lasted 12 months. Th second phase, the "offline phase", took place between 2019 and 2021 and lasted 15 months.}
-\label{Fig3}
+\label{Fig4}
 \end{figure*}
 
+In 2018, OMSZ and IMN volunteered to evaluate ecPoint-Rainfall forecasts in the prediction of extreme localized rainfall events in their countries in their day-to-day operational routines. The participation of OMSZ and IMN was ideal. The two meteorological services have different degrees of experience with probabilistic forecasts. IMN has much more recent experience than OMSZ working with PEFs (as mentioned in sections 3b and 4b). The two countries also reside in two different climatological regions. Costa Rica is located in the tropic and Hungary in the extra-tropics (see Fig.\ref{Fig2}a). This would allow to evaluate ecPoint-Rainfall in for different types of rainfall events and two different geographical regions.
 
-\subsection{Hands-on experience, the trial}
- OMSZ and IMN volunteered to test the ecPoint-Rainfall forecasts in their day-to-day operational routines. The participation of OMSZ and IMN was ideal as the two meteorological services have different degrees of experience with probabilistic forecasts, and reside in two different climatological regions; tropical for IMN and extra-tropical for OMSZ. The trial period started in 2018. During the trial, OMSZ and IMN were invited to analyse the ecPoint-Rainfall performance in predicting extreme rainfall events. Given the small volumes of data available (only one year of data), both countries decided to base their analysis case studies. The selection of the case studies . The ecPoint-Rainfall forecasts were presented to both countries at the beginning of the trial. They were informed of different sources of information about ecPoint-Rainfall on the web, such as newsletters or the ECMWF Forecaster's User Guide \citep{Owens2018} and no further details were provided unless direct requests were submitted.
+\subsection{First phase: the real-time phase}
+ \begin{figure}
+\centerline{\includegraphics[width=19pc]{manuscript/Figures/Fig5.png}}
+\caption{Timeline of the trial phases. The first phase, the "real-time phase", took place between 2018 and 2019 and lasted 12 months. Th second phase, the "offline phase", took place between 2019 and 2021 and lasted 15 months.}
+\label{Fig4}
+\end{figure}
+ 
+ 
+ 
+ 
+ The trial started with a one month "Remote training" phase. The materials provided to IMN and OMSZ are listed in Table 1. 
+ 
+ 
+ 
+ 
+ depending on the meteorological service experience with PEFs, was more involving for Costa Rica. The raining material 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ Given the small volumes of data available (only one year of data), both countries decided to base their analysis case studies. The selection of the case studies . The ecPoint-Rainfall forecasts were presented to both countries at the beginning of the trial. They were informed of different sources of information about ecPoint-Rainfall on the web, such as newsletters or the ECMWF Forecaster's User Guide \citep{Owens2018} and no further details were provided unless direct requests were submitted.
 	
 \subsection{Dialogue forecasters-developers}
 The forecasters who monitored the ecPoint-Rainfall forecasts in their day-to-day operational duties were invited to discuss the outcomes of the reports. Forecasters were also invited to discuss the theoretical and practical challenges that emerged when adopting ecPoint-Rainfall in an operational environment. Such an open-ended approach is particularly well suited to explore behavioural responses to innovative forecast products like ecPoint-Rainfall, where the range of possible conceptual framings and the meaningful behaviour of the informants is not quantifiable but must be teased out through careful interpretation \citep{Patton2002}.	
