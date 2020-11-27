@@ -72,19 +72,12 @@ Centre of Natural hazards and Disaster Science, Uppsala, Sweden}
 
 Numerical Weather Prediction (NWP) models have been continuously improving over the last years,  although improve continuously in reliability and skill, represent an average over the model grid-box. 
 
-
-
-
 Whilst, for some applications, users require forecasts at specific locations. Despite NWP modelling advancements, significant weather events will still happen at a location within the gaps, in time and space, not picked by the models. Experienced forecasters add value to predictions issued for smaller scales than the model resolution as they understand model biases and model errors at (sub-)grid scale, interpret how they might impact the weather at a specific location, and summarize all this information in an intelligible way for the relevant users. 
 However, forecasters call upon past model performance experience, which can take years to build up, might generate biased forecasts based on what such experience can recall, and can take some time to adapt it to new model versions. 
 
 However, forecasters call upon past model performance experience, which can take years to build up, might generate biased forecasts based on what such experience can recall, and can take some time to adapt it to new model versions. 
 
-
 A new statistical post-processing methodology (ecPoint) can help to overcome these challenges, e.g. the probabilities that ecPoint assigns to a point forecast do not depend on personal experiences, ecPoint provides automatically adapts the probabilities for an event for new model versions, and helps forecasters to mathematically summarize the probabilistic information contained in the raw forecasts. However, ecPoint adds layers of complexity to traditional probabilistic ensemble-based forecasts (PEFs), and it is currently not fully understood whether traditional training provided for standard PEFs is sufficient to train forecasters in the use of ecPoint forecasts and favour its adoption in operational environments. During a one-year trial, the Hungarian Meteorological Service (OMSZ) and the National Meteorological Institute of Costa Rica (IMN) used ecPoint-Rainfall forecasts to predict extreme localized rainfall events. The overall impression is that ecPoint-Rainfall could improve the predictions for such events if tailored training is provided, no matter what is the prior forecasters experience with PEFs.
-
-
-
 
 \textit{"Forecasts possess no intrinsic value. They acquire value through their ability to influence the decisions made by users of the forecasts”} \citep{Murphy1993}. Thus increases in forecast accuracy do not necessarily imply increases in forecast value, as the quality/value relationship is user and problem-specific. \par
 Let's examine the diffusion of adoption of probabilistic ensemble-based forecasts (PEFs). \citet{Lorenz1963} advocated that the chaotic nature of the atmosphere would impose a limit on how far ahead deterministic predictions could work. In the 1990s, the emergence of ensemble prediction systems (EPSs) marked de facto the paradigm shift from a deterministic to a probabilistic approach as such systems predict not only the most likely weather scenario but also its probability of occurrence, as well as other possible alternative outcomes \citep{Bauer2015,Buizza2018a,Palmer2019}. Today, providing the uncertainty around a forecast \textit{“is not} [seen anymore as] \textit{a bolt-on extra, but rather a sine qua non”} to deliver a prediction which would otherwise be incomplete \citep{Palmer2017}. EPSs also provide more consistent, less “jumpy” predictions. Without such characteristics, forecasts become more difficult to handle and can cause users to lose confidence in the forecasts \citep{Richardson2020}. \par
@@ -108,7 +101,8 @@ According to \citet{Fundel2019}, users need the opportunity to familiarise with 
 \label{Fig.1}
 \end{figure*}
 
-ecPoint is a statistical post-processing technique that provides probabilistic bias-corrected forecasts at point scale from ensemble or deterministic numerical weather prediction (NWP) model outputs. Different hydro-meteorological variables, from different NWP models, can potentially be post-processed using the ecPoint technique to create, what is known as, the "ecPoint Family". ecPoint-Rainfall is the branch of the family that produces rainfall forecasts that mirror rain gauge measurements \citep{Hewson2020a}. In this paper, the ecPoint-Rainfall forecasts are post-processed raw ECMWF ENS rainfall forecasts. It is worth noting that what described to the following also applies to other NWP models. \parTo explain the reasons why ecPoint-Rainfall and raw ECMWF ENS rainfall forecasts may differ, let us consider an ENS grid cell and radar-derived totals for a rainfall event. Let us considered that the grid cell average rainfall total is about 17mm, while the minimum and maximum rainfall amounts are about 2mm and 60mm, respectively. The following can be stated. First, a completely accurate ENS member forecast would predict 17mm. However, this would not give the user any idea on what could be the spatial variability, within the grid cell, of the local (i.e. point) rainfall amounts when a particular G\_WT occurs. This describes an issue of sub-grid variability within the model grid box. Secondly, a particular G\_WT might show that an ENS member tends, on average, to over-predict (or under-predict) the grid-box rainfall by 15\%, delivering a forecast of 20mm (or 14mm) instead of 17mm. This describes an issue of model bias at grid-scale. By anticipating the sub-grid variability within the grid-box and correcting for biases in the model at grid-scale, ecPoint-Rainfall provides probabilities of bias-corrected rainfall forecasts at a point within the grid-box. However, ecPoint-Rainfall does not say where that point is within the ENS grid-box. \par
+ecPoint is a statistical post-processing technique that provides probabilistic bias-corrected forecasts at point scale from ensemble or deterministic numerical weather prediction (NWP) model outputs. Different hydro-meteorological variables, from different NWP models, can potentially be post-processed using the ecPoint technique to create, what is known as, the "ecPoint Family". ecPoint-Rainfall is the branch of the family that produces rainfall forecasts that mirror rain gauge measurements \citep{Hewson2020a}. In this paper, the ecPoint-Rainfall forecasts are post-processed raw ECMWF ENS rainfall forecasts. It is worth noting that what described to the following also applies to other NWP models. \par
+To explain the reasons why ecPoint-Rainfall and raw ECMWF ENS rainfall forecasts may differ, let us consider an ENS grid cell and radar-derived totals for a rainfall event. Let us considered that the grid cell average rainfall total is about 17mm, while the minimum and maximum rainfall amounts are about 2mm and 60mm, respectively. The following can be stated. First, a completely accurate ENS member forecast would predict 17mm. However, this would not give the user any idea on what could be the spatial variability, within the grid cell, of the local (i.e. point) rainfall amounts when a particular G\_WT occurs. This describes an issue of sub-grid variability within the model grid box. Secondly, a particular G\_WT might show that an ENS member tends, on average, to over-predict (or under-predict) the grid-box rainfall by 15\%, delivering a forecast of 20mm (or 14mm) instead of 17mm. This describes an issue of model bias at grid-scale. By anticipating the sub-grid variability within the grid-box and correcting for biases in the model at grid-scale, ecPoint-Rainfall provides probabilities of bias-corrected rainfall forecasts at a point within the grid-box. However, ecPoint-Rainfall does not say where that point is within the ENS grid-box. \par
 The calibration dataset for ecPoint-Rainfall is built applying the new concept of "Remote Calibration" described in \citet{Hewson2020a}. Typically, traditional post-processing methods use observations from a particular site. Such an approach limits the size of the calibration dataset, and forces to wait for at least ~20 years to have a robust calibration dataset, which still might not contain (enough) extremes cases for the considered site. The "Remote Calibration" approach removes any location labels and, instead, generates calibration datasets for particular G\_WTs pulling observations from where, around the world, those G\_WTs occurred. This approach facilitates the generation of extensive training datasets to post-process rainfall, including extremes. Indeed, the sites where a certain G\_WT occurs relatively often build the calibration dataset also for those sites where the same G\_WT would generate extreme rainfall. To give an order of magnitude, in order to create a similar calibration dataset for a location with similar size of one generated with the Remote Calibration approach, one would need to wait from hundreds to thousands of years. It is essential to highlight that the error bars on forecasts for globally extreme rainfall events (e.g. tropical cyclones) will be inevitably larger than for "not globally" extremes due to a lack of events in the calibration dataset. \par
  ecPoint-Rainfall outperforms raw ECMWF ENS in predicting localised rainfall events, including extremes \citet{Hewson2020a}. \par
 In practice, ecPoint produces 100 equally probable point rainfall realisations for each of the 51 ENS members and each grid-box. For each grid-box, such 5100 values are distilled down into 99 percentile fields (1,2,..99) being those the final ecPoint-Rainfall product. Outputs from ecPoint-Rainfall are produced at ECMWF twice per day (at 00 and 12 UTC), up to 10 days, for overlapping 12-hourly accumulation periods, namely (T+0,T+12), (T+6,T+18),...,(T+234,T+246).
@@ -144,7 +138,7 @@ The event selected occurred between October, 3rd 2018 and October 5th 2018. It w
 \label{Fig3}
 \end{figure}
 
-During the trial, IMN had access to the 99 percentiles for ecPoint-Rainfall. However, IMN developed a product based only on the 85th percentile of ecPoint-Rainfall (see Fig.\ref{Fig3}). The selection of the 85th percentile was not based on previous experience with probabilistic products \textit{("en realidad no solemos usar muy seguido herramientas probabilísticas para pronóstico} del tiempo."} [translation: actually, we don't often use probabilistic tools to forecast the weather.]). The selection of the 85th percentile was not carried out through a formal study. IMN reported that the 85th percentile (and not, for example, the 99th) was selected in order to forecast also more common events that, even if they are no that extreme, can still cause severe impacts in certain regions of Costa Rica.
+During the trial, IMN had access to the 99 percentiles for ecPoint-Rainfall. However, IMN developed a product based only on the 85th percentile of ecPoint-Rainfall (see Fig.\ref{Fig3}). The selection of the 85th percentile was not based on previous experience with probabilistic products \textit{("en realidad no solemos usar muy seguido herramientas probabilísticas para pronóstico del tiempo."} [translation: actually, we don't often use probabilistic tools to forecast the weather.]). The selection of the 85th percentile was not carried out through a formal study. IMN reported that the 85th percentile (and not, for example, the 99th) was selected in order to forecast also more common events that, even if they are no that extreme, can still cause severe impacts in certain regions of Costa Rica.
 
 
 
@@ -179,52 +173,31 @@ OMSZ has also experience in post-processing of rainfall forecasts. Objective ver
 In 2018, OMSZ and IMN volunteered to evaluate ecPoint-Rainfall forecasts in the prediction of extreme localized rainfall events in their countries in their day-to-day operational routines. The participation of OMSZ and IMN was ideal. The two meteorological services have different degrees of experience with probabilistic forecasts. IMN has much more recent experience than OMSZ working with PEFs (as mentioned in sections 3b and 4b). The two countries also reside in two different climatological regions. Costa Rica is located in the tropic and Hungary in the extra-tropics (see Fig.\ref{Fig2}a). This would allow to evaluate ecPoint-Rainfall in for different types of rainfall events and two different geographical regions.
 
 \subsection{First phase: the real-time phase}
- \begin{figure}
-\centerline{\includegraphics[width=19pc]{manuscript/Figures/Fig5.png}}
-\caption{Timeline of the trial phases. The first phase, the "real-time phase", took place between 2018 and 2019 and lasted 12 months. Th second phase, the "offline phase", took place between 2019 and 2021 and lasted 15 months.}
-\label{Fig4}
-\end{figure}
+ \begin{figure*}
+\centerline{\includegraphics[width=39pc]{manuscript/Figures/Fig5.png}}
+\caption{Materials provided to IMN and OMSZ during the "Real-Time Phase" of the trial. }
+\label{Fig5}
+\end{figure*}
  
- 
- 
- 
- The trial started with a one month "Remote training" phase. The materials provided to IMN and OMSZ are listed in Table 1. 
- 
- 
- 
- 
- depending on the meteorological service experience with PEFs, was more involving for Costa Rica. The raining material 
- 
- 
- 
- 
- 
- 
- 
- Given the small volumes of data available (only one year of data), both countries decided to base their analysis case studies. The selection of the case studies . The ecPoint-Rainfall forecasts were presented to both countries at the beginning of the trial. They were informed of different sources of information about ecPoint-Rainfall on the web, such as newsletters or the ECMWF Forecaster's User Guide \citep{Owens2018} and no further details were provided unless direct requests were submitted.
+The trial started with a one month "Remote training" sub-phase. The materials provided to IMN and OMSZ are listed in Fig.\ref{Fig5}. Due to the more recent experience of IMN in working with PEFs, where a deterministic approach is still more dominant, the "remote training" phase was more involving with Costa Rica, e.g. more direct contact via email was necessary to show them how to use probabilistic products.\par  
+
+At the same time the "Remote-training" sub-phase was starting, both IMN and OMSZ started receiving via ftp the ecPoint-Rainfall forecasts for their countries to start the "Assessment of ecPoint-Rainfall in operational forecasting" sub-phase. Given the small volumes of data available (only one year of data), both countries decided to base their analysis on case studies. Both IMN and OMSZ selected independently the case studies to analyse. At the end of the 12-month "Real-time" phase, both IMN and OMSZ sent to ECMWF a report were they summarize their evaluation of ecPoint-Rainfall forecasts.
 	
-\subsection{Dialogue forecasters-developers}
-The forecasters who monitored the ecPoint-Rainfall forecasts in their day-to-day operational duties were invited to discuss the outcomes of the reports. Forecasters were also invited to discuss the theoretical and practical challenges that emerged when adopting ecPoint-Rainfall in an operational environment. Such an open-ended approach is particularly well suited to explore behavioural responses to innovative forecast products like ecPoint-Rainfall, where the range of possible conceptual framings and the meaningful behaviour of the informants is not quantifiable but must be teased out through careful interpretation \citep{Patton2002}.	
+\subsection{Second phase: the offline phase}
+The "Offline phase" is divided in two sub-phases: the "Analysis of provided evaluations" and "Remote discussions with forecasters about the provided evaluations (Remote\_Discussion)" in which ecPoint developers read the reports prepared by IMN and OMSZ and analyse their conclusions about the ecPoint-Rainfall performance predicting extreme localized rainfall events.  the forecasters who monitored the ecPoint-Rainfall forecasts in their day-to-day operational duties were invited by the ecPoint-Rainfall developers to discuss via remote calls the outcomes of their reports. Forecasters were also invited to discuss the theoretical and practical challenges that emerged when adopting ecPoint-Rainfall in an operational environment. Such an open-ended approach is particularly well suited to explore behavioural responses to innovative forecast products like ecPoint-Rainfall, where the range of possible conceptual framings and the meaningful behaviour of the informants is not quantifiable but must be teased out through careful interpretation \citep{Patton2002}.	
 
 
 %%%%%%%%%%%%%%%%%%%%
 % Results
 \section{Results}
 
-IMN evaluated the ecPoint-Rainfall guidance for the selected event from short (day 1) to medium \\ (day 7) lead times employing the product they developed during the trial (see Fig.\ref{Fig2}). Only \\ 12 UTC runs were analyzed as those are the only ones used at IMN for daily warnings \\ given the time difference between Europe and Central America (UTC-6). IMN’s own \\ conclusions can be summarized in three main points:\\
+IMN evaluated the ecPoint-Rainfall guidance for the selected event from short (day 1) to medium (day 7) lead times employing the product they developed during the trial (see Fig.\ref{Fig3}). Only 12 UTC runs were analyzed as those are the only ones used at IMN for daily warnings given the time difference between Europe and Central America (UTC-6). IMN’s own conclusions can be summarized in three main points:
 
-1. \textit{"ecPoint-Rainfall predicted well the beginning and the end of the rainfall event in every} \\ 
-\textit{run from September 27th}. \\
-2. \textit{On October 4th, ecPoint-Rainfall identified Región Pacifico Central and Pacifico Sur as} \\ 
-\textit{the most impacted areas, underestimating the rainfall amounts in Región Pacifico Norte,} \\
-\textit{especially in the Nicoya peninsula where totals of up to 400mm/24h were observed. No runs} \\
-\textit{reached such totals. Only the run on October 4th predicted values higher than 100 mm/12h.”} \\
-3. \textit{Most runs} [based on the 85th percentile of ecPoint-Rainfall] \textit{predicted with one} \\ 
-\textit{day of delay} [October 5th] \textit{the wettest day which was on October 4th.}  \\
-
-
-
-
+\begin{enumerate}
+\item ecPoint-Rainfall predicted well the beginning and the end of the rainfall event in every run from September 27th.
+\item On October 4th, ecPoint-Rainfall identified Región Pacifico Central and Pacifico Sur as the most impacted areas, underestimating the rainfall amounts in Región Pacifico Norte especially in the Nicoya peninsula where totals of up to 400mm/24h were observed. No runs reached such totals. Only the run on October 4th predicted values higher than 100 mm/12h.”
+\item Most runs [based on the 85th percentile of ecPoint-Rainfall] predicted with one day of delay [October 5th] the wettest day which was on October 4th.
+\end{enumerate}
 
 \begin{figure*}
 \centerline{\includegraphics[width=39pc]{manuscript/Figures/Fig5.jpg}}
