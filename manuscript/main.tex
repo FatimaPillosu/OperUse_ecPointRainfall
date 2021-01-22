@@ -71,6 +71,8 @@ Centre of Natural hazards and Disaster Science, Uppsala, Sweden}
 \section{Introduction}
 
 
+
+
 %%%%%%%%%%%%%%%%%%%%
 % ecPoint-Rainfall
 
@@ -85,57 +87,61 @@ Centre of Natural hazards and Disaster Science, Uppsala, Sweden}
 
 
 
-
 %%%%%%%%%%%%%%%%%%%%
 % Background of ecPoint-Rainfall testers
-\section{The background of ecPoint-Rainfall testers}
 
-\subsection{Cost Rica - IMN}
+\begin{figure}
+\centerline{\includegraphics[width=19pc]{manuscript/Figures/GeoLocation_H_CR.png}}
+\caption{Panel (a) shows Costa Rica location in Central America and Hungary location in Europe. Panel (b) and (c) show respectively the orography of Costa Rica and Hungary.}
+\label{GeoLocation_H_CR}
+\end{figure}
 
-\subsection{Hungary - OMSZ}
+\section{Background on Costa Rica}
+\subsection{Extreme rainfall climatology in Costa Rica}
+\subsection{How does IMN traditionally forecast extreme rainfall events?}
+
+\section{Background on Hungary}
+\subsection{Extreme rainfall climatology in Hungary}
+\subsection{How does OMSZ traditionally forecast extreme rainfall events?}
+
+
 
 
 %%%%%%%%%%%%%%%%%%%%
 % Methods
 \section{Methods} 
 
-
 \begin{figure}
 \centerline{\includegraphics[width=19pc]{manuscript/Figures/UND_EFF_TradEPFs.png}}
-\caption{Relationship between users' understanding (UND) of ensemble-based probabilistic forecasts and their effective (EFF) use in decision-making. Diagram's x-axis represents UND levels: "low", "medium", "high". Over time, training on ensemble-based probabilistic forecasts (green arrow by the x-axis) can push UND from "low" to "medium" or "high" levels. Diagram's y-axis represents EFF levels: "ineffective", "moderately effective", "very effective". Over time, training on how to better communicate ensemble-based probabilistic outputs (green arrow by the y-axis) can push their effectiveness in decision-making from "ineffective" to "moderately effective" or "very effective". The black line represents optimal values for the UND-EFF relationship, and no UND-EFF pairs can exist in the (black dashed) area above the black line. Qualitatively, the blue line represents state-of-the-art UND-EFF relationship for traditional probabilistic ensemble-based forecasts.}
+\caption{Relationship between users' understanding (UND) of ensemble-based probabilistic forecasts and their effective (EFF) use in decision-making. Diagram's x-axis represents UND levels: "low", "medium", "high". Over time, training on ensemble-based probabilistic forecasts (cyan arrow in the x-axis direction) can push UND from "low" to "medium" or "high" levels. Diagram's y-axis represents EFF levels: "ineffective", "moderately effective", "very effective". Over time, training on how to communicate ensemble-based probabilistic outputs (cyan arrow in the y-axis direction) can push their effectiveness in decision-making from "ineffective" to "moderately effective" or "very effective". The green line represents optimal values for the UND-EFF relationship, and no UND-EFF pairs can exist in the green dashed area above the green line. Qualitatively, the blue line represents state-of-the-art UND-EFF relationship for traditional probabilistic ensemble-based forecasts.}
 \label{UND_EFF_TradEPFs}
 \end{figure}
 
-
-
 \begin{figure}
 \centerline{\includegraphics[width=19pc]{manuscript/Figures/FlowChart.png}}
-\caption{Timeline of the trial phases. The first phase, the "real-time phase", took place between 2018 and 2019 and lasted 12 months. Th second phase, the "offline phase", took place between 2019 and 2021 and lasted 15 months.}
+\caption{Firstly, the flowchart describes the experiment processes that follow in the two experiment phases (real-time and offline). Secondly, the flowchart describes who, between developers (red squares), testers (blue squares) and developers & testers (cyan squares), conducted the experiment processes. Finally, the flowchart describes the possible experiment outcomes.}
 \label{FlowChart}
 \end{figure}
 
-
 \begin{figure*}
-\centerline{\includegraphics[width=39pc]{manuscript/Figures/Fig5.png}}
-\caption{Materials provided to IMN and OMSZ during the "Real-Time Phase" of the trial. }
+\centerline{\includegraphics[width=39pc]{manuscript/Figures/Remote_Training.png}}
+\caption{Training material provided to IMN and OMSZ at the beginning of the "Real-Time Phase" of the trial.}
 \label{Fig5}
 \end{figure*}
  
 
 %%%%%%%%%%%%%%%%%%%%
 % Results
-\section{Results}
+\section{Results: real-time phase}
 
-\subsection{Real-time phase}
-
-\subsection{Offline phase}
+\subsection{Costa Rica}
 
 \begin{figure}
 \centerline{\includegraphics[width=19pc]{manuscript/Figures/ProbFC_Knowledge_Effectiveness_Observed.png}}
 \caption{Like Fig.\ref{UND_EFF_estimated}, but it includes the results of the experiment with IMN and OMSZ. Such results show that the real gap in the UND-EFF relationship between ecPoint and traditional ensemble-based forecasts (dashed fuchsia area) is greater than it was estimated at the beginning of the experiment as users with different ensemble-based forecasts understanding levels performed similarly in terms of effective use of such forecasts in decision-making processes.}
 \label{UND_EFF_observed}
 \end{figure}
-
+"
 
 \begin{figure*}
 \centerline{\includegraphics[width=39pc]{manuscript/Figures/Fig5.jpg}}
@@ -164,10 +170,10 @@ Centre of Natural hazards and Disaster Science, Uppsala, Sweden}
 \label{Fig8}
 \end{figure}
 
+\subsection{Hungary}
 
-%%%%%%%%%%%%%%%%%%%%
-% Discussions
-\section{Discussions}
+
+\section{Results: offline phase}
 
 \begin{figure*}
 \centerline{\includegraphics[width=39pc]{manuscript/Figures/Fig9.png}}
@@ -176,9 +182,18 @@ Centre of Natural hazards and Disaster Science, Uppsala, Sweden}
 \end{figure*}
 
 
+
+
+
+
+%%%%%%%%%%%%%%%%%%%%
+% Discussions
+\section{Discussion}
+
+
 %%%%%%%%%%%%%%%%%%%%
 % Conclusions
-\section{Conclusions}
+\section{Conclusion}
 
 
 %%%%%%%%%%%%%%%%%%%
