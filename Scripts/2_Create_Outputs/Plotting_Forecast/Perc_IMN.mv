@@ -1,0 +1,195 @@
+# Metview Macro
+
+##############################################################################################
+#INPUT PARAMETERS
+
+BaseDateNUM = 20180928
+BaseTime = 12
+StepF = 162
+Acc = 12
+Perc = 85
+TimeZone = -6
+DataSet = "ecPoint" # valid values between "ecPoint" and "RawENS"
+WorkDir = "/perm/mo/mofp/PhD/Papers2Write/OperUse_ecPointRainfall"
+InDir = "Pre_Process/Raw_Data/FC/IMN"
+OutDir = "Pre_Process/Figures/CaseStudy_IMN/FC"
+##############################################################################################
+
+
+# SETTING INPUT PARAMETERS
+
+# Time
+BaseTimeSTR = left_pad_number(BaseTime,2)
+
+# Steps
+StepS = StepF - Acc
+StepSSTR = left_pad_number(StepS,3)
+StepFSTR = left_pad_number(StepF,3)
+
+# Dates
+BaseDate=date(BaseDateNUM)
+BaseDateSTR=string(BaseDateNUM)
+Year = string(BaseDate, "yyyy")
+Month1 = string(BaseDate, "mmmm")
+Month2 = string(BaseDate, "mm")
+Day = string(BaseDate, "dd")
+
+ValidityDateS = BaseDate + ((BaseTime + StepS)/24)
+ValidityDateF = BaseDate + ((BaseTime + StepF)/24)
+ValidityDateS_lst = ValidityDateS + (TimeZone/24)
+ValidityDateF_lst = ValidityDateF + (TimeZone/24)
+
+DayVS = string(ValidityDateS, "dd")
+MonthVS = string(ValidityDateS, "mmmm")
+YearVS = string(ValidityDateS, "yyyy")
+DayVS_lst = string(ValidityDateS_lst, "dd")
+MonthVS_lst = string(ValidityDateS_lst, "mmmm")
+MonthVS1_lst = string(ValidityDateS_lst, "mm")
+YearVS_lst = string(ValidityDateS_lst, "yyyy")
+TimeNumVS_lst = hour(ValidityDateS_lst)
+TimeVS1_lst = left_pad_number(TimeNumVS_lst,2)
+if TimeNumVS_lst>12 then
+    TimeNumVS_lst = TimeNumVS_lst - 12
+    TimeVS_lst = string(TimeNumVS_lst)
+    TimeSymbolS = "pm"
+else
+    TimeVS_lst = string(TimeNumVS_lst)
+    TimeSymbolS = "am"    
+end if  
+
+DayVF = string(ValidityDateF, "dd")
+MonthVF = string(ValidityDateF, "mmmm")
+YearVF = string(ValidityDateF, "yyyy")
+DayVF_lst = string(ValidityDateF_lst, "dd")
+MonthVF_lst = string(ValidityDateF_lst, "mmmm")
+MonthVF1_lst = string(ValidityDateF_lst, "mm")
+YearVF_lst = string(ValidityDateF_lst, "yyyy")
+TimeVF_lst = string(ValidityDateF_lst, "HH")
+TimeNumVF_lst = hour(ValidityDateF_lst)
+TimeVF1_lst = left_pad_number(TimeNumVF_lst,2)
+if TimeNumVF_lst>12 then
+    TimeNumVF_lst = TimeNumVF_lst - 12
+    TimeVF_lst = string(TimeNumVF_lst)
+    TimeSymbolF = "pm"
+else
+    TimeVF_lst = string(TimeNumVF_lst)
+    TimeSymbolF = "am"    
+end if
+
+# Acc
+AccSTR = left_pad_number(Acc,3)
+
+# Percentile
+PercSTR = left_pad_number(Perc,2)
+
+
+# COMPUTATIONS
+
+# Read the rainfall forecasts
+print("Reading " & DataSet & " forecasts...")
+Dir = WorkDir & "/" & InDir & "/" & DataSet & "/" & BaseDateSTR & BaseTimeSTR
+if DataSet = "ecPoint" then
+    FileName = "Pt_BC_PERC_" 
+    FileName = FileName & AccSTR & "_" & BaseDateSTR & "_" & BaseTimeSTR & "_" & StepFSTR & ".grib"
+    cdf = read(Dir & "/" & FileName)
+    cdf = cdf[Perc]
+else if DataSet = "RawENS" then
+     FileName = "RawENS_" 
+     FileName1 = FileName & AccSTR & "_" & BaseDateSTR & "_" & BaseTimeSTR & "_" & StepSSTR & ".grib"
+     FileName2 = FileName & AccSTR & "_" & BaseDateSTR & "_" & BaseTimeSTR & "_" & StepFSTR & ".grib"
+     tp1 = read(Dir & "/" & FileName1)
+     tp2 = read(Dir & "/" & FileName2)
+     tp = (tp2 - tp1) * 1000
+     cdf = percentile(percentiles:Perc, data:tp)
+end if   
+
+
+# PLOTTING
+
+# Set up the output file
+FileOut = WorkDir & "/" & OutDir & "/" & DataSet & "_Perc" & PercSTR & "_" & BaseDateSTR & "_" & BaseTimeSTR & "_" & StepFSTR
+svg = svg_output(output_name : FileOut)
+setoutput(svg)
+
+# Plotting the forecasts
+print("Plotting the forecast...")
+
+coastlines = mcoast(
+    map_coastline_thickness      : 5,
+    map_coastline_resolution     : "full",
+    map_coastline_colour         : "white",
+    map_boundaries               : "on",
+    map_boundaries_colour        : "white",
+    map_boundaries_thickness     : 5,
+    map_grid                     : "off",
+    map_label                    : "off"
+    )
+
+geo_view = geoview(
+    coastlines : coastlines,
+    map_projection      : "epsg:3857",
+    map_area_definition : "corners",
+    area                : [8,-86,11.3,-82.4]
+    )
+    
+contouring = mcont(
+    legend                       : "on",
+    contour                      : "off",
+    contour_level_selection_type : "level_list",
+    contour_level_list           : [0,1,20,40,60,100,150,250,500],
+    contour_label                : "off",
+    contour_shade                : "on",
+    contour_shade_colour_method  : "list",
+    contour_shade_method         : "area_fill",
+    contour_shade_colour_list    : ["RGB(0.77,0.94,0.93)", #0-1
+                                    "RGB(0.75,0.94,0.0074)", #1-20
+                                    "RGB(1,0.73,0.0039)", #20-40
+                                    "RGB(0.99,0.11,0.11)", #40-60
+                                    "RGB(0.88,0.28,0.98)", #60-100
+                                    "RGB(0.37,0.29,0.91)", #100-150
+                                    "RGB(0.042,0.042,0.43)", #150-250
+                                    "RGB(0.45,0.45,0.45)"] #250-500
+    )      
+
+legend = mlegend(
+    legend_text_font            : "helvetica",
+    legend_text_colour          : "black",
+    legend_text_font_size       : 0.6,
+    legend_entry_plot_direction : "row",
+    legend_box_blanking         : "on",
+    legend_entry_text_width     : 50
+    )
+
+title_plot1 = DataSet & " - " & string(Perc) & "th percentile"
+title_plot2 = Day & " " & Month1 & " " & Year & ", " & BaseTimeSTR & " UTC" & " " & "(t+" & string(StepS) & ", t+" & string(StepF) & ")"
+title_plot3 = "VT (LT): " & DayVS_lst & " " & MonthVS_lst & " " & YearVS_lst & " " & TimeVS_lst & TimeSymbolS & " - " & DayVF_lst & " " & MonthVF_lst & " " & YearVF_lst & " " & TimeVF_lst  & TimeSymbolF
+title = mtext(
+    text_line_count: 4,
+    text_line_1: title_plot1,
+    text_line_2: title_plot2,
+    text_line_3: title_plot3,
+    text_line_4: " ",
+    text_font: "helvetica",
+    text_colour : "black",
+    text_font_size: 0.6
+    )
+
+plot(cdf, geo_view, contouring, title, legend)
+
+
+##########################################################
+# EXTERNAL FUNCTION
+
+function left_pad_number (num: number, num_digits: number)
+
+    num_string = ''  #  initialise the string to empty
+
+    for pow = num_digits to 1 by -1 do
+        digit = int(num / (10^(pow-1)))
+        num_string = num_string & digit
+        num = num - digit *(10^(pow-1))
+    end for
+
+    return num_string
+
+end left_pad_number

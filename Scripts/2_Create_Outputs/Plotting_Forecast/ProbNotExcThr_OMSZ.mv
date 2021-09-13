@@ -1,0 +1,162 @@
+#Metview Macro
+
+#####################################################################
+#INPUT PARAMETERS
+
+BaseDateNUM = 20180610
+BaseTime = 0
+StepF = 36
+Acc = 12
+Thr = 10
+DataSet = "RawENS"  # valid values between "ecPoint" and "RawENS"
+WorkDir = "/perm/mo/mofp/PhD/Papers2Write/OperUse_ecPointRainfall"
+InDir = "Pre_Process/Raw_Data/FC/OMSZ/CaseStudy"
+OutDir = "Pre_Process/Figures/CaseStudy_OMSZ/FC"
+#####################################################################
+
+
+# SETTING INPUT PARAMETERS
+
+# Time
+BaseTimeSTR = left_pad_number(BaseTime,2)
+
+# Steps
+StepS = StepF - Acc
+StepSSTR = left_pad_number(StepS,3)
+StepFSTR = left_pad_number(StepF,3)
+
+# Date
+BaseDate=date(BaseDateNUM)
+BaseDateSTR=string(BaseDateNUM)
+Year = string(BaseDate, "yyyy")
+Month1 = string(BaseDate, "mmmm")
+Month2 = string(BaseDate, "mm")
+Day = string(BaseDate, "dd")
+
+if BaseTime = 0 then
+    ValidityDateS = BaseDate + (StepS/24)
+    ValidityDateF = BaseDate + (StepF/24)
+else
+    ValidityDateS = BaseDate + ((StepS/24)+0.5)
+    ValidityDateF = BaseDate + ((StepF/24)+0.5)
+end if
+DayVS = string(ValidityDateS, "dd")
+MonthVS = string(ValidityDateS, "mmmm")
+YearVS = string(ValidityDateS, "yyyy")
+TimeVS = string(ValidityDateS, "HH")
+DayVF = string(ValidityDateF, "dd")
+MonthVF = string(ValidityDateF, "mmmm")
+YearVF = string(ValidityDateF, "yyyy")
+TimeVF = string(ValidityDateF, "HH")
+
+# Acc
+AccSTR = left_pad_number(Acc,3)
+
+# Threshold
+ThrSTR = left_pad_number(Thr,2)
+
+
+# COMPUTATIONS
+
+# Read the rainfall forecasts
+Dir = WorkDir & "/" & InDir & "/" & DataSet & "/" & BaseDateSTR & BaseTimeSTR
+if DataSet = "ecPoint" then
+    FileName = "Pt_BC_PERC_" 
+    FileName = FileName & AccSTR & "_" & BaseDateSTR & "_" & BaseTimeSTR & "_" & StepFSTR & ".grib"
+    tp = read(Dir & "/" & FileName)
+else if DataSet = "RawENS" then
+     FileName = "RawENS_" 
+     FileName1 = FileName & AccSTR & "_" & BaseDateSTR & "_" & BaseTimeSTR & "_" & StepSSTR & ".grib"
+     FileName2 = FileName & AccSTR & "_" & BaseDateSTR & "_" & BaseTimeSTR & "_" & StepFSTR & ".grib"
+     tp1 = read(Dir & "/" & FileName1)
+     tp2 = read(Dir & "/" & FileName2)
+     tp = (tp2 - tp1) * 1000
+end if     
+
+# Computation of the probabilities of not exceeding a threshold
+print("Computing the probabilities of exceeding " & string(Thr) & " mm/" & string(Acc) & "h")
+tp_thr = (tp>=Thr)
+prob = mean(tp_thr)*100
+
+
+# PLOTTING
+
+# # Set up the output file
+# FileOut = WorkDir & "/" & OutDir & "/" & DataSet & "_Prob" & ThrSTR & "_" & BaseDateSTR & "_" & BaseTimeSTR & "_" & StepFSTR
+# svg = svg_output(output_name : FileOut)
+# setoutput(svg)
+
+print("Plotting the forecast...")
+coastlines = mcoast(
+    map_coastline_thickness      : 4,
+    map_coastline_resolution     : "full",
+    map_boundaries               : "on",
+    map_boundaries_colour        : "charcoal",
+    map_boundaries_thickness     : 4,
+    map_grid                     : "off",
+    map_label                    : "off"
+    )
+
+geo_view = geoview(
+    coastlines : coastlines,
+    map_projection      : "epsg:3857",
+    map_area_definition : "corners",
+    area                : [45.5,16,48.8,23]
+    )
+
+contouring = mcont(
+    legend                       : "on",
+    contour                      : "off",
+    contour_level_selection_type : "level_list",
+    contour_min_level            : 0,
+    contour_level_list           : [0,0.5,1.5,2.5,3.5,4.5,6.5,8.5,10.5,13.5,16.5,20.5,25.5,30.5,35.5,40.5,50.5,60.5,70.5,80.5,90.5,100],
+    contour_label                : "off",
+    contour_shade                : "on",
+    contour_shade_colour_method  : "list",
+    contour_shade_method         : "area_fill",
+    contour_shade_colour_list    : ["white","RGB(0.61,0.91,0.95)","RGB(0.091,0.89,0.99)","RGB(0.015,0.7,0.81)","RGB(0.031,0.55,0.62)","RGB(0.025,0.66,0.24)","RGB(0.015,0.81,0.28)","RGB(0.13,0.99,0.42)","RGB(0.8,0.99,0.13)","RGB(0.65,0.83,0.013)","RGB(0.51,0.64,0.026)","RGB(0.78,0.35,0.017)","RGB(0.92,0.4,0.0073)","RGB(0.99,0.5,0.17)","RGB(0.97,0.65,0.41)","RGB(0.96,0.47,0.54)","RGB(0.98,0.0038,0.1)","RGB(0.88,0.45,0.96)","RGB(0.87,0.26,0.98)","RGB(0.7,0.016,0.79)","RGB(0.52,0.032,0.59)"]
+    )
+
+legend = mlegend(
+    legend_user_maximum         : "on",
+    legend_user_maximum_text    : 100,
+    legend_automatic_position   : "right",
+    legend_text_colour          : "black",
+    legend_text_font            : "helvetica",
+    legend_text_font_size       : 0.6,
+    legend_entry_plot_direction : "column",
+    legend_box_blanking         : "on",
+    legend_entry_text_width     : 50
+    )
+
+title_plot1 = DataSet & " - ProbExc>=" & string(Thr) & "mm/" & string(Acc) & "h (in %)"
+title_plot2 = Day & " " & Month1 & " " & Year & ", " & BaseTimeSTR & " UTC" & " " & "(t+" & string(StepS) & ", t+" & string(StepF) & ")"
+title = mtext(
+    text_line_count: 3,
+    text_line_1: title_plot1,
+    text_line_2: title_plot2,
+    text_line_3: " ",
+    text_font: "helvetica",
+    text_colour : "black",
+    text_font_size: 0.7
+    )
+
+plot(prob, geo_view, contouring, title, legend)
+
+
+##########################################################
+# EXTERNAL FUNCTION
+
+function left_pad_number (num: number, num_digits: number)
+
+    num_string = ''  #  initialise the string to empty
+
+    for pow = num_digits to 1 by -1 do
+        digit = int(num / (10^(pow-1)))
+        num_string = num_string & digit
+        num = num - digit *(10^(pow-1))
+    end for
+
+    return num_string
+
+end left_pad_number

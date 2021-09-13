@@ -1,0 +1,84 @@
+# Metview Macro
+
+#############################################################################################################################################
+# INPUT PARAMETERS
+
+DateS = 2020-06-01
+DateF = 2020-08-31
+BaseTime = 0
+StepF = 108
+Acc = 12
+InDir_FC = "/vol/ecpoint/emos/Forecasts/Oper/ecPoint_Rainfall/012/Vers1.2"
+InDir_OBS = "/perm/mo/mofp/PhD/Papers2Write/OperUse_ecPointRainfall/Pre_Process/Processed_Data/OBS/OMSZ/ObjectiveVerif/RainObs_ECMWF"
+OutDir = "/perm/mo/mofp/PhD/Papers2Write/OperUse_ecPointRainfall/Pre_Process/Processed_Data/OBS/OMSZ/ObjectiveVerif/NearestFC_ECMWFObs"
+#############################################################################################################################################
+
+
+# Sort some input variables
+BaseTimeSTR = left_pad_number(BaseTime,2)
+StepFSTR = left_pad_number(StepF,3)
+AccSTR = left_pad_number(Acc,3)
+StepS = StepF - Acc
+
+# Selection of the nearest forecasts
+for BaseDate = DateS to DateF do
+    
+    BaseDateSTR = string(BaseDate, "yyyymmdd")
+    Year = year(BaseDate)
+    
+    print("Forecast: " & BaseDateSTR & " " & BaseTimeSTR & " UTC (t+" & StepS & ",t+" & StepF & ")")
+    
+    # Definition of the forecast valid date
+    ValidDate = BaseDate + (BaseTime + StepF)/24
+    EndPeriod = hour(ValidDate)
+    ValiDateSTR = string(ValidDate, "yyyymmdd")
+    EndPeriodSTR = left_pad_number(EndPeriod,2)
+    
+    # Reading forecasts
+    fc_file = InDir_FC & "/" & BaseDateSTR & BaseTimeSTR & "/Pt_BiasCorr_RainPERC/Pt_BC_PERC_" & AccSTR & "_" & BaseDateSTR & "_" & BaseTimeSTR & "_" & StepFSTR & ".grib"
+    print(" - Reading forecast: " & fc_file)
+    fc = read(fc_file)
+    
+    # Reading observations
+    obs_file = InDir_OBS & "/" & string(Year) & "/tp" & left_pad_number(Acc,2) & "_obs_" & ValiDateSTR & EndPeriodSTR & ".geo"
+    print(" - Reading observation: " & obs_file)
+    obs = read(obs_file)
+    obs_vals = values(obs)
+    
+    # Creation of the matrix containing rainfall observations and forecasts
+    m = matrix(count(obs_vals), 1+count(fc))
+    for i = 1 to count(obs_vals) do 
+        m[i,1] = obs_vals[i]
+    end for
+    for j = 1 to count(fc) do
+        nearest_fc = nearest_gridpoint(fc[j], obs)
+        fc_vals = values(nearest_fc)
+        for i = 1 to count(obs_vals) do 
+            m[i,1+j] = fc_vals[i]
+        end for
+    end for
+    
+    # Saving the matrix as a csv file
+    OutFile = OutDir & "/NearestFC_" & AccSTR & "_" & BaseDateSTR & "_" & BaseTimeSTR & "_" & StepFSTR & ".csv"
+    write(OutFile, m)
+    print(" ")
+    
+end for
+
+
+##########################################################
+# EXTERNAL FUNCTION
+
+function left_pad_number (num: number, num_digits: number)
+
+    num_string = ''  #  initialise the string to empty
+
+    for pow = num_digits to 1 by -1 do
+        digit = int(num / (10^(pow-1)))
+        num_string = num_string & digit
+        num = num - digit *(10^(pow-1))
+    end for
+
+    return num_string
+
+end left_pad_number

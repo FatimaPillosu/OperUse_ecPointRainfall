@@ -1,0 +1,78 @@
+# Metview Macro
+
+############################################################################################################################################
+# INPUT PARAMETERS
+
+fc_file = "/perm/mo/mofp/PhD/Papers2Write/OperUse_ecPointRainfall/Pre_Process/Raw_Data/FC/OMSZ/ObjectiveVerif/Template_GridBoxes.grib"
+obs_file = "/perm/mo/mofp/PhD/Papers2Write/OperUse_ecPointRainfall/Pre_Process/Raw_Data/OBS/OMSZ/ObjectiveVerif/RainOBS_OMSZ.csv"
+FileOut = "/perm/mo/mofp/PhD/Papers2Write/OperUse_ecPointRainfall/Pre_Process/Figures/ObjectiveVerif_OMSZ/Loc_RainGauge_GridBox"
+############################################################################################################################################
+
+
+# Set up the output file
+svg = svg_output(output_name : FileOut)
+setoutput(svg)
+
+
+print("Reading forecasts and observations...")
+fc = read(fc_file)
+fc = fc[1]
+obs = read(obs_file)
+lats = values(obs,3)
+lons = values(obs,4)
+heigh = values(obs,5)
+
+obs = create_geo(type:'xyv',
+               latitudes:  lats,
+               longitudes: lons,
+               values: heigh)
+
+
+print("Plotting the forecast...")
+coastlines = mcoast(
+    map_coastline_thickness      : 4,
+    map_coastline_resolution     : "full",
+    map_boundaries               : "on",
+    map_boundaries_colour        : "charcoal",
+    map_boundaries_thickness     : 4,
+    map_grid                     : "off",
+    map_label                    : "off"
+    )
+
+geo_view = geoview(
+    coastlines : coastlines,
+    map_projection      : "epsg:3857",
+    map_area_definition : "corners",
+    area                : [45.5,16,48.8,23]
+    )
+
+obs_symb = msymb(
+    legend                               : "on",
+    symbol_type                          : "marker",
+    symbol_table_mode                    : "advanced",
+    symbol_outline                       : "off",
+    symbol_advanced_table_selection_type : "list",
+    symbol_advanced_table_level_list     : [0,100,200,400,600,2000],
+    symbol_advanced_table_colour_method  : "list",
+    symbol_advanced_table_colour_list    : ["avocado","evergreen","yellowish_orange","rust","chestnut"],
+    symbol_advanced_table_height_list    : [0.6,0.6,0.6,0.6,0.6],
+    symbol_advanced_table_marker_list    : [15,15,15,15,15]
+    )
+
+contouring = mcont(
+    contour_grid_value_plot          : "on",
+    contour_grid_value_plot_type     : "marker",
+    contour_grid_value_marker_height : 0.3,
+    contour_grid_value_marker_colour : "grey",
+    contour_grid_value_marker_index  : 18
+    )
+    
+title = mtext(
+    text_line_count: 1,
+    text_line_1: "Relative position of rain gauges and model grid-boxes",
+    text_font: "helvetica",
+    text_colour : "black",
+    text_font_size: 1
+    )
+
+plot(fc, coastlines, geo_view, contouring, obs, obs_symb, title)

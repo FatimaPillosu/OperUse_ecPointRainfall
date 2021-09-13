@@ -1,0 +1,64 @@
+# Metview Macro
+
+######################################################################################################################################
+# INPUT PARAMETERS
+
+DateS = 2018-06-01
+DateF = 2018-08-31
+TheTime = 0
+ThePeriod = 12
+Perc = 85
+Path = "/perm/mo/mofp/PhD/Papers2Write/OperUse_ecPointRainfall/Pre_Process/Processed_Data/OBS/OMSZ/ObjectiveVerif/RainObs_ECMWF"
+######################################################################################################################################
+
+
+ThePeriodSTR = left_pad_number(ThePeriod,2)
+all_obs = nil
+
+if TheTime = 0 then
+    DateS = DateS + 1
+    DateF = DateF + 1
+end if
+TheTimeSTR = left_pad_number(TheTime,2)
+    
+for TheDate = DateS to DateF do
+    
+    TheDateSTR = string(TheDate, "yyyymmdd")
+    Year = year(TheDate)
+    YearSTR = string(Year)
+    
+    Path_temp = Path & "/" & YearSTR
+    FileName = "tp" & ThePeriodSTR & "_obs_" & TheDateSTR & TheTimeSTR & ".geo"
+        
+    # Read the observations
+    obs = read(Path_temp & "/" & FileName)
+        
+    # Merging the observations within the verification period
+    all_obs = all_obs & obs
+        
+end for
+
+
+# Compute extreme event
+print("Rainfall event at " & Perc & "th percentile: ")
+obs_vals = values(all_obs)
+event = percentile(obs_vals,Perc)
+print(event & " mm/" & ThePeriod & "h")
+
+
+##########################################################
+# EXTERNAL FUNCTION
+
+function left_pad_number (num: number, num_digits: number)
+
+    num_string = ''  #  initialise the string to empty
+
+    for pow = num_digits to 1 by -1 do
+        digit = int(num / (10^(pow-1)))
+        num_string = num_string & digit
+        num = num - digit *(10^(pow-1))
+    end for
+
+    return num_string
+
+end left_pad_number

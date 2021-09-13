@@ -1,0 +1,70 @@
+#Metview Macro
+
+##########################################################################################################################################
+# INPUT PARAMETERS
+
+DateS = 2018-06-01
+DateF = 2018-09-10
+EndPeriod = [0,12]
+AccPeriod = 12
+InDir = "/perm/mo/mofp/PhD/Papers2Write/OperUse_ecPointRainfall/Pre_Process/Raw_Data/OBS/OMSZ/ObjectiveVerif/RainObs_ECMWF"
+OutDir = "/perm/mo/mofp/PhD/Papers2Write/OperUse_ecPointRainfall/Pre_Process/Processed_Data/OBS/OMSZ/ObjectiveVerif/RainObs_ECMWF"
+##########################################################################################################################################
+
+
+AccPeriodSTR = left_pad_number(AccPeriod,2)
+
+for ind = 1 to count(EndPeriod) do
+    
+    TheTime = EndPeriod[ind]
+    TheTimeSTR = left_pad_number(TheTime,2)
+    
+    for TheDate = DateS to DateF do
+        
+        TheDateSTR = string(TheDate, "yyyymmdd")
+        Year = year(TheDate)
+        YearSTR = string(Year)
+        
+        InDir_temp = InDir & "/" & YearSTR
+        FileName = "tp" & AccPeriodSTR & "_obs_" & TheDateSTR & TheTimeSTR & ".geo"
+            
+        # Read the observations
+        obs = read(InDir_temp & "/" & FileName)
+            
+        # Selection of the observations to analyse within the Hungarian domain
+        obs = filter(obs, obs['latitude']>45.79 and obs['latitude']<48.49 and obs['longitude']>16.32 and obs['longitude']<22.59)
+        obs = filter(obs, obs['latitude']<47.74 or obs['latitude']>48.38 and obs['longitude']<16.36 or obs['longitude']>17.10)
+        obs = filter(obs, obs['latitude']<48.17 or obs['latitude']>48.48 and obs['longitude']<17.21 or obs['longitude']>18.87)
+        obs = filter(obs, obs['latitude']<48.33 or obs['latitude']>48.33 and obs['longitude']<19.73 or obs['longitude']>19.73)
+        obs = filter(obs, obs['latitude']<45.88 or obs['latitude']>45.88 and obs['longitude']<17.20 or obs['longitude']>17.20)
+        obs = filter(obs, obs['latitude']<47.87 or obs['latitude']>47.87 and obs['longitude']<18.20 or obs['longitude']>18.20)
+        obs = filter(obs, obs['longitude']>16.34)
+        obs = filter(obs, obs['longitude']<19.77 or obs['longitude']>22.15 and obs['latitude']<46.1 or obs['latitude']>46.2)
+        obs = filter(obs, obs['longitude']<21.54 or obs['longitude']>22.47 and obs['latitude']<46.26 or obs['latitude']>46.79)
+        obs = filter(obs, obs['longitude']<21.90 or obs['longitude']>22.09 and obs['latitude']<47.04 or obs['latitude']>47.34)
+        
+        # Saving the post-processed observations
+        OutDir_temp = OutDir & "/" & YearSTR
+        write(OutDir_temp & "/" & FileName, obs)
+            
+    end for
+
+end for
+
+
+##########################################################
+# EXTERNAL FUNCTION
+
+function left_pad_number (num: number, num_digits: number)
+
+    num_string = ''  #  initialise the string to empty
+
+    for pow = num_digits to 1 by -1 do
+        digit = int(num / (10^(pow-1)))
+        num_string = num_string & digit
+        num = num - digit *(10^(pow-1))
+    end for
+
+    return num_string
+
+end left_pad_number

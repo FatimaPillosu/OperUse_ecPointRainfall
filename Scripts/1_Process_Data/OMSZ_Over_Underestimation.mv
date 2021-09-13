@@ -1,0 +1,179 @@
+# Metview Macro
+
+#############################################################################################################################################
+# INPUT PARAMETERS
+
+BaseDateS = 2018-06-01
+BaseDateF = 2018-08-31
+BaseTime = 0
+StepF = 12
+Acc = 12
+Perc = 95
+RainTHR = 15
+InDir_FC = "/vol/ecpoint/mofp/forecasts/SemiOper/ECMWF_ENS/Rainfall/012/Code1.0.0_Cal1.1.0"
+InDir_OBS = "/perm/mo/mofp/PhD/Papers2Write/OperUse_ecPointRainfall/Pre_Process/Processed_Data/OBS/OMSZ/ObjectiveVerif/RainObs_ECMWF"
+OutDir = "/home/mo/mofp/metview/PERM_mofp/PhD/Papers2Write/OperUse_ecPointRainfall/Pre_Process/Figures/ObjectiveVerif_OMSZ"
+#############################################################################################################################################
+
+
+# Sort some input variables
+BaseTimeSTR = left_pad_number(BaseTime,2)
+StepFSTR = left_pad_number(StepF,3)
+AccSTR = left_pad_number(Acc,3)
+StepS = StepF - Acc
+
+
+# Set up the output file
+FileOut = OutDir & "/OverallPerformance_" & StepFSTR & "_Perc" & string(Perc) & "_Rain" & string(RainTHR)  
+svg = svg_output(output_name : FileOut)
+setoutput(svg)
+
+
+# Selection of the under- and overestimation days
+tot_all= nil
+lats_all = nil
+lons_all = nil
+for BaseDate = BaseDateS to BaseDateF do
+    
+    BaseDateSTR = string(BaseDate, "yyyymmdd")
+    Year = year(BaseDate)
+    print("Forecast: " & BaseDateSTR & " " & BaseTimeSTR & " UTC (t+" & StepS & ",t+" & StepF & ")")
+    
+    # Definition of the forecast valid date
+    ValidDate = BaseDate + (BaseTime + StepF)/24
+    EndPeriod = hour(ValidDate)
+    ValiDateSTR = string(ValidDate, "yyyymmdd")
+    EndPeriodSTR = left_pad_number(EndPeriod,2)
+    
+    # Reading forecasts
+    fc_file = InDir_FC & "/" & BaseDateSTR & BaseTimeSTR & "/Pt_BiasCorr_RainPERC/Pt_BC_PERC_" & AccSTR & "_" & BaseDateSTR & "_" & BaseTimeSTR & "_" & StepFSTR & ".grib"
+    print(" - Reading forecast: " & fc_file)
+    fc = read(fc_file)
+    
+    # Reading observations
+    obs_file = InDir_OBS & "/" & string(Year) & "/tp" & left_pad_number(Acc,2) & "_obs_" & ValiDateSTR & EndPeriodSTR & ".geo"
+    print(" - Reading observation: " & obs_file)
+    obs = read(obs_file)
+    lats = latitudes(obs)
+    lons = longitudes(obs)
+    
+    # Selection of the nearest forecast for a specific percentile
+    nearest_fc = nearest_gridpoint(fc[Perc], obs)
+    
+    # Selection of the underestimation and the overestimation days
+    obs = values(obs)
+    fc = values(nearest_fc)
+    
+    under = ((obs>=RainTHR) and (fc<RainTHR)) * (-1)
+    over = ((obs<RainTHR) and (fc>=RainTHR)) * 1
+    good = (((obs>=RainTHR) and (fc>=RainTHR)) or ((obs<RainTHR) and (fc<RainTHR))) * 0
+    
+    tot_all = tot_all & (under+over+good)
+    lats_all = lats_all & lats
+    lons_all = lons_all & lons
+        
+end for
+
+
+# Computing the overall under- and overestimation days 
+print(" ")
+print("Computing the overall under- and overestimation days...")
+m = count(tot_all)
+lats_done = nil
+lons_done = nil
+tot_done = nil
+for i = 1 to m do
+    lat1 = lats_all[i]
+    lon1 = lons_all[i]
+    test = sum((lats_done=lat1) and (lons_done=lon1))
+    if test = 0 then
+        point = sum(((lats_all=lat1) and (lons_all=lon1)) * tot_all)
+        lats_done = lats_done & |lat1|
+        lons_done = lons_done & |lon1|
+        tot_done = tot_done & |point|
+    end if
+end for
+
+
+# Creating the geopoint to plot
+geo = create_geo(type:'xyv',
+                 latitudes:  lats_done,
+                 longitudes: lons_done,
+                 values:     tot_done)
+
+
+# Plotting the overall under- and overestimation days
+print(" ")
+print("Plotting the overall under- and overestimation days...")
+coastlines = mcoast(
+    map_coastline_thickness      : 4,
+    map_coastline_resolution     : "full",
+    map_boundaries               : "on",
+    map_boundaries_colour        : "charcoal",
+    map_boundaries_thickness     : 4,
+    map_grid                     : "off",
+    map_label                    : "off"
+    )
+
+geo_view = geoview(
+    coastlines : coastlines,
+    map_projection      : "epsg:3857",
+    map_area_definition : "corners",
+    area                : [45.5,16,48.8,23]
+    )
+
+obs_symb = msymb(
+    legend                               : "on",
+    symbol_type                          : "marker",
+    symbol_table_mode                    : "advanced",
+    symbol_outline                       : "off",
+    symbol_advanced_table_selection_type : "list",
+    symbol_advanced_table_level_list     : [-95,-5,-4,-3,-2,-1,-0.1,0.1,1,2,3,4,5,95],
+    symbol_advanced_table_colour_method  : "list",
+    symbol_advanced_table_colour_list    : ['RGB(0.0361,0.0361,0.4894)',
+                                            'RGB(0.0000,0.0000,1.0000)',
+                                            'RGB(0.3834,0.3834,0.9735)',
+                                            'RGB(0.5043,0.5043,0.9624)',
+                                            'RGB(0.6983,0.6983,0.9488)',
+                                            'RGB(0.7903,0.7903,0.9430)',
+                                            'grey',
+                                            'RGB(0.9470,0.8316,0.7236)',
+                                            'RGB(0.9641,0.7054,0.4634)',
+                                            'RGB(0.9816,0.5954,0.2341)',
+                                            'RGB(1.0000,0.5000,0.0000)',
+                                            'RGB(0.7247,0.3608,0.0204)',
+                                            'RGB(0.4353,0.2327,0.0432)'],
+    symbol_advanced_table_height_list    : [0.6,0.6,0.6],
+    symbol_advanced_table_marker_list    : [15,15,15,15,15]
+    )
+    
+title = mtext(
+    text_line_count: 3,
+    text_line_1: "Overall rainfall under- and overestimation",
+    text_line_2: "Verification period: " & string(BaseDateS,"yyyymmdd") & " to " & string(BaseDateF,"yyyymmdd"),
+    text_line_3: "Forecasts from the " & BaseTimeSTR & " UTC run and (t+" & StepS & ",t+" & StepF & ") accumulation period - " & Perc & "th percentile & tp>=" & RainTHR & " mm/" & Acc & "h",
+    text_font: "helvetica",
+    text_colour : "black",
+    text_font_size: 0.5
+    )
+
+plot(geo, geo_view, obs_symb, title)
+
+
+
+##########################################################
+# EXTERNAL FUNCTION
+
+function left_pad_number (num: number, num_digits: number)
+
+    num_string = ''  #  initialise the string to empty
+
+    for pow = num_digits to 1 by -1 do
+        digit = int(num / (10^(pow-1)))
+        num_string = num_string & digit
+        num = num - digit *(10^(pow-1))
+    end for
+
+    return num_string
+
+end left_pad_number

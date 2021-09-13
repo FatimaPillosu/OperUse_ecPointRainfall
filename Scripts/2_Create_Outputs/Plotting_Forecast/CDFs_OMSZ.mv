@@ -1,0 +1,196 @@
+# Metview Macro
+
+############################################################################################################
+# INPUT PARAMETERS
+BaseDate = 2018-06-10
+BaseTime = 0
+StepF = 36
+Acc = 12
+Location = [48.15,20.56] #[lat,lon]
+Version = "1.2"
+DirFC = "/perm/mo/mofp/PhD/Papers2Write/OperUse_ecPointRainfall/Pre_Process/Raw_Data/FC/OMSZ/CaseStudy"
+OutDir = "/perm/mo/mofp/PhD/Papers2Write/OperUse_ecPointRainfall/Pre_Process/Figures/CaseStudy_OMSZ/FC"
+############################################################################################################
+
+
+# SETTING INPUT PARAMETERS
+
+# Date
+BaseDateSTR=string(BaseDate,"yyyymmdd")
+
+# Time
+BaseTimeSTR = left_pad_number(BaseTime,2)
+
+# Steps
+StepS = StepF - Acc
+StepSSTR = left_pad_number(StepS,3)
+StepFSTR = left_pad_number(StepF,3)
+
+# Acc
+AccSTR = left_pad_number(Acc,3)
+
+# Minimum rainfall values
+min_tot_threshold = 0.04   #(in mm, relates to problem of negative ppn totals when subtracting, and not knowing if small positive values are really non zero)
+
+# Location
+lat = Location[1]
+lon = Location[2]
+###########################################################
+
+
+# Read the rainfall forecasts
+
+# Point-Rainfall
+print("Reading percentiles for ecPoint-Rainfall...")
+FileIN_PR = DirFC & "/ecPoint/" & BaseDateSTR & BaseTimeSTR & "/Pt_BC_PERC_" & AccSTR & "_" & BaseDateSTR & "_" & BaseTimeSTR & "_" & StepFSTR & ".grib"
+tp_pr = read(FileIN_PR)
+
+# Raw ENS
+FileIN_ENS = DirFC & "/RawENS/" & BaseDateSTR & BaseTimeSTR & "/RawENS_" & AccSTR & "_" & BaseDateSTR & "_" & BaseTimeSTR & "_" & StepFSTR & ".grib"
+if exist(FileIN_ENS) then
+    print("Reading percentiles for raw ECWMF ENS...")
+    tp_re = read(FileIN_ENS) * 1000
+else
+    print("Retrieving percentiles for raw ECWMF ENS...")
+    tp1 = retrieve(type:"cf", stream:"ef", levtype:"sfc", param:"tp", date:BaseDateNUM, time:BaseTime, step:StepS) & retrieve(type:"pf", stream:"ef", levtype:"sfc", param:"tp", number:[1,"to",50], date:BaseDateNUM, time:BaseTime, step:StepS)
+    tp2 = retrieve(type:"cf", stream:"ef", levtype:"sfc", param:"tp", date:BaseDateNUM, time:BaseTime, step:StepF) & retrieve(type:"pf", stream:"ef", levtype:"sfc", param:"tp", number:[1,"to",50], date:BaseDateNUM, time:BaseTime, step:StepF)
+    tp_re = (tp2 - tp1) * 1000
+    write(FileIN_ENS, tp)
+end if
+tp_re = (tp_re>=min_tot_threshold) * tp_re
+
+
+# Find values near the desired location and complete the CDFs
+xvals_pr = nearest_gridpoint(tp_pr,lat,lon)
+xvals_pr = [(xvals_pr[1]-(xvals_pr[2]-xvals_pr[1]))] & xvals_pr & [(xvals_pr[count(xvals_pr)]+(xvals_pr[count(xvals_pr)]-xvals_pr[count(xvals_pr)-1]))] # we assume that the added first and last values would increase of the same amount of the actual first and last values.
+
+xvals_re = sort(nearest_gridpoint(tp_re,lat,lon),"<") # the RawENS need to be sorted,ecPoint-Rainfall are already sorted
+xvals_re = [xvals_re[1]] & xvals_re & [xvals_re[count(xvals_re)]] # the first and last values are duplicated to fill the gaps at the two ends of the RawENS's CDF
+####################################################################################
+
+
+# Set up the scale for the x-axis
+xmin = 0
+xmax = round(max(xvals_re[count(xvals_re)],xvals_pr[count(xvals_pr)])+5,0)
+
+# Set up the scale for the y-axis
+# Set scale on basis of having 0% at bottom and 100% at top. This is fully consistent with the definition of "Prob to not exceeed" .
+yvals_re = nil
+for i = -1 to 51 do
+   yvals_re = yvals_re & [( (1+i)/52 )*100]
+end for
+yvals_pr = nil
+for i = -1 to 99 do
+    yvals_pr = yvals_pr & [( (1+i)/100 )*100]
+end for
+####################################################################################
+
+
+# Define curve visual attributes
+curvevd = mgraph(
+        legend            : 'on',
+        graph_line_colour    :    "red",
+            graph_line_thickness :        20
+        )
+curvevdP = mgraph(
+        legend            : 'on',
+        graph_line_colour    :    "blue",
+            graph_line_thickness :        20
+        ) 
+        
+title_plot1 = BaseDateSTR & ", " & BaseTimeSTR & " UTC " & "(t+" & string(StepS) & ", t+" & string(StepF) & ")"
+title_plot2 = "Location (lat=" & lat & ", lon=" & lon & ")"
+title = mtext(
+    text_line_1     : title_plot1,
+    text_line_2     : title_plot2,
+    Text_line_count : 2,
+    text_font_size  : 0.7,
+    text_colour     : "black"
+    )
+
+# Define curve application
+curve_re = input_visualiser(
+         input_x_values   :    xvals_re,
+         input_y_values   :    yvals_re
+        )
+curve_pr = input_visualiser(
+        input_x_values    :    xvals_pr,
+        input_y_values    :    yvals_pr
+        )
+
+legend_curves = mlegend(
+    legend_display_type      : "disjoint",
+    legend_text_composition  : "user_text_only",
+    legend_text_colour       : "black",
+    legend_text_font_size    : 0.6,
+    legend_user_lines        : ['Raw Ensemble','Point Rainfall']
+    )
+
+# Build layout
+    #PageDescription  
+    HORIZONTAL_AXIS1 = maxis(  
+        AXIS_TITLE_TEXT        :  "Total Precipitation [mm / " & string(Acc) & "h]",
+        AXIS_TITLE_HEIGHT      : 0.7,
+        AXIS_GRID              :  'ON',
+        AXIS_GRID_COLOUR       :  'GREY',
+        AXIS_GRID_LINE_STYLE   :  'DASH',
+        AXIS_TICK_LABEL_HEIGHT : 0.6,
+        AXIS_TICK_INTERVAL     : 10
+        
+            )
+    VERTICAL_AXIS2 = maxis(
+    AXIS_ORIENTATION    : "vertical",  
+        AXIS_TITLE_TEXT                 :  'Probability [%] to not exceed a threshold',
+        AXIS_TITLE_HEIGHT  : 0.7,
+        AXIS_GRID                 :  'ON',
+        AXIS_GRID_COLOUR         :  'GREY',
+        AXIS_GRID_LINE_STYLE         :  'DASH',
+        AXIS_TICK_LABEL_HEIGHT : 0.6,
+        AXIS_TICK_INTERVAL     : 10
+           )
+    CurveView10 = cartesianview(  
+            HORIZONTAL_AXIS          :  HORIZONTAL_AXIS1,
+            VERTICAL_AXIS            :  VERTICAL_AXIS2,
+            x_automatic              : "off",
+            x_min                    : xmin,
+            x_max                    : 70
+            )
+    Page10 = plot_page(  
+            VIEW                     :  CurveView10
+            )  
+    
+    # SuperPageDescription     
+    dw = plot_superpage(  
+            LAYOUT_SIZE              :  'A3',
+            LAYOUT_ORIENTATION       :  'LANDSCAPE',
+            CUSTOM_WIDTH             :  29.7,
+            CUSTOM_HEIGHT            :  21.0,
+            PAGES                    :  [ Page10 ]
+            )
+
+
+# Set up the output file
+FileOut = OutDir & "/CDF_" & BaseDateSTR & "_" & BaseTimeSTR & "_" & StepFSTR & "_lat_" & lat & "_lon_" & lon
+svg = svg_output(output_name : FileOut)
+setoutput(svg)
+
+# Plotting
+plot(dw,curve_re,curvevd,curve_pr,curvevdP,title,legend_curves,title)
+
+
+##########################################################
+# EXTERNAL FUNCTION
+
+function left_pad_number (num: number, num_digits: number)
+
+    num_string = ''  #  initialise the string to empty
+
+    for pow = num_digits to 1 by -1 do
+        digit = int(num / (10^(pow-1)))
+        num_string = num_string & digit
+        num = num - digit *(10^(pow-1))
+    end for
+
+    return num_string
+
+end left_pad_number
