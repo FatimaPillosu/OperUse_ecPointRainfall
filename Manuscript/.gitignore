@@ -1,6 +1,0 @@
-# Ignoring Mendeley.bib file. This is a useful file to have for the integration of the current project with the references contained in Mendeley but it is not the actual .bib file
-# containing the paper references.
-Mendeley.bib
-
-#Ignoring Temp.tex as it is a transiction file, useful only for the author of the paper.
-Temp.tex
